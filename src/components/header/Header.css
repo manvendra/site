@@ -1,0 +1,32 @@
+.header {
+  background-color: #2151a3;
+  background: radial-gradient(rgb(132, 146, 218),#1d1c53);
+  color: #fff;
+  min-height: 300px;
+  margin-top: 6rem;
+
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: .3rem .3rem #545353;
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-family: cursive;
+  line-height: 1.2;
+  /* text-shadow: .2rem .2rem #6a6a6a; */
+}
+
+.header img {
+  max-width: 400px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

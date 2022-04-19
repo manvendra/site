@@ -1,0 +1,29 @@
+.footer {
+    background: #003686;
+    color: #fff;
+    height: 200px;
+    font-size: 1rem;
+    box-shadow: inset 0em 0em 0.9em 0.2em #2e2e2e;
+}
+
+.footer .container{
+    margin-top: 100px 0;
+    display: flex;
+    flex-direction: column;  
+}
+
+.footer .container .footer-info{
+    display: flex;
+    justify-content: right;
+}
+.footer .container .contact{
+    margin: 30px 20px;
+    justify-content: flex-end;
+}
+
+.footer .container a{
+    color: #fff;
+    text-decoration: none;
+  
+    /* font-weight: bold; */
+}

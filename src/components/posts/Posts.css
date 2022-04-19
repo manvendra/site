@@ -1,0 +1,33 @@
+.posts .container {
+    display: flex;
+    
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* flex-basis: 100px; */
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: hidden
+}
+
+.post {
+    background: #0a51cc;
+    color: #fff;
+
+    margin: 20px 10px;
+    padding: 15px 15px;
+
+    border-radius: 10px;
+    box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.6);
+
+    width: 350px;
+    height: 350px;
+}
+.post .postContent{
+   text-overflow: ellipsis;
+}
+
+.post i {
+    margin-right: 10px;
+}

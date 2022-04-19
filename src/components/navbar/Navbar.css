@@ -1,0 +1,40 @@
+.navbar {
+  background: radial-gradient(#3177df,#2d0000);
+  color: #fff;
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: .2rem .2rem #353535;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-shadow: .2rem .2rem #353535;
+  /* font-weight: bold; */
+}
+.navbar a:hover {
+  color: lightblue;
+  cursor: hand ;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 1rem;
+}
