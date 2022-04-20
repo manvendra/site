@@ -1,8 +1,8 @@
 import './Post.css'
 
-const Post = ()=>{
+const Post = (postItem)=>{
     return(
-        
+       
     );
 }
 export default Post;
