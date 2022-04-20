@@ -1,5 +1,5 @@
-.posts .container {
-    display: flex;
+.posts {
+    display: flex; 
     
     justify-content: space-around; 
     align-items: center;
@@ -12,7 +12,5 @@
 }
 
 
-.post .postContent{
-   text-overflow: ellipsis;
-}
+
 
