@@ -1,0 +1,24 @@
+.postCard {
+  height: 27rem;
+  width: 20rem;
+  background: radial-gradient(#C5CAE9, transparent);
+
+  margin-top: 1.5rem !important;
+  margin-right: 1rem !important;
+  margin-left: 0.5rem !important;
+
+  padding: .5rem;
+  position:relative;
+
+}
+.postCard img {
+  height: 13rem;
+  max-width: 100%;
+}
+
+.postCard button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+}
