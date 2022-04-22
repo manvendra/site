@@ -1,11 +1,20 @@
 body {
-  max-width: 95%;
-  margin: 0px auto;
   font-size: 1rem;
   color: #333;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
   background: #dbe7fb;
-  align-items: center;
+  max-width: 95%;
+  /* overflow-y: hidden; */
+
+  align-items: center; 
+  margin: 0px auto;
 }
+
 footer {
   background: radial-gradient(#353555, transparent);
+}
+
+.mps-header {
+  background: radial-gradient(transparent, #8d9cb8);
 }

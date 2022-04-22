@@ -1,7 +1,8 @@
-import "./PostCard.css";
+import './PostOverview.css';
 import * as Utils from "../../common/Utils";
 import { MDBTypography, MDBRipple, MDBBtn } from "mdb-react-ui-kit";
-const PostCard = ({ postData }) => {
+
+const PostOverview = ({ postData }) => {
   return (
     <div className="postCard hover-shadow 
         square rounded border-dark">
@@ -26,4 +27,4 @@ const PostCard = ({ postData }) => {
     </div>
   );
 };
-export default PostCard;
+export default PostOverview;
