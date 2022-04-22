@@ -22,3 +22,11 @@
   bottom: 0;
   margin: 1rem;
 }
+
+#search-posts{
+  width: 20%;
+  float: right;
+}
+#search-posts ::after{
+ clear: both;
+}
