@@ -1,6 +1,10 @@
-.postCard {
+#search-posts{
+  width: 20%;
+  float: right;
+}
+.postOverviewCard {
   height: 27rem;
-  width: 20rem;
+  width: 19rem;
   background: radial-gradient(#C5CAE9, transparent);
 
   margin-top: 1.5rem !important;
@@ -11,22 +15,16 @@
   position:relative;
 
 }
-.postCard img {
+.postOverviewCard img {
   height: 13rem;
   max-width: 100%;
 }
 
-.postCard button {
+.postOverviewCard button {
   position: absolute;
   right: 0;
   bottom: 0;
   margin: 1rem;
 }
 
-#search-posts{
-  width: 20%;
-  float: right;
-}
-#search-posts ::after{
- clear: both;
-}
+

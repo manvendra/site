@@ -2,15 +2,16 @@ import PostOverview from "./PostOverview";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { MDBContainer } from "mdb-react-ui-kit";
+import * as Constants from '../../common/Constants'
 
 const PostsList = () => {
   const [postDataList, setPostDataList] = useState([]);
-
+  const url = Constants.URL_PROD+'?'+Constants.queryParam+'&key='+Constants.key;
   useEffect(() => {
     const fetchPosts = async () => {
       try {     
-        const response = await axios.get("http://localhost:3001/items");
-        setPostDataList(response.data); //for local development with json server removing .itemsm from here put it back
+        const response = await axios.get(url);
+        setPostDataList(response.data.items); //for local development with json server removing .items from here put it back
       } catch (err) {
         console.error("error in calling backend");
         if (err.response) {

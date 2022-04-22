@@ -36,7 +36,7 @@ const Navbar = () => {
           <MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0 ">
 
             <MDBNavbarItem role="button" className="me-3 ">
-              <MDBNavbarLink tag={Link} active to="/">Home</MDBNavbarLink>
+              <MDBNavbarLink tag={Link}  to="/home">Home</MDBNavbarLink>
             </MDBNavbarItem>
             
             <MDBNavbarItem role="button" className="me-3">
