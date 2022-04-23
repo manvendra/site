@@ -1,7 +1,8 @@
-#search-posts{
+#search-posts {
   width: 20%;
   float: right;
 }
+
 .postOverviewCard {
   height: 27rem;
   width: 19rem;
@@ -11,10 +12,12 @@
   margin-right: 1rem !important;
   margin-left: 0.5rem !important;
 
-  padding: .5rem;
-  position:relative;
+  padding: 0.25rem;
+  position: relative;
+  box-shadow: .25rem .25rem 15px rgb(175, 196, 238);
 
 }
+
 .postOverviewCard img {
   height: 13rem;
   max-width: 100%;
@@ -26,5 +29,3 @@
   bottom: 0;
   margin: 1rem;
 }
-
-

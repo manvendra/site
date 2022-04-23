@@ -5,10 +5,10 @@ import * as Constants from '../../common/Constants'
 
 function Post() {
   const { postId } = useParams();
-  const [postContent, setPostContent] = useState('Loading post...');
+  const [postContent, setPostContent] = useState('<div>Loading post...<div>');
   
   useEffect(() => {
-    const url = Constants.URL_PROD + postId + '?key=' + Constants.key;
+    const url = Constants.URL_PROD +'/'+ postId + '?key=' + Constants.key;
     const fetchPostContent = async () => {
       try {
         const response = await axios.get(url);
@@ -28,7 +28,7 @@ function Post() {
   }, [postId])
 
   return (
-    <div id='postContent'
+    <div className="post-content"
       dangerouslySetInnerHTML={{__html: postContent}}>
     </div>
   );

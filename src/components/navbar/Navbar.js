@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showNavRight, setShowNavRight] = useState(false);
   return (
-    <MDBNavbar className="hover-shadow sticky" expand="lg" light style={{ background: 'radial-gradient(transparent, #8d9cb8)' }}>
+    <MDBNavbar className="hover-shadow sticky" expand="lg" light >
       <MDBContainer fluid>
         <MDBNavbarBrand className="ms-5 bs-5" href="#">
           <img src="images/logo.png" height="40" alt="" loading="lazy" />

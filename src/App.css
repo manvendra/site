@@ -10,11 +10,26 @@ body {
   align-items: center; 
   margin: 0px auto;
 }
+nav {
+  background: radial-gradient(transparent, #8d9cb8);
+}
 
 footer {
   background: radial-gradient(#353555, transparent);
+
 }
 
 .mps-header {
   background: radial-gradient(transparent, #8d9cb8);
+  width: 100%;
+}
+
+.post-content{
+  font-size: 1rem !important;
+  font-family: Roboto  !important;
+}
+.post-content  * {
+  font-size: 1rem !important;
+  font-family: Roboto  !important;
+  font-family: inherit;
 }

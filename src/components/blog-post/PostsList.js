@@ -11,7 +11,7 @@ const PostsList = () => {
     const fetchPosts = async () => {
       try {     
         const response = await axios.get(url);
-        setPostDataList(response.data.items); //for local development with json server removing .items from here put it back
+        setPostDataList(response.data.items); 
       } catch (err) {
         console.error("error in calling backend");
         if (err.response) {
@@ -25,10 +25,9 @@ const PostsList = () => {
   }, []);
 
   return (
-    <div >
+    <div>
       <MDBContainer fluid className="d-flex flex-row 
-      flex-wrap
-      ">
+      flex-wrap">
         {postDataList.map((postData) => (
           <PostOverview key={postData.id} postData={postData} />
         ))}

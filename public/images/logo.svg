@@ -4,7 +4,7 @@
   <stop stop-color="#3C3C3B" offset="0"/>
   <stop stop-color="#B2B2B2" offset="1"/>
  </linearGradient>
- <rect width="684" height="728.5" fill="url(#z)" fill-opacity="0.5"/>
+ <rect width="684" height="728.5" fill="url(#z)"/>
  <g enable-background="new ">
   <polygon points="556.8 227 430.3 259.4 355.3 265.5 489 229.6" fill="#54561E"/>
   <linearGradient id="aa" x1="460.58" x2="556.78" y1="156.57" y2="156.57" gradientUnits="userSpaceOnUse">
