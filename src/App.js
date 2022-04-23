@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path='/posts' element={<BlogPosts />} >
             <Route index element={<PostsList />} />
@@ -27,7 +27,7 @@ function App() {
           </Route>
           <Route path='/photos' element={<Photography />} />
           <Route path='/about' element={<AboutMe />} />
-           <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
       <Footer />
