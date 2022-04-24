@@ -1,3 +1,4 @@
+import logo from '../../images/logo.png';
 import { useState } from "react";
 import {
   MDBNavbar,
@@ -18,7 +19,7 @@ const Navbar = () => {
     <MDBNavbar className="hover-shadow sticky" expand="lg" light >
       <MDBContainer fluid>
         <MDBNavbarBrand className="ms-5 bs-5" href="#">
-          <img src="images/logo.png" height="40" alt="" loading="lazy" />
+          <img src={logo} height="40" alt="" loading="lazy" />
         </MDBNavbarBrand>
 
 

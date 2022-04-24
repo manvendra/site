@@ -1,3 +1,4 @@
+import logo from '../../images/logo.png';
 const Header = () => {
   return (
     <div className="mps-header p-5 text-center 
@@ -8,7 +9,7 @@ const Header = () => {
              A little something about few things.</figcaption>
       </div>
       <div className="w-25 pe-5 me-1">
-        <img src="images/logo.png" style={{width:"100%"}} alt=""/>
+        <img src={logo} style={{width:"100%"}} alt=""/>
       </div>
     </div>
   );
