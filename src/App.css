@@ -24,12 +24,3 @@ footer {
   width: 100%;
 }
 
-.post-content{
-  font-size: 1rem !important;
-  font-family: Roboto  !important;
-}
-.post-content  * {
-  font-size: 1rem !important;
-  font-family: Roboto  !important;
-  font-family: inherit;
-}
