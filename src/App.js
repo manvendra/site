@@ -13,25 +13,25 @@ import PostsList from './components/blog-post/PostsList';
 import Post from './components/blog-post/Post';
 import NotFound from './common/NotFound';
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path='/posts' element={<BlogPosts />} >
-            <Route index element={<PostsList />} />
-            <Route path='list' element={<PostsList />} />
-            <Route path=':postId' element={<Post />} />
-          </Route>
-          <Route path='/photos' element={<Photography />} />
-          <Route path='/about' element={<AboutMe />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<Navbar />
+				<Routes>
+					<Route path="/mysite" element={<Home />} />
+					<Route path="/mysite/home" element={<Home />} />
+					<Route path='/mysite/posts' element={<BlogPosts />} >
+						<Route index element={<PostsList />} />
+						<Route path='list' element={<PostsList />} />
+						<Route path=':postId' element={<Post />} />
+					</Route>
+					<Route path='/mysite/photos' element={<Photography />} />
+					<Route path='/mysite/about' element={<AboutMe />} />
+					<Route path="*" element={<NotFound />} />
+				</Routes>
+			</Router>
+			<Footer />
+		</div>
+	);
 }
 export default App;
