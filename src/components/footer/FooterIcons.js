@@ -3,7 +3,7 @@ const FooterIcon = () => {
   const anchorClasses = "btn btn-sm btn-floating m-1";
   
   return (
-    <section className="container text-center mb-2">
+    <div className="footer-icon">
       <a className={anchorClasses} style={{ backgroundColor: "#3b5998" }} href="#!">
         <MDBIcon fab icon="facebook-f" />
       </a>
@@ -26,7 +26,7 @@ const FooterIcon = () => {
       <a className={anchorClasses} style={{ backgroundColor: "#333333" }} href="#!">
         <MDBIcon fab icon="github" />
       </a>
-    </section>
+    </div>
   );
 };
 

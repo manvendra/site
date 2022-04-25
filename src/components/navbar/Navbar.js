@@ -1,4 +1,5 @@
 import logo from '../../images/logo.png';
+import './Navbar.css'
 import { useState } from "react";
 import {
   MDBNavbar,
@@ -49,7 +50,7 @@ const Navbar = () => {
             </MDBNavbarItem>
             
             <MDBNavbarItem role="button" className="me-3">
-              <MDBNavbarLink tag={Link} to="/mysite/about" >Contact Me</MDBNavbarLink>
+              <MDBNavbarLink tag={Link} to="/mysite/about" >About Me</MDBNavbarLink>
             </MDBNavbarItem>
           
           </MDBNavbarNav>

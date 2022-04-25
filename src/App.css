@@ -3,24 +3,17 @@ body {
   color: #333;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 
-  background: #e7eef8;
+  /* background: #dedede; */
+  background-color: #ffffff;
   max-width: 95%;
   /* overflow-y: hidden; */
-
-  align-items: center; 
+  align-items: center;
   margin: 0px auto;
 }
-nav {
-  background: radial-gradient(transparent, #8d9cb8);
-}
 
-footer {
-  background: radial-gradient(#353555, transparent);
-
-}
-
-.mps-header {
-  background: radial-gradient(transparent, #8d9cb8);
-  width: 100%;
+.quote{
+    font-size: 0.85em;
+    color: #8a8989;
+    font-style: italic;
 }
 

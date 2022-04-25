@@ -1,0 +1,52 @@
+.header {
+  background: radial-gradient(transparent, #a0afcb);
+  width: 100%;
+  padding: 5vmin;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.header .company-name{
+  font-size: 7vh;
+  text-shadow: .5vh .25vh #c8c8c8;
+  font-weight: 350;
+}
+.header-left {
+  grid-column: 2 / 7;
+  text-align: center;
+}
+.header-right {
+  grid-column: 10 / 13;
+}
+.header-right img{
+   width: 85%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .header {
+    row-gap: 3vh;
+  }
+  .header-left {
+    margin-top: 1vh;
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .header-right {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-right img{
+     width: 40%;
+  }
+}
+
+@media (min-width: 769px)  and (max-width: 959px) {
+  .appFooter .contact-info {
+      grid-column: 8/ 13;
+  }
+}
+

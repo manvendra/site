@@ -1,4 +1,4 @@
-import './BlogPosts.css';
+
 import * as Utils from "../../common/Utils";
 import { MDBTypography, MDBRipple, MDBBtn } from "mdb-react-ui-kit";
 import { Link } from 'react-router-dom';

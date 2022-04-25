@@ -1,10 +1,8 @@
-import { MDBContainer } from "mdb-react-ui-kit";
-
 const Photography = () => {
     return (
-        <MDBContainer>
+        <div>
             This is a placeholder for Photography page
-        </MDBContainer>
+        </div>
     );
 }
 export default Photography

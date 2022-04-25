@@ -1,17 +1,17 @@
 import logo from '../../images/logo.png';
 const Header = () => {
   return (
-    <div className="mps-header p-5 text-center 
-                d-flex flex-row justify-content-between align-items-center">
-      <div className="ps-5 ms-5">
-        <h1>kaleidoscope</h1>
-        <figcaption className='blockquote-footer mt-2'>
-             A little something about few things.</figcaption>
+    <header className="header">
+      <div className="header-left">
+        <div className='company-name'>kaleidoscope</div>
+        <div className='quote'>
+          - A little something about many different things.
+        </div>
       </div>
-      <div className="w-25 pe-5 me-1">
-        <img src={logo} style={{width:"100%"}} alt=""/>
+      <div className="header-right">
+        <img src={logo} alt="" />
       </div>
-    </div>
+    </header>
   );
 };
 export default Header;

@@ -1,10 +1,8 @@
-import { MDBContainer } from "mdb-react-ui-kit";
-
 const HomeContent = () => {
     return (
-        <MDBContainer>
+        <div>
             This is a place holder, Use top nav bar to go to other modules
-        </MDBContainer>
+        </div>
     );
 }
 export default HomeContent;

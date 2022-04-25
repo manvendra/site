@@ -5,7 +5,7 @@ import * as Constants from '../../common/Constants'
 
 function Post() {
   const { postId } = useParams();
-  const [postContent, setPostContent] = useState('<div>Loading post...<div>');
+  const [postContent, setPostContent] = useState('<div>Loading posts from Google ...<div>');
   
   useEffect(() => {
     const url = Constants.URL_PROD +'/'+ postId + '?key=' + Constants.key;
