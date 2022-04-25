@@ -1,31 +1,21 @@
 
 import * as Utils from "../../common/Utils";
-import { MDBTypography, MDBRipple, MDBBtn } from "mdb-react-ui-kit";
 import { Link } from 'react-router-dom';
 
 const PostOverview = ({ postData }) => {
   return (
-    <div className="postOverviewCard 
-        hover-shadow 
-        square rounded border-dark">
+    <div className="post-overview-card">
+      
+      <img src={`${postData?.images?.[0]?.url}`} alt="..." />
 
-      <MDBRipple
-        rippleColor="dark"
-        rippleTag="div"
-        className="bg-image hover-overlay 
-       d-flex justify-content-center mb-1">
-        <img src={`${postData?.images?.[0]?.url}`} alt="..." />
-        <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.15)" }}></div>
-      </MDBRipple>
-      <div className="mb-1">
-        <MDBTypography variant="h6" className="mb-1" style={{ height: "3rem" }}>
-          {postData?.title}
-        </MDBTypography>
-        <MDBTypography tag="em" className="text-muted small">{Utils.extractOverviewFromContent(postData.content)}</MDBTypography>
+      <div className="post-overview-text">
+        <p><h6>{postData?.title}</h6></p>
+        <p className="quote">{Utils.extractOverviewFromContent(postData.content)}</p>
       </div>
-      <MDBBtn outline rounded>
-         <Link to={postData.id} >Read More </Link>
-      </MDBBtn>
+
+      <Link to={postData.id} >
+        <button className="read-more">Read More</button>
+      </Link>
     </div>
   );
 };

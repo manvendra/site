@@ -1,17 +1,17 @@
 import PostOverview from "./PostOverview";
+import './PostsList.css'
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { MDBContainer } from "mdb-react-ui-kit";
 import * as Constants from '../../common/Constants'
 
 const PostsList = () => {
   const [postDataList, setPostDataList] = useState([]);
-  const url = Constants.URL_PROD+'?'+Constants.queryParam+'&key='+Constants.key;
+  const url = Constants.URL_PROD + '?' + Constants.queryParam + '&key=' + Constants.key;
   useEffect(() => {
     const fetchPosts = async () => {
-      try {     
+      try {
         const response = await axios.get(url);
-        setPostDataList(response.data.items); 
+        setPostDataList(response.data.items);
       } catch (err) {
         console.error("error in calling backend");
         if (err.response) {
@@ -25,13 +25,10 @@ const PostsList = () => {
   }, []);
 
   return (
-    <div>
-      <MDBContainer fluid className="d-flex flex-row 
-      flex-wrap">
-        {postDataList.map((postData) => (
-          <PostOverview key={postData.id} postData={postData} />
-        ))}
-      </MDBContainer>
+    <div className="post-list">
+      {postDataList.map((postData) => (
+        <PostOverview key={postData.id} postData={postData} />
+      ))}
     </div>
   );
 };

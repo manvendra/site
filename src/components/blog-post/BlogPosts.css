@@ -1,4 +1,4 @@
-.blogPost {
+.blog-post {
   height: 100%;
   width: 100%;
   padding-top: 3vh;
@@ -6,58 +6,32 @@
   display: grid;
   row-gap: 3vh;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: repeat(2, grid-auto-rows);
-  grid-template-areas:
-    "bd bd bd srch"
-    "bc bc bc bc";
+  grid-template-rows: repeat(2, auto-fill);
 }
-.blogPostDescription{
-  grid-column: 1 / 3;
+.blog-post-description{
+  grid-column: 1 / 4;
 }
 .search-posts {
-  grid-column: 3 / -1;
+  grid-column: 4 / 5;
+  padding: 1vw;
 }
-.blogContent{
-  grid-area: bc;
+.search-posts input{
+  width: 100%;
 }
-.postList {
-  display: grid;
-  height: 100%;
-  grid-gap: 1vw;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-}
-.postOverviewCard {
-  height: 27rem;
-  /* width: 19rem; */
-  /* background: radial-gradient(#C5CAE9, transparent); */
-  background-color: #ffffff;
-  padding: 0.25rem;
-
-  box-shadow: .25rem .25rem 15px rgb(175, 196, 238);
-
+.blog-content{
+  grid-column: 1 / -1;
 }
 
-.postOverviewCard img {
-  height: 13rem;
-  max-width: 100%;
-}
 
-.postOverviewCard button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 1rem;
-}
-
+/*------ actual post content -------*/
 .post-content {
   font-size: 1rem !important;
   font-family: Roboto !important;
   align-items: center;
   box-shadow: .25rem .25rem 15px rgb(175, 196, 238);
-  width: 80%;
-
+  margin: 1vh 1vw;
+  padding: 1vh 5vw;
 }
-
 .post-content * {
   font-size: 1rem !important;
   font-family: Roboto !important;

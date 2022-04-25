@@ -1,10 +1,8 @@
-import { MDBContainer } from "mdb-react-ui-kit";
-
 const AboutMe =  () =>{
   return (
-    <MDBContainer id="aboutMe">
+    <div className='aboutMe'>
             
-    </MDBContainer>
+    </div>
   );
 }
 export default AboutMe
