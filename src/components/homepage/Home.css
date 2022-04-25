@@ -9,8 +9,8 @@
 }
 .header .company-name{
   font-size: 7vh;
-  text-shadow: .5vh .25vh #c8c8c8;
-  font-weight: 350;
+  text-shadow: .25vh .25vh #757373;
+  font-weight: 400;
 }
 .header-left {
   grid-column: 2 / 7;
