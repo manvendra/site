@@ -7,7 +7,7 @@ import * as Utils from '../../common/Utils'
 
 const PostsList = () => {
   const [postDataList, setPostDataList] = useState([]);
-  const url = Constants.URL_PROD + '?' + Constants.POST_LIST_QRY_PARAM + '&key=' + Constants.key;
+  const url = Constants.URL_POSTS_PROD + '?' + Constants.QRY_PARAM_POST_LIST + '&key=' + Constants.key;
   useEffect(() => {
     const fetchPosts = async () => {
       try {
