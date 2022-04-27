@@ -9,12 +9,21 @@ body {
   /* overflow-y: hidden; */
   align-items: center;
   margin: 0px auto;
+
+  /*--copied following properties from internet
+ to disable click. not sure which one works ---*/
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;
 }
 
-.quote{
-    font-size: 0.85em;
-    color: #8a8989;
-    font-style: italic;
+.quote {
+  font-size: 0.85em;
+  color: #8a8989;
+  font-style: italic;
 }
-
-

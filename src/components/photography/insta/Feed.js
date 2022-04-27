@@ -19,7 +19,8 @@ const Feed = (props) => {
             break;
         default:
             post = (
-                <img id={id} src={media_url} alt={caption}
+                <img id={id} src={media_url} alt={caption} 
+                draggable='false'     
                 />
             );
     }
