@@ -19,8 +19,8 @@ const FooterIcon = () => {
         <MDBIcon fab icon="instagram" />
       </a>
 
-      <a className={anchorClasses} style={{ backgroundColor: "#0082ca" }} href="#!">
-        <MDBIcon fab icon="linkedin-in" />
+      <a className={anchorClasses} style={{ backgroundColor: "#0082ca" }} href="https://www.linkedin.com/in/manvendrapsingh/">
+        <MDBIcon fab icon="linkedin" />
       </a>
 
       <a className={anchorClasses} style={{ backgroundColor: "#333333" }} href="#!">
