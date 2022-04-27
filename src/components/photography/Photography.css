@@ -1,4 +1,4 @@
-.feeds-container {
+.feeds-list {
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     /* grid-auto-rows: minmax(100px, auto); */
@@ -22,4 +22,26 @@
     filter: brightness(100%);
     width: 101%;
   }
+
+  /*** Media query -------*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 599px) {
+  .feeds-list {
+    grid-template-columns: repeat(1, 12fr);
+  }
+}
+
+@media (min-width: 600px)  and (max-width: 768px) {
+  .feeds-list {
+    grid-template-columns: repeat(2, 12fr);
+  }
+}
+
+@media (min-width: 769px)  and (max-width: 1200px) {
+  .feeds-list {
+    grid-template-columns: repeat(3, 4fr);
+  }
+}
+
   

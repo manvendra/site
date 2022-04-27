@@ -21,7 +21,7 @@ const FeedList=() => {
     }, []);
 
     return (
-             <div className='feeds-container'>
+             <div className='feeds-list'>
                 {feeds?.map(feed=> <Feed key={feed?.id} feed={feed}/>)}
             </div>
     )
