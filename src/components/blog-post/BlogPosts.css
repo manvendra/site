@@ -25,9 +25,6 @@
 
 /*------ actual post content -------*/
 .post-content {
-  font-size: 1rem !important;
-  font-family: Roboto !important;
-  align-items: center;
   box-shadow: .25rem .25rem 15px rgb(175, 196, 238);
   margin: 1vh 1vw;
   padding: 1vh 5vw;
@@ -36,4 +33,5 @@
   font-size: 1rem !important;
   font-family: Roboto !important;
   font-family: inherit;
+  max-width: 100%;
 }
