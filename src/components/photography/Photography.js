@@ -4,10 +4,15 @@ import './Photography.css'
 const Photography = () => {
     return (
         <div>
-            This is what an iPhone can produce. 
-            Mostly iPhone-7. 
-            With some post processing ofcourse.
-            <FeedList/>
+            <div className="photography-desc">
+                <span>
+                    This is what an iPhone can do,
+                    with the help of post processing.
+                    <div className="quote"> -- All the photos were taken by iPhones, Most of them by iPhone-7.</div>
+                    
+                </span>
+            </div>
+            <FeedList />
         </div>
     );
 }
