@@ -8,6 +8,7 @@
     grid-auto-rows: min-content;
     row-gap: 1vh;
     column-gap: 1vw;
+    font-size: .875rem;
 }
 .appFooter>div{
     padding: .5rem;

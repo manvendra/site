@@ -1,0 +1,54 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vh 1vw;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    padding: 2vh 2vw;
+    font-weight: bold;
+    background: #fff;
+}
+
+.tabs input :hover {
+    cursor: grab;
+}
+
+.tabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+
+
+.tabs input[type='radio']:checked+label+.tab {
+    display: block;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.tabs input[type="radio"]:checked+label {
+    background: radial-gradient(transparent, #8d9cb8);
+}
+
+.tab img {
+    margin: 0 2vw;
+}
+.tab .client-logo-s {
+    width: 30px;
+    height: 30px;   
+}
+.tab .client-logo-m {
+    width: 70px;
+    height: 70px;
+}
+.tab .client-logo-l {
+    width: 110px;
+    height: 110px;
+}
