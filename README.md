@@ -15,8 +15,8 @@
 - react material design for bootstrap (Used it earlier, now removed from everywhere, except NAVBar)
 
 ### Backend technologies
-- Google Api 
-- FaceBook Graph Api 
+- [ Google Api ](https://developers.google.com/blogger/docs/3.0/reference)
+- [FaceBook Graph Api](https://developers.facebook.com/docs/graph-api/reference/)
 
 #### Attributions
 To be added
