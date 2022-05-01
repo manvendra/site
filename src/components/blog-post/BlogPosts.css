@@ -40,7 +40,7 @@
 
 .post-content * {
   font-size: 1rem !important;
-  font-family: Roboto !important;
+  font-family: 'Open Sans', sans-serif  !important;
   font-family: inherit;
   max-width: 100%;
 }

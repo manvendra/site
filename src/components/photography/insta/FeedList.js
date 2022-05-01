@@ -20,6 +20,7 @@ const FeedList=() => {
         fetchFeeds();
     }, []);
 
+    //TODO: Convert this into a Masonry  to have any picture posted to instagram 
     return (
              <div className='feeds-list'>
                 {feeds?.map(feed=> <Feed key={feed?.id} feed={feed}/>)}

@@ -1,12 +1,13 @@
 .about-me {
     margin: 1vh 0 1vh 0;
     padding: 4vh 2vw;
-    box-shadow: inset .5vh .5vh 2vh .5vh #d4d9e2;
     border-radius: .5em;
 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
+    row-gap: 1vh ;
 }
 .about-me .profile-pic {
     grid-area: 1/1 / 2 / 3;
@@ -33,17 +34,17 @@
 }
 
 .about-me .description {
-    padding: 3vh 2vw;
+    padding: 3vh 1vw;
     grid-area: 1 / 3/ 3/ 10;
     color: rgb(58, 56, 56);
 }
 
 .about-me .description .self-summary {
     margin-top: 3vh;
-    padding: 1vh 1vw;
-    border-left: 0.5px solid #546b96;
+    padding: 1vh 0vw;
     text-align: left;
-    font-size: .9rem;
+    font-size: .85rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -53,6 +54,7 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(auto, auto);
         text-align: center;
+        row-gap: 1vh ;
     }
     .about-me .profile-pic {
         grid-area: 1/1 / 2 / 2;

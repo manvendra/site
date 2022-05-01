@@ -15,7 +15,7 @@ const AboutMe = () => {
 				<img src={me} alt="its-me" />
 			</div>
 			<div className='quick-summary'>
-				<h3>Hello !<br /> I'm Manvendra P Singh</h3>
+				<h4>Hello !<br /> I'm Manvendra P Singh</h4>
 			</div>
 
 
