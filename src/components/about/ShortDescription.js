@@ -14,20 +14,20 @@ function ShortDescription() {
             <br /><br />
             <ul>
 
-                <li>In last 16 years, I've built many enterprises scale solutions
-                    for different clients from Finance, Automotive, Healthcare & Travel Business domains.</li>
+                <li>In last 16 years, I've worked on many enterprises scale solutions
+                    for different clients spanning across Finance, Automotive, Healthcare & Travel Business domains.</li>
                 <li>
-                    Majority of my experience is in Architecting, Designing & Developing Backend systems.
+                    I've mostly worked on Architecting, Designing & Developing Backend systems.
                     In recent few years,
                     I've worked on many Greenfield and Brownfield projects
-                    targeted for Cloud based solutions,
+                    for Cloud based solutions 
                     using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra 
                     and few more fancy names.
                 </li>
 
                 <li>I wouldn't call myself a front-end developer or designer.
                     My UI skills limited to the level of this highly responsive but very archaic website.
-                    I'm guilty of designing every single element here myself, using only HTML5 & CSS3.
+                    I'm guilty of designing it myself, using only HTML5 & CSS3.
                     I can also be blamed for all the UI code, done in simple React JS</li>
             </ul>
         <br/>
