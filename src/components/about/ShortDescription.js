@@ -33,14 +33,14 @@ function ShortDescription() {
         <br/>
             <h6> Some of the clients or companies I worked for:</h6>
             <div className='clients'>
-                <img className='client-logo-l' src={tc} alt='client' />
-                <img className='client-logo-s' src={bmw} alt='client' />
-                <img className='client-logo-m' src={cmcst} alt='client' />
-                <img className='client-logo-s' src={one} alt='client' />
-                <img className='client-logo-l' src={xpt} alt='client' />
-                <img className='client-logo-s' src={itrtk} alt='client' />
-                <img className='client-logo-m' src={ub} alt='client' />
-                <img className='client-logo-m' src={zcs} alt='client' />
+                <img className='img-l' src={tc} alt='client' />
+                <img className='img-s' src={bmw} alt='client' />
+                <img className='img-m' src={cmcst} alt='client' />
+                <img className='img-s' src={one} alt='client' />
+                <img className='img-l' src={xpt} alt='client' />
+                <img className='img-s' src={itrtk} alt='client' />
+                <img className='img-m' src={ub} alt='client' />
+                <img className='img-m' src={zcs} alt='client' />
             </div>
         </p>
     )

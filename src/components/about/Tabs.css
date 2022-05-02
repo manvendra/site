@@ -49,19 +49,3 @@
 .tab img {
     margin: 0 2vw;
 }
-.tab .client-logo-s {
-    width: 30px;
-    height: 30px;
-}
-.tab .client-logo-m {
-    width: 70px;
-    height: 70px;
-}
-.tab .client-logo-l {
-    width: 110px;
-    height: 110px;
-}
-.tab .client-logo-xl {
-    width: 150px;
-    height: 150px;
-}

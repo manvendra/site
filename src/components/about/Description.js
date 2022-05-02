@@ -1,6 +1,8 @@
 import React from 'react'
 import ShortDescription from './ShortDescription';
 import LongDescription from './LongDescription';
+import UnderConstruction from '../../images/ndr-cnstrshn.svg'
+
 function Description() {
     return (
         <>
@@ -13,7 +15,13 @@ function Description() {
 
                     <input type="radio" id="tab2" name="tabs" />
                     <label for="tab2">Long Version</label>
-                    <div className="tab">Under Construction !</div>
+                    <div className="tab ">
+                        <div className='center'>
+                            <img src={UnderConstruction} alt="Under construction" className='img-xl' />
+                            <h4> Under Construction !</h4>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
