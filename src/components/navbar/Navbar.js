@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <MDBNavbar className="hover-shadow sticky" expand="lg" light >
       <MDBContainer fluid>
-        <MDBNavbarBrand className="ms-5 bs-5" href="#">
+        <MDBNavbarBrand className="ms-5 bs-5" tag={Link}  to="/home">
           <img src={logo} height="40" alt="" loading="lazy" />
         </MDBNavbarBrand>
 
@@ -38,19 +38,19 @@ const Navbar = () => {
           <MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0 ">
 
             <MDBNavbarItem role="button" className="me-3 ">
-              <MDBNavbarLink tag={Link}  to="/mysite/home">Home</MDBNavbarLink>
+              <MDBNavbarLink tag={Link}  to="/home">Home</MDBNavbarLink>
             </MDBNavbarItem>
             
             <MDBNavbarItem role="button" className="me-3">
-              <MDBNavbarLink tag={Link} to="/mysite/posts">BlogPosts</MDBNavbarLink>
+              <MDBNavbarLink tag={Link} to="/posts">BlogPosts</MDBNavbarLink>
             </MDBNavbarItem>
             
             <MDBNavbarItem role="button" className="me-3">
-              <MDBNavbarLink tag={Link} to="/mysite/photos">Photography</MDBNavbarLink>
+              <MDBNavbarLink tag={Link} to="/photos">Photography</MDBNavbarLink>
             </MDBNavbarItem>
             
             <MDBNavbarItem role="button" className="me-3">
-              <MDBNavbarLink tag={Link} to="/mysite/about" >About Me</MDBNavbarLink>
+              <MDBNavbarLink tag={Link} to="/about" >About Me</MDBNavbarLink>
             </MDBNavbarItem>
           
           </MDBNavbarNav>
