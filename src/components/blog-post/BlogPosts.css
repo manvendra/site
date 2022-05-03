@@ -1,6 +1,4 @@
 .blog-post {
-  height: 100%;
-  width: 100%;
   padding-top: 3vh;
 
   display: grid;
@@ -14,7 +12,7 @@
   padding: 1em 1em;
   height: 5em;
   border-radius: .5em;
-  box-shadow:  .5vh .5vh 2vh .5vh #3f5173;
+  box-shadow:  .5vh .5vh 2vh .5vh var(--color-secondary)
 }
 
 .search-posts {
@@ -33,7 +31,7 @@
 
 /*------ actual post content -------*/
 .post-content {
-  box-shadow: .25rem .25rem 15px rgb(175, 196, 238);
+  box-shadow: .25rem .25rem 15px var(--color-secondary);
   margin: 1vh 1vw;
   padding: 1vh 5vw;
 }

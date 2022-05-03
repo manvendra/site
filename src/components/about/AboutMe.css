@@ -36,7 +36,6 @@
 .about-me .description {
     padding: 3vh 1vw;
     grid-area: 1 / 3/ 3/ 10;
-    color: rgb(58, 56, 56);
 }
 
 .about-me .description .self-summary {

@@ -11,7 +11,7 @@
 .tabs label {
     padding: 2vh 2vw;
     font-weight: bold;
-    background: #fff;
+    background: var(--color-bkg);
 }
 
 .tabs input :hover {
@@ -25,7 +25,7 @@
     order: 1;
     display: none;
 
-    box-shadow: inset .5vh .5vh 2vh .5vh #d4d9e2;
+    box-shadow: inset .5vh .5vh 3vh .5vh var(--color-tertiary);
     /* border: 1px solid #8d9cb8; */
 }
 
@@ -35,7 +35,7 @@
 }
 
 .tabs input[type="radio"]:checked+label {
-    background: radial-gradient(white, #8d9cb8);
+    background: var(--light-radial-gradient);
 }
 
 .tab .clients {

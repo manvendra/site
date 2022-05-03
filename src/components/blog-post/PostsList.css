@@ -1,14 +1,14 @@
 /*** Post list *******/
 .post-list {
-  display: grid;
   margin: 2vh 0;
+
+  display: grid;
   grid-gap: 1.5vw;
   grid-template-columns: repeat(4, 3fr);
 }
 
 .post-overview-card {
-  background-color: #ffffff;
-  box-shadow: .25rem .25rem 1rem rgb(175, 196, 238);
+  box-shadow: .25rem .25rem 1rem var(--color-tertiary)
 }
 
 .post-overview-card img {
@@ -23,34 +23,34 @@
 .post-overview-text p {
   margin: 1rem 1rem;
 }
-.post-overview-card .quote{
+
+.post-overview-card .quote {
   font-size: .875rem;
 }
 
 
 .read-more {
-  background-color: white;
-  border-color: #2196F3;
-  color: dodgerblue;
+  background-color: var(--color-bkg);
+  border: 2px double var(--color-secondary);
+  color: var(--color-secondary);
 
   cursor: pointer;
   border-radius: 1.5rem;
 
-  font-size: 1rem !important;
   padding: .5rem .875rem;
   margin: .5rem .5rem;
-
-  justify-content: flex-end;
 }
 
-.read-more :hover {
-  background-color: #2196F3;
-  color: white;
+.read-more:hover {
+  background-color: var(--color-primary);
+  color: var(--color-bkg);
 }
+
 .post-overview-card:hover {
-  box-shadow: .25rem .25rem 1rem rgb(43, 48, 57);
+  box-shadow: .25rem .25rem 1rem var(--color-secondary);
   filter: brightness(95%);
 }
+
 .post-overview-card>img:hover {
   filter: brightness(80%);
 }
@@ -64,13 +64,13 @@
   }
 }
 
-@media (min-width: 600px)  and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .post-list {
     grid-template-columns: repeat(2, 12fr);
   }
 }
 
-@media (min-width: 769px)  and (max-width: 1279px) {
+@media (min-width: 769px) and (max-width: 1279px) {
   .post-list {
     grid-template-columns: repeat(3, 4fr);
   }

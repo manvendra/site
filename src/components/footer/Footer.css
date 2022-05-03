@@ -1,6 +1,8 @@
 .appFooter {
-    color: hsla(0, 0%, 100%, .5) !important;
-    background: radial-gradient(rgb(88, 102, 128), #1a1a2c);
+    font-size: .875rem;
+    color: var(--color-quote-light)  !important;
+
+    background: var(--dark-radial-gradient);
     padding-top: 3rem;
 
     display: grid;
@@ -8,7 +10,7 @@
     grid-auto-rows: min-content;
     row-gap: 1vh;
     column-gap: 1vw;
-    font-size: .875rem;
+
 }
 .appFooter>div{
     padding: .5rem;
@@ -40,7 +42,6 @@
     grid-column: 1/ -1;
     text-align: center;
     font-size: .875em;
-    background-color: rgba(0, 0, 0, 0.08);
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

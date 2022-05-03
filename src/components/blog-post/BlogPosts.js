@@ -6,10 +6,8 @@ const BlogPosts = () => {
         <div className='blog-post'>
 
             <div className='blog-post-description'>
-                <span>
-                    These are my posts from Medium or Google Blogger 
-                    <div className="quote"> -- Search is available only for google blogs.</div>     
-                </span>
+                <span>These are my posts from Medium or Google Blogger </span>
+                <div className="quote"> -- Search works only on google blogs.</div>
             </div>
             <div className='search-posts' >
                 <input defaultValue='Search all posts ...' type='text' />

@@ -1,5 +1,5 @@
 .header {
-  background: radial-gradient(transparent, #a0afcb);
+  background: var(--light-radial-gradient);
   width: 100%;
   padding: 5vmin;
 
@@ -9,7 +9,7 @@
 }
 .header .company-name{
   font-size: 7vh;
-  text-shadow: .25vh .25vh #757373;
+  text-shadow: .25vh .25vh var(--color-tertiary);
   font-weight: 400;
 }
 .header-left {

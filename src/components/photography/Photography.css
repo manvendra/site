@@ -3,7 +3,7 @@
   padding: 1em 1em;
   height: 5em;
   border-radius: .5em;
-  box-shadow:  .5vh .5vh 2vh .5vh #3f5173;
+  box-shadow:  .5vh .5vh 2vh .5vh var(--color-tertiary);
 }
 .feeds-list {
   display: grid;
@@ -15,7 +15,7 @@
 }
 
 .feed {
-  box-shadow: .75vh .75vh .75vh #8a98aa;
+  box-shadow: .75vh .75vh .75vh var(--color-tertiary);
   text-align: center;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .feed img:hover {
-  box-shadow: 1vh 1vh 1vh rgb(133, 138, 147);
+  box-shadow: 1vh 1vh 1vh var(--color-secondary);
   filter: brightness(100%);
   width: 101%;
 }
