@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mysite/static/css/main.5676015f.css",
-    "main.js": "/mysite/static/js/main.6f26ec71.js",
+    "main.css": "/mysite/static/css/main.e78e28be.css",
+    "main.js": "/mysite/static/js/main.39635181.js",
     "static/js/787.ebcf7102.chunk.js": "/mysite/static/js/787.ebcf7102.chunk.js",
     "static/media/logo.png": "/mysite/static/media/logo.5db61043c9245816f7b6.png",
     "static/media/me.png": "/mysite/static/media/me.3150a52b1d11d614a92d.png",
@@ -15,12 +15,12 @@
     "static/media/comcast.svg": "/mysite/static/media/comcast.ddf00f76b8044d60921e07f367bdb8b4.svg",
     "static/media/intertek.svg": "/mysite/static/media/intertek.4ac229513d24689b88f88c18666cffea.svg",
     "index.html": "/mysite/index.html",
-    "main.5676015f.css.map": "/mysite/static/css/main.5676015f.css.map",
-    "main.6f26ec71.js.map": "/mysite/static/js/main.6f26ec71.js.map",
+    "main.e78e28be.css.map": "/mysite/static/css/main.e78e28be.css.map",
+    "main.39635181.js.map": "/mysite/static/js/main.39635181.js.map",
     "787.ebcf7102.chunk.js.map": "/mysite/static/js/787.ebcf7102.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5676015f.css",
-    "static/js/main.6f26ec71.js"
+    "static/css/main.e78e28be.css",
+    "static/js/main.39635181.js"
   ]
 }
