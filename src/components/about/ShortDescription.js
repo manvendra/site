@@ -11,26 +11,34 @@ import tc from '../../images/clients/tc.svg';
 function ShortDescription() {
     return (
         <p>
-            <br /><br />
+            <div className='quote'>
+                Admission of guilt. Not a usual boastful about-me section
+            </div>
+            <br />
             <ul>
-
-                <li>In last 16 years, I've worked on many enterprises scale solutions
-                    for different clients spanning across Finance, Automotive, Healthcare & Travel Business domains.</li>
                 <li>
-                    I've mostly worked on Architecting, Designing & Developing Backend systems.
+                    In last 16 years, I've worked on various enterprises scale solutions
+                    for different clients spanning across Finance, Automotive, Healthcare & Travel domains.
+                </li>
+                <li>
+                    Usually I'm the culprit of ruining the Architecture and Design of Backend systems.
+                    And most of the time, if not always, the contributor of highest number of backend defects.
                     In recent few years,
                     I've worked on many Greenfield and Brownfield projects
-                    for Cloud based solutions 
-                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra 
+                    based on cloud-architecture
+                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra
                     and few more fancy names.
                 </li>
 
-                <li>I wouldn't call myself a front-end developer or designer.
-                    My UI skills limited to the level of this highly responsive but very archaic website.
-                    I'm guilty of designing it myself, using only HTML5 & CSS3.
-                    I can also be blamed for all the UI code, done in simple React JS</li>
+                <li>
+                    I wouldn't call myself a front-end developer or designer. 
+                    Most of the time I work only on backend code.
+                    But I do have some UI tricks up my sleeves.
+                    However, those are limited to the level of this very archaic but highly responsive website.<br />
+                    I'm guilty of designing it myself, without using any library, using only HTML5 & CSS3.
+                    I can also be blamed for all code here, which I did with React JS </li>
             </ul>
-        <br/>
+            <br />
             <h6> Some of the clients or companies I worked for:</h6>
             <div className='clients'>
                 <img className='img-l' src={tc} alt='client' />

@@ -3,7 +3,7 @@
   margin: 2vh 0;
 
   display: grid;
-  grid-gap: 1.5vw;
+  gap: 15px;
   grid-template-columns: repeat(4, 3fr);
 }
 
