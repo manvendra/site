@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mysite/static/css/main.3d63eed6.css",
-    "main.js": "/mysite/static/js/main.8f6f1b16.js",
+    "main.js": "/mysite/static/js/main.cd67a53d.js",
     "static/js/787.ebcf7102.chunk.js": "/mysite/static/js/787.ebcf7102.chunk.js",
     "static/media/logo.png": "/mysite/static/media/logo.5db61043c9245816f7b6.png",
     "static/media/me.png": "/mysite/static/media/me.3150a52b1d11d614a92d.png",
@@ -16,11 +16,11 @@
     "static/media/intertek.svg": "/mysite/static/media/intertek.4ac229513d24689b88f88c18666cffea.svg",
     "index.html": "/mysite/index.html",
     "main.3d63eed6.css.map": "/mysite/static/css/main.3d63eed6.css.map",
-    "main.8f6f1b16.js.map": "/mysite/static/js/main.8f6f1b16.js.map",
+    "main.cd67a53d.js.map": "/mysite/static/js/main.cd67a53d.js.map",
     "787.ebcf7102.chunk.js.map": "/mysite/static/js/787.ebcf7102.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d63eed6.css",
-    "static/js/main.8f6f1b16.js"
+    "static/js/main.cd67a53d.js"
   ]
 }
