@@ -1,8 +1,9 @@
-@import url('./themes/x.css');
+@import url('./themes/one.css');
 
 body {
-
-  --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-secondary));
+  --lightest-radial-gradient: radial-gradient(white,var(--color-bkg));
+  --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-tertiary));
+  --medium-radial-gradient: radial-gradient(var(--color-tertiary), var(--color-secondary));
   --dark-radial-gradient: radial-gradient(var(--color-secondary), var(--color-primary));
   
   --color-quote: #8a8989;
@@ -10,24 +11,13 @@ body {
 
   font-family: 'Open Sans', sans-serif;
 
-  max-width: 95%;
+  max-width: 98%;
   align-items: center;
   margin: 0px auto;
 
   color: var(--color-primary);
   background-color:   var(--color-bkg);
-
-  /*--copied following properties from internet
- to disable click. not sure which one works ---*/
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;  /* Firefox all */
-  -ms-user-select: none;  /* IE 10+ */
-  -o-user-select: none;
-  user-select: none;
 }
-
-
-
 
 .quote {
   font-size: 0.85em;
@@ -40,7 +30,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+img {
+  /*--copied following properties from internet
+ to disable drag. not sure which one works ---*/
+ -webkit-user-drag: none;/* Chrome all / Safari all */
+ -khtml-user-drag: none;
+ -moz-user-drag: none;  /* Firefox all */
+ -o-user-drag: none;
+  user-drag: none;
 
+    /*--copied following properties from internet
+ to disable click. not sure which one works ---*/
+ -webkit-user-select: none;  /* Chrome all / Safari all */
+ -moz-user-select: none; 
+ -ms-user-select: none;  /* IE 10+ */
+ -o-user-select: none;
+ user-select: none;
+}
 .img-s {
   width: 30px;
   height: 30px;
@@ -60,4 +66,12 @@ body {
 .img-xxl {
   width: 250px;
 
+}
+
+.multi-color-text {
+  background-image: linear-gradient(to right, #FF2626,#0295a3,#0ab90a ,#b79917 ,#ef7b45  ,#0353a4 ,#08ab08  ,#FF2626 ,#c29f04 ,#036b75 ,#FF2626 ,#0353a4     );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
