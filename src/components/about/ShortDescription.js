@@ -24,19 +24,17 @@ function ShortDescription() {
                     Usually I'm the culprit of ruining the Architecture and Design of Backend systems.
                     And most of the time, if not always, the contributor of highest number of backend defects.
                     In recent few years,
-                    I've worked on many Greenfield and Brownfield projects
-                    based on cloud-architecture
+                    I've worked on many cloud-architecture based Greenfield and Brownfield projects
                     using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra
                     and few more fancy names.
                 </li>
 
                 <li>
-                    I wouldn't call myself a front-end developer or designer. 
-                    Most of the time I work only on backend code.
+                    I can not call myself a front-end developer or designer based upon enterprise experience. 
                     But I do have some UI tricks up my sleeves.
                     However, those are limited to the level of this very archaic but highly responsive website.<br />
                     I'm guilty of designing it myself, without using any library, using only HTML5 & CSS3.
-                    I can also be blamed for all code here, which I did with React JS </li>
+                    and I can also be blamed for all the UI code, which I did with React JS</li>
             </ul>
             <br />
             <h6> Some of the clients or companies I worked for:</h6>
