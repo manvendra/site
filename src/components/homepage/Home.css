@@ -1,5 +1,11 @@
-.header {
+.home {
   background: var(--light-radial-gradient);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
   width: 100%;
   padding: 5vmin;
 
@@ -7,20 +13,29 @@
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 }
-.header .company-name{
-  font-size: 7vh;
+
+.header .company-name {
+  font-size: 3rem;
   text-shadow: .25vh .25vh var(--color-tertiary);
-  font-weight: 400;
+  font-weight: 500;
 }
+
 .header-left {
   grid-column: 2 / 7;
   text-align: center;
 }
+
 .header-right {
   grid-column: 10 / 13;
 }
-.header-right img{
-   width: 85%;
+
+.header-right img {
+  width: 80%;
+}
+
+.home-content {
+  padding: 2rem;
+  margin: 1rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -28,25 +43,27 @@
   .header {
     row-gap: 3vh;
   }
+
   .header-left {
     margin-top: 1vh;
     grid-column: 1 / -1;
     text-align: center;
   }
+
   .header-right {
     grid-column: 1 / -1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .header-right img{
-     width: 40%;
+
+  .header-right img {
+    width: 40%;
   }
 }
 
-@media (min-width: 769px)  and (max-width: 959px) {
+@media (min-width: 769px) and (max-width: 959px) {
   .appFooter .contact-info {
-      grid-column: 8/ 13;
+    grid-column: 8/ 13;
   }
 }
-

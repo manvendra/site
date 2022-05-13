@@ -4,10 +4,10 @@ import HomeContent from "./HomeContent";
 
 const Home = () => {
     return (
-        <>
-            <Header/>
-            <HomeContent/>
-        </>
+        <div className='home'>
+            <Header />
+            <HomeContent />
+        </div>
     );
 }
 export default Home;
