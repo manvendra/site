@@ -11,7 +11,7 @@ const ContactInfo = () => {
   }
   return (
     <div className="contact-me">
-      <form onSubmit={handleSubmit} autocomplete="off">
+      <form onSubmit={handleSubmit} autoComplete="off">
         <input type="text"
           name='name'
           value={name}
