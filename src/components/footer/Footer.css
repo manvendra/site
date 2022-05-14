@@ -39,11 +39,11 @@
     border-bottom: 1px dotted var(--color-quote-light);
     
     background-color: var(--dark-radial-gradient);
-    color: var(--color-quote-light);
+    color: var(--color-quote);
 }
 .appFooter .contact-me input[type='submit']{
     width: 25%;
-    min-width: 125px;
+    min-width: 115px;
 }
 
 /*--.appFooter Copyright----*/
@@ -68,8 +68,11 @@
         grid-column: 2 / -2;
     }
     .appFooter .contact-me {
-        margin: 2rem 0;
+        margin: 2rem 1rem;
         grid-column: 2/ -2;
+    }
+    .appFooter .contact-me form{
+        padding: 0;
     }
 }
 
