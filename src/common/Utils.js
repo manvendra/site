@@ -22,3 +22,9 @@ return (rankLabel)
   ? parseInt(rankLabel.substring(rankLabel.indexOf(Constants.POST_LABEL_RANK) + Constants.POST_LABEL_RANK.length))
   : 1000; //A random high number to have unranked post at the end
 }
+
+export const openInNewTab = (url) => {
+  alert(`openInNewTab called with ${url}`);
+  const newWindow = window.open(url, '_blank', 'noopener');
+  if (newWindow) newWindow.opener = null;
+}
