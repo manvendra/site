@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mysite/static/css/main.a22ce562.css",
-    "main.js": "/mysite/static/js/main.37d59c4b.js",
+    "main.css": "/mysite/static/css/main.fb0bbb78.css",
+    "main.js": "/mysite/static/js/main.26dc2b29.js",
     "static/js/787.ebcf7102.chunk.js": "/mysite/static/js/787.ebcf7102.chunk.js",
     "static/media/logo.png": "/mysite/static/media/logo.5db61043c9245816f7b6.png",
     "static/media/me.png": "/mysite/static/media/me.3150a52b1d11d614a92d.png",
@@ -14,14 +14,19 @@
     "static/media/zycus.svg": "/mysite/static/media/zycus.ed2bd4600af346e3ecbc128daf2a08a9.svg",
     "static/media/usbank.svg": "/mysite/static/media/usbank.69c71f918297baced2379cb8b81922a9.svg",
     "static/media/comcast.svg": "/mysite/static/media/comcast.ddf00f76b8044d60921e07f367bdb8b4.svg",
+    "static/media/instagram.svg": "/mysite/static/media/instagram.0b3e8a0c68c61f6f9de668820032ea7d.svg",
+    "static/media/linkedin.svg": "/mysite/static/media/linkedin.a94dd844f4917b5b160a0372a3e86bf2.svg",
     "static/media/intertek.svg": "/mysite/static/media/intertek.4ac229513d24689b88f88c18666cffea.svg",
+    "static/media/twitter.svg": "/mysite/static/media/twitter.642a257c76b89972f7fe182bc63ef990.svg",
     "index.html": "/mysite/index.html",
-    "main.a22ce562.css.map": "/mysite/static/css/main.a22ce562.css.map",
-    "main.37d59c4b.js.map": "/mysite/static/js/main.37d59c4b.js.map",
+    "static/media/gmail.svg": "/mysite/static/media/gmail.89dd192363462b05522cf73789bb3d6d.svg",
+    "static/media/medium.svg": "/mysite/static/media/medium.072a36cf6a5d32fe5cdecaf5ecc2ba21.svg",
+    "main.fb0bbb78.css.map": "/mysite/static/css/main.fb0bbb78.css.map",
+    "main.26dc2b29.js.map": "/mysite/static/js/main.26dc2b29.js.map",
     "787.ebcf7102.chunk.js.map": "/mysite/static/js/787.ebcf7102.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22ce562.css",
-    "static/js/main.37d59c4b.js"
+    "static/css/main.fb0bbb78.css",
+    "static/js/main.26dc2b29.js"
   ]
 }
