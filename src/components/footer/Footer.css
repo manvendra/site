@@ -10,28 +10,42 @@
     grid-auto-rows: min-content;
     row-gap: 1vh;
     column-gap: 1vw;
-
 }
 .appFooter>div{
-    padding: .5rem;
+    padding: 1rem;
 }
 .appFooter p {
     margin: .5rem;
 }
-
 /*--.appFooter Company Info ----*/
 .appFooter .company-info {
-    grid-column: 3 / 7;
+    grid-column: 2 / 7;
     font-style: italic;
-    padding-top: 1.5rem;
-}
-.company-info .quote {
-    text-align: right;
 }
 /*--.appFooter Contact Info ----*/
-.appFooter .contact-info {
+.appFooter .contact-me {
     grid-column: 9/ 13;
+ }
+ .appFooter .contact-me form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem 0 0;
+    font-size: 0.8rem;
+ }
+/*--.appFooter Contact Info ----*/
+.appFooter .contact-me input[type="text"], input[type="email"], textarea{
+    margin: .5rem 0px;
+    border: none;
+    border-bottom: 1px dotted var(--color-quote-light);
+    
+    background-color: var(--dark-radial-gradient);
+    color: var(--color-quote-light);
 }
+.appFooter .contact-me input[type='submit']{
+    width: 25%;
+    min-width: 125px;
+}
+
 /*--.appFooter Copyright----*/
 .appFooter .footer-icon {
     grid-column: 1/ -1;
@@ -48,18 +62,19 @@
 @media (max-width: 768px) {
     .appFooter  > div  {
         text-align: center;
-        grid-column: 1 / -1; /* not sure why this is not working. So I've to give div by id as below*/
+        grid-column: 2 / -2; /* not sure why this is not working. So I've to give div by id as below*/
     }
     .appFooter .company-info {
-        grid-column: 1 / -1;
+        grid-column: 2 / -2;
     }
-    .appFooter .contact-info {
-        grid-column: 1/ -1;
+    .appFooter .contact-me {
+        margin: 2rem 0;
+        grid-column: 2/ -2;
     }
 }
 
 @media (min-width: 769px)  and (max-width: 959px) {
-    .appFooter .contact-info {
+    .appFooter .contact-me {
         grid-column: 8/ 13;
     }
 }
