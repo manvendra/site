@@ -18,7 +18,7 @@ const Header = () => {
           <font color="#FF2626">e</font>
           {/* <font>Kaleidoscope</font> */}
         </div>
-        <div className='quote'>
+        <div className='quote text-center'>
           - A little something about many different things.
         </div>
       </div>

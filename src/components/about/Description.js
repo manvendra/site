@@ -16,7 +16,7 @@ function Description() {
                     <input type="radio" id="tab2" name="tabs" />
                     <label for="tab2">Long Version</label>
                     <div className="tab ">
-                        <div className='center'>
+                        <div className='content-center'>
                             <img src={UnderConstruction} alt="Under construction" className='img-xl' />
                             <h4> Under Construction !</h4>
                         </div>

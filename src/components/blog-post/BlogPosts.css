@@ -55,6 +55,10 @@
   .search-posts {
     grid-column: 1 / 5;
   }
+
+  .post-content {
+    padding: 1vh 1vw;
+  }
 }
 
 @media (min-width: 600px)  and (max-width: 850px) {

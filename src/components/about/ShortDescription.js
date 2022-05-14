@@ -11,7 +11,7 @@ import tc from '../../images/clients/tc.svg';
 function ShortDescription() {
     return (
         <p>
-            <div className='quote'>
+            <div className='quote text-left'>
                 Admission of guilt. Not a usual boastful about-me section
             </div>
             <br />

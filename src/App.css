@@ -1,14 +1,15 @@
 @import url('./themes/one.css');
 
-body {
-  --lightest-radial-gradient: radial-gradient(white,var(--color-bkg));
+:root{
+  --lightest-radial-gradient: radial-gradient(transparent,var(--color-bkg));
   --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-tertiary));
   --medium-radial-gradient: radial-gradient(var(--color-tertiary), var(--color-secondary));
   --dark-radial-gradient: radial-gradient(var(--color-secondary), var(--color-primary));
   
   --color-quote: #8a8989;
   --color-quote-light: #8a8989a7 ;
-
+}
+body {
   font-family: 'Open Sans', sans-serif;
 
   max-width: 98%;
@@ -19,17 +20,6 @@ body {
   background-color:   var(--color-bkg);
 }
 
-.quote {
-  font-size: 0.85em;
-  color: var(--color-quote);
-  font-style: italic;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 img {
   /*--copied following properties from internet
  to disable drag. not sure which one works ---*/
@@ -46,7 +36,37 @@ img {
  -ms-user-select: none;  /* IE 10+ */
  -o-user-select: none;
  user-select: none;
+
+ -webkit-touch-callout: none; /* to disable iphone force touch*/
 }
+
+.quote {
+  font-size: 0.85em;
+  color: var(--color-quote);
+  font-style: italic;
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .img-s {
   width: 30px;
   height: 30px;
@@ -65,9 +85,22 @@ img {
 }
 .img-xxl {
   width: 250px;
-
 }
 
+.round-button {
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-secondary);
+}
+.red-button{
+  background-color: #680202;
+  color: var(--color-quote);
+}
+.red-button:hover{
+  background-color: #7e0303;
+  color: var(--color-quote);
+}
 .multi-color-text {
   background-image: linear-gradient(to right, #FF2626,#0295a3,#0ab90a ,#b79917 ,#ef7b45  ,#0353a4 ,#08ab08  ,#FF2626 ,#c29f04 ,#036b75 ,#FF2626 ,#0353a4     );
   -webkit-background-clip: text;
