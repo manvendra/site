@@ -1,31 +1,21 @@
-import { MDBIcon } from "mdb-react-ui-kit";
+import gmail from '../../images/social/gmail.svg'
+import linkedin from '../../images/social/linkedin.svg'
+import medium from '../../images/social/medium.svg'
+import instagram from '../../images/social/instagram.svg'
+import twitter from '../../images/social/twitter.svg'
+import * as util from '../../common/Utils'
 const FooterIcon = () => {
-  const anchorClasses = "btn btn-sm btn-floating m-1";
-  
   return (
     <div className="footer-icon">
-      <a className={anchorClasses} style={{ backgroundColor: "#3b5998" }} href="#!">
-        <MDBIcon fab icon="facebook-f" />
-      </a>
+        <img className='img-xs' src={linkedin} alt="" onClick={()=>util.openInNewTab('https://www.linkedin.com/in/manvendrapsingh/')}/>
+    
+       <img className='img-xs' src={twitter} alt="" onClick={()=>util.openInNewTab()}/>
+       <img className='img-xs' src={medium} alt="" onClick={()=>util.openInNewTab('https://medium.com/@manvendrapsingh')}/>
+     
+     
+     <img className='img-xs' src={instagram} alt="" onClick={()=>util.openInNewTab('https://www.instagram.com/mpskaleidoscope/')}/>
+      
 
-      <a className={anchorClasses} style={{ backgroundColor: "#55acee" }} href="#!">
-        <MDBIcon fab icon="twitter" />
-      </a>
-
-      <a className={anchorClasses} style={{ backgroundColor: "#dd4b39" }} href="#!">
-        <MDBIcon fab icon="google" />
-      </a>
-      <a className={anchorClasses} style={{ backgroundColor: "#ac2bac" }} href="https://www.instagram.com/mpskaleidoscope/">
-        <MDBIcon fab icon="instagram" />
-      </a>
-
-      <a className={anchorClasses} style={{ backgroundColor: "#0082ca" }} href="https://www.linkedin.com/in/manvendrapsingh/">
-        <MDBIcon fab icon="linkedin" />
-      </a>
-
-      <a className={anchorClasses} style={{ backgroundColor: "#333333" }} href="#!">
-        <MDBIcon fab icon="github" />
-      </a>
     </div>
   );
 };

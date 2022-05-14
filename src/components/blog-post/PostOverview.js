@@ -1,4 +1,3 @@
-
 import * as Utils from "../../common/Utils";
 import { Link } from 'react-router-dom';
 
@@ -9,7 +8,7 @@ const PostOverview = ({ postData }) => {
       <img src={`${postData?.images?.[0]?.url}`} alt="..." />
 
       <div className="post-overview-text">
-        <p><h6>{postData?.title}</h6></p>
+        <p><h4>{postData?.title}</h4></p>
         <p className="quote text-left">
           {Utils.extractOverviewFromContent(postData.content)}
         </p>

@@ -24,12 +24,11 @@
 }
 /*--.appFooter Contact Info ----*/
 .appFooter .contact-me {
-    grid-column: 9/ 13;
+    grid-column: 9/ -2;
  }
  .appFooter .contact-me form{
     display: flex;
     flex-direction: column;
-    padding: 0 3rem 0 0;
     font-size: 0.8rem;
  }
 /*--.appFooter Contact Info ----*/
@@ -44,18 +43,25 @@
 .appFooter .contact-me input[type='submit']{
     width: 25%;
     min-width: 115px;
+    font-size: 0.7rem;
 }
 
 /*--.appFooter Copyright----*/
 .appFooter .footer-icon {
     grid-column: 1/ -1;
     text-align: center;
+    padding-bottom: 0;
+}
+.appFooter .footer-icon img{
+    margin: .5rem;
+    cursor: pointer;
 }
 /*--.appFooter Copyright----*/
 .appFooter .bottom {
     grid-column: 1/ -1;
     text-align: center;
     font-size: .875em;
+    padding-top: 0;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -78,6 +84,6 @@
 
 @media (min-width: 769px)  and (max-width: 959px) {
     .appFooter .contact-me {
-        grid-column: 8/ 13;
+        grid-column: 8/ -2;
     }
 }
