@@ -1,4 +1,3 @@
-import gmail from '../../images/social/gmail.svg'
 import linkedin from '../../images/social/linkedin.svg'
 import medium from '../../images/social/medium.svg'
 import instagram from '../../images/social/instagram.svg'

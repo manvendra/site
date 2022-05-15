@@ -1,21 +1,21 @@
 import { useState } from "react";
 import axios from "axios";
-import thanks from "../../images/thanks.jpg";
+import { CONTACT_ME_URL as url , CONTACT_ME_HEADERS as headers} from "../../common/Constants";
+
 
 const ContactMe = () => {
 
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
+
   const [messageSent, setMessageSent] = useState(false);
 
   const sendMessage = async () => {
     try {
-      const url = 'https://clizwagr55.execute-api.us-east-1.amazonaws.com/dev/contact-me';
-      const body = { name, email, message };
-      const config = { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } };
-
-      const response = await axios.post(url, body, config);
+      const response = await axios.post(url,  
+                                                          {name,email,message}, 
+                                                          {headers: {headers}});
       console.log(response.data)
       console.log(response.status)
     } catch (err) {
@@ -25,6 +25,7 @@ const ContactMe = () => {
       console.log(err?.message);
     }
   };
+
 
 const handleSubmit = (e) => {
   e.preventDefault();
