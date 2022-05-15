@@ -1,12 +1,12 @@
 import './Footer.css';
 import CompanyInfo from "./CompanyInfo";
-import ContactInfo from "./ContactInfo";
+import ContactMe from "./ContactMe";
 import FooterIcon from "./FooterIcons"
 const Footer = () => {
   return (
     <div className='appFooter'>
       <CompanyInfo />
-      <ContactInfo />
+      <ContactMe />
       <FooterIcon/> 
       <div className="bottom">
         <span>© 2022 Copyright: Manvendra P Singh</span>
