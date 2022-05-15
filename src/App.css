@@ -8,6 +8,9 @@
   
   --color-quote: #8a8989;
   --color-quote-light: #8a8989a7 ;
+
+  --color-dark-red:  #570000;
+  --color-red:  #680101;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -104,12 +107,12 @@ img {
 }
 
 .red-button {
-  background-color: #570000;
+  background-color: var( --color-dark-red);
   color: var(--color-quote);
 }
 
 .red-button:hover {
-  background-color: #680101;
+  background-color: var(  --color-red);
   color: var(--color-quote);
 }
 

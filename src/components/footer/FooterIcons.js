@@ -7,17 +7,11 @@ import * as util from '../../common/Utils'
 const FooterIcon = () => {
   return (
     <div className="footer-icon">
-        <img className='img-xs' src={linkedin} alt="" onClick={()=>util.openInNewTab('https://www.linkedin.com/in/manvendrapsingh/')}/>
-    
-       <img className='img-xs' src={twitter} alt="" onClick={()=>util.openInNewTab()}/>
-       <img className='img-xs' src={medium} alt="" onClick={()=>util.openInNewTab('https://medium.com/@manvendrapsingh')}/>
-     
-     
-     <img className='img-xs' src={instagram} alt="" onClick={()=>util.openInNewTab('https://www.instagram.com/mpskaleidoscope/')}/>
-      
-
+      <img className='img-xs' src={linkedin} alt="" onClick={() => util.openInNewTab('https://www.linkedin.com/in/manvendrapsingh/')} />
+      <img className='img-xs' src={twitter} alt="" onClick={() => util.openInNewTab()} />
+      <img className='img-xs' src={medium} alt="" onClick={() => util.openInNewTab('https://medium.com/@manvendrapsingh')} />
+      <img className='img-xs' src={instagram} alt="" onClick={() => util.openInNewTab('https://www.instagram.com/mpskaleidoscope/')} />
     </div>
   );
 };
-
 export default FooterIcon;
