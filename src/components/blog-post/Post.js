@@ -8,7 +8,7 @@ function Post() {
   const [postContent, setPostContent] = useState('<div>Loading posts from Google ...<div>');
   
   useEffect(() => {
-    const url = Constants.URL_POSTS_PROD +'/'+ postId + '?key=' + Constants.key;
+    const url = Constants.POSTS_URL +'/'+ postId + '?key=' + Constants.POSTS_KEY;
     const fetchPostContent = async () => {
       try {
         const response = await axios.get(url);

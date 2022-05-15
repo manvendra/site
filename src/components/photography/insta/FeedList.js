@@ -7,7 +7,7 @@ import Feed from './Feed';
 const FeedList=() => {
     const [feeds, setFeeds] = useState();
 
-    const url = Constants.URL_INSTA_FEED_PROD+ '?' + Constants.QRY_PARAM_INSTA_FEED_LIST + '&access_token=' + Constants.access_token;
+    const url = Constants.PHOTOS_URL+ '?' + Constants.PHOTOS_QRY_PARAM + '&access_token=' + Constants.PHOTOS_TKN;
     useEffect(() => {
         const fetchFeeds = async () => {
             try {
@@ -18,7 +18,7 @@ const FeedList=() => {
             }
         };
         fetchFeeds();
-    }, []);
+    }, [url]);
 
     //TODO: Convert this into a Masonry  to have any picture posted to instagram 
     return (

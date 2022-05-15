@@ -16,10 +16,10 @@ export  const sortPostByRank = (posts) =>
 posts.sort((post1, post2) => getPostRank(post1.labels) >= getPostRank(post2.labels) ? 1 : -1);
 
 export const getPostRank = (labels) => {
-let rankLabel = labels?.find(label => label.startsWith(Constants.POST_LABEL_RANK));
+let rankLabel = labels?.find(label => label.startsWith(Constants.POSTS_LABEL_RANK));
 
 return (rankLabel)
-  ? parseInt(rankLabel.substring(rankLabel.indexOf(Constants.POST_LABEL_RANK) + Constants.POST_LABEL_RANK.length))
+  ? parseInt(rankLabel.substring(rankLabel.indexOf(Constants.POSTS_LABEL_RANK) + Constants.POSTS_LABEL_RANK.length))
   : 1000; //A random high number to have unranked post at the end
 }
 
