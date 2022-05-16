@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { CONTACT_ME_URL as url , CONTACT_ME_HEADERS as headers} from "../../common/Constants";
+import { CONTACT_ME_URL as url , CONTACT_ME_HEADERS as header}  from "../../common/Constants";
 
 
 const ContactMe = () => {
@@ -15,7 +15,7 @@ const ContactMe = () => {
     try {
       const response = await axios.post(url,  
                                                           {name,email,message}, 
-                                                          {headers: {headers}});
+                                                          {headers: {'Content-Type': 'application/x-www-form-urlencoded'}});
       console.log(response.data)
       console.log(response.status)
     } catch (err) {
