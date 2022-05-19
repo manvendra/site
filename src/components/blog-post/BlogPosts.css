@@ -15,6 +15,11 @@
   box-shadow:  .5vh .5vh 2vh .5vh var(--color-secondary)
 }
 
+.blog-post-description a{
+  padding: .25rem;
+  text-decoration: none;
+  font-weight: 500;
+}
 .search-posts {
   grid-column: 4 / 5;
   padding: 1vw;

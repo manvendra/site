@@ -29,7 +29,9 @@
     /* border: 1px solid #8d9cb8; */
 }
 
-
+.tab li{
+   margin-bottom: 0.5rem;
+}   
 .tabs input[type='radio']:checked+label+.tab {
     display: block;
 }
@@ -48,4 +50,11 @@
 
 .tab img {
     margin: 0 2vw;
+}
+
+@media (max-width: 768px) {
+    .tabs .tab {
+        padding: 25px;
+        text-align: left;
+    }
 }

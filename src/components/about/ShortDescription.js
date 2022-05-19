@@ -17,27 +17,27 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    In last 16 years, I've worked on various enterprises scale solutions
-                    for different clients spanning across Finance, Automotive, Healthcare & Travel domains.
+                    In last 15 years, I've worked on various enterprises scale solutions for different clients spanning across Finance, Automotive, Healthcare & Travel domains.
                 </li>
                 <li>
-                    Usually I'm the culprit of ruining the Architecture and Design of Backend systems.
-                    And most of the time, if not always, the contributor of highest number of backend defects.
-                    In recent few years,
-                    I've worked on many cloud-architecture based Greenfield and Brownfield projects
+                    I'm usually the culprit of ruining the design and architecture of backend systems.
+                    And most of the time, if not always, the contributor of highest number of backend code defects.
+                 </li>
+                 <li> 
+                    In last few years,
+                    I've worked on many cloud based Greenfield and Brownfield projects
                     using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra
                     and few more fancy names.
                 </li>
 
                 <li>
-                    I can not call myself a front-end developer or designer based upon enterprise experience. 
-                    But I do have some UI tricks up my sleeves.
-                    However, those are limited to the level of this very archaic but highly responsive website.<br />
-                    I'm guilty of designing it myself, without using any library, using only HTML5 & CSS3.
-                    and I can also be blamed for all the UI code, which I did with React JS</li>
+                    I wouldn't call myself a front-end developer or designer but I do have some UI tricks up my sleeves.<br />
+                    However, those are limited to the level of this very archaic but highly responsive website that I created.
+                    I'm guilty of designing it myself without using any ui library.
+                    I can also be blamed for the UI code, which I did with React JS</li>
             </ul>
             <br />
-            <h6> Some of the clients or companies I worked for:</h6>
+            <h6> Some of the victims of my works :</h6>
             <div className='clients'>
                 <img className='img-l' src={tc} alt='client' />
                 <img className='img-s' src={bmw} alt='client' />
@@ -51,5 +51,4 @@ function ShortDescription() {
         </p>
     )
 }
-
 export default ShortDescription

@@ -6,7 +6,11 @@ const BlogPosts = () => {
         <div className='blog-post'>
 
             <div className='blog-post-description'>
-                <span>These are my posts from Medium or Google Blogger </span>
+                <span>These are my posts from 
+                    <a href='https://medium.com/@manvendrapsingh' target="_blank">Medium</a> 
+                     and   
+                    <a href='http://mps-kaleidoscope.blogspot.com' target="_blank">Google Blogger</a>   
+                 </span>
                 <div className="quote"> -- Search works only on google blogs.</div>
             </div>
             <div className='search-posts' >

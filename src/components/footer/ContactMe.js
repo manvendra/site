@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { CONTACT_ME_URL as url , CONTACT_ME_HEADERS as header}  from "../../common/Constants";
+import { CONTACT_ME_URL as url }  from "../../common/Constants";
 
 
 const ContactMe = () => {
