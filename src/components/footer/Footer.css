@@ -91,11 +91,12 @@ textarea {
 .appFooter .donate  img, input[type=image]{
     margin-top: 0;
     width: 50px;
-    filter: brightness(50%);
+    filter: brightness(70%);
+    padding-right: 10px;;
 }
 
 .appFooter .donate  img:hover, input[type=image]:hover{
-    filter: brightness(90%);
+    filter: brightness(95%);
 }
 
 /*--.appFooter Copyright----*/
