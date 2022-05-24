@@ -59,7 +59,7 @@ textarea {
     border-bottom: 1px dotted var(--color-quote-light);
 
     background-color: var(--dark-radial-gradient);
-    color: var(--color-quote);
+    color: var(--color-quote-light);
 }
 
 .appFooter .contact-me input[type='submit'] {
@@ -90,6 +90,7 @@ textarea {
 
 .appFooter .donate  img, input[type=image]{
     margin-top: 0;
+    padding-top: 0;
     width: 50px;
     filter: brightness(70%);
     padding-right: 10px;;

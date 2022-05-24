@@ -3,7 +3,7 @@
   margin: 2vh 0;
 
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: repeat(4, 3fr);
 }
 
@@ -20,7 +20,7 @@
 
 .post-overview-card>header img {
   width: 100%;
-  max-height: 300px !important;
+  /* max-height: 300px !important; */
 }
 .post-overview-card>header img:hover {
   filter: brightness(80%);
@@ -61,6 +61,7 @@
   .post-list {
     grid-template-columns: repeat(1, 12fr);
   }
+
 }
 @media (min-width: 600px) and (max-width: 768px) {
   .post-list {
