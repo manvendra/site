@@ -3,12 +3,11 @@ import './Photography.css'
 
 const Photography = () => {
     return (
-        <div>
-            <div className="photography-desc">
+        <div className="outer-container photography">
+            <div className="description-bar photography-desc">
                 <div>
-                    This is what an iPhone can do,
-                    with the help of post processing.
-                    <div className="quote"> -- All the photos were taken by iPhones, Most of them by iPhone-7.</div>           
+                    What an iPhone can do, With little post processing.
+                    <div className="quote"> - Photos were taken only by iPhones, Mostly by iPhone7</div>           
                 </div>
             </div>
             <FeedList />

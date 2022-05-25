@@ -22,7 +22,7 @@ const FeedList=() => {
 
     //TODO: Convert this into a Masonry  to have any picture posted to instagram 
     return (
-             <div className='feeds-list'>
+             <div className='cards-container feeds-list'>
                 {feeds?.map(feed=> <Feed key={feed?.id} feed={feed}/>)}
             </div>
     )

@@ -1,17 +1,10 @@
-/*** Post list *******/
-.post-list {
-  margin: 2vh 0;
-
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(4, 3fr);
-}
-
 /************************************
           Overview Card
 ***********************************/
 .post-overview-card {
   box-shadow: .25rem .25rem 1rem var(--color-tertiary);
+  border-bottom-left-radius: 3.5rem;
+  border-bottom-right-radius: 1rem;
 }
 .post-overview-card:hover {
   box-shadow: .25rem .25rem 1rem var(--color-secondary);
@@ -51,25 +44,4 @@
 .post-overview-card>footer .read-more:hover {
   background-color: var(--color-primary);
   color: var(--color-bkg);
-}
-
-
-/*** Media query -------*/
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (max-width: 599px) {
-  .post-list {
-    grid-template-columns: repeat(1, 12fr);
-  }
-
-}
-@media (min-width: 600px) and (max-width: 768px) {
-  .post-list {
-    grid-template-columns: repeat(2, 12fr);
-  }
-}
-@media (min-width: 769px) and (max-width: 1279px) {
-  .post-list {
-    grid-template-columns: repeat(3, 4fr);
-  }
 }
