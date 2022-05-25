@@ -3,7 +3,7 @@ import React from 'react'
 function Donate() {
     return (
         <div className='donate'>
-            <div className='paypal'>
+            {/* <div className='paypal'>
                 <form action="https://www.paypal.com/donate" method="post" target="_blank">
                     <input type="hidden" name="business" value="3N2V583ZR5LEN" />
                     <input type="hidden" name="no_recurring" value="1" />
@@ -12,7 +12,7 @@ function Donate() {
                         border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                     <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                 </form>
-            </div>
+            </div> */}
             <div className='buy-me-coffee'>
                 <a href="https://www.buymeacoffee.com/manvendrasu"
                     target="_blank">
