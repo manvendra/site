@@ -7,6 +7,7 @@
   position: sticky;
   z-index: 100;
   padding: .5rem 0;
+  flex-wrap: wrap;
 }
 
 .brand-title {
@@ -28,6 +29,7 @@
 .navbar-link {
   list-style: none;
   padding: .5rem 1.5rem;
+  transition-delay: 0.5s;
 }
 /** <Link> gets rendered as a tag **/
 .navbar-link a {

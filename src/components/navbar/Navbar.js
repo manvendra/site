@@ -21,8 +21,8 @@ const Navbar = () => {
     <nav className="navbar">
 
       <div className="brand-title">
-        <Link to="/home">
-          <img src={logo} height="40" alt="" loading="lazy" />
+        <Link to="/">
+          <img src={logo} height="40" alt="" loading="lazy" />  
         </Link>
       </div>
 
@@ -32,10 +32,10 @@ const Navbar = () => {
 
       {(toggleMenu || screenWidth > 768) && (
         <ul className="navbar-links">
-          <li className="navbar-link"><Link to="/home" >Home</Link></li>
-          <li className="navbar-link"><Link to="/posts">BlogPosts</Link></li>
-          <li className="navbar-link"><Link to="/photos">Photography</Link></li>
-          <li className="navbar-link"><Link to="/about" >About Me</Link></li>
+          <li className="navbar-link"><Link to="/home" onClick={() => setToggleMenu(!toggleMenu)}>Home</Link></li>
+          <li className="navbar-link"><Link to="/posts" onClick={() => setToggleMenu(!toggleMenu)}>BlogPosts</Link></li>
+          <li className="navbar-link"><Link to="/photos"onClick={() => setToggleMenu(!toggleMenu)}>Photography</Link></li>
+          <li className="navbar-link"><Link to="/about" onClick={() => setToggleMenu(!toggleMenu)}>About Me</Link></li>
         </ul>
 
       )}
