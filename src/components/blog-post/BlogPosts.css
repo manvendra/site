@@ -20,7 +20,7 @@
   box-shadow: .25rem .25rem 15px var(--color-secondary);
   margin: 1vh 1vw;
   padding: 1vh 5vw;
-  width: 75%;
+  width: 85%;
 }
 
 .post-content * {
@@ -39,6 +39,7 @@
 
   .post-content {
     padding: 1vh 1vw;
+    width: 95%;
   }
 }
 

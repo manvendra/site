@@ -17,27 +17,27 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    In last 15 years, I've worked on various enterprises scale solutions for different clients spanning across Finance, Automotive, Healthcare & Travel domains.
+                    In the last 15 years, I've worked on various enterprise-scale solutions for different clients,
+                    spanning Finance, Automotive, Healthcare, Products & Travel domains.
                 </li>
                 <li>
-                    I'm usually the culprit of ruining the design and architecture of backend systems.
-                    And most of the time, if not always, the contributor of highest number of backend code defects.
-                 </li>
-                 <li> 
-                    In last few years,
-                    I've worked on many cloud based Greenfield and Brownfield projects
-                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra
-                    and few more fancy names.
+                    Usually, I'm the culprit for ruining the architecture & design of backend systems.
+                    And most of the time, if not always, the contributor of the highest number of code defects.
+                </li>
+                <li>
+                    For the last few years,
+                    I've been adding defects in different cloud-based Greenfield and Brownfield projects
+                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
+                    and a few more fancy names.
                 </li>
 
                 <li>
-                    I wouldn't call myself a front-end developer or designer but I do have some UI tricks up my sleeves.<br />
-                    However, those are limited to the level of this very archaic but highly responsive website that I created.
-                    I'm guilty of designing it myself without using any ui library.
-                    I can also be blamed for the UI code, which I did with React JS</li>
+                    I wouldn't call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
+                    But those are limited to the level of this very archaic but highly responsive website which I can be blamed for designing and developing myself without using any ui library.
+                </li>
             </ul>
             <br />
-            <h6> Some of the victims of my works :</h6>
+            <h5> Some of the victims of my works :</h5>
             <div className='clients'>
                 <img className='img-l' src={tc} alt='client' />
                 <img className='img-s' src={bmw} alt='client' />
