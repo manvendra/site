@@ -30,15 +30,15 @@
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   column-gap: 2vw;
-  row-gap: 2vh;
+  row-gap: 3vh;
 
 }
 
 /** Phones **/
 @media (max-width: 599px) {
   .main-container {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
   .inner-container {
     padding: 5vh 0;

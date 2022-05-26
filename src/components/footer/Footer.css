@@ -1,24 +1,19 @@
 .appFooter {
-    font-size: .875rem;
-    color: var(--color-quote-light) !important;
-
-    background: var(--dark-radial-gradient);
     padding-top: 3rem;
+    font-size: .875rem;
+    
+    color: var(--color-quote) !important;
+    background: var(--dark-radial-gradient);
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: min-content;
-    row-gap: 1vh;
-    column-gap: 1vw;
+    
 }
 
 .appFooter>div {
-    padding: 1rem;
+    padding: .5rem;
 }
 
-.appFooter p {
-    margin: .5rem;
-}
 
 /*--.appFooter Company Info ----*/
 .appFooter .company-info {
@@ -72,7 +67,7 @@ textarea {
 .appFooter .footer-icon {
     grid-column: 1/ -1;
     text-align: center;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 .appFooter .footer-icon img {
@@ -82,16 +77,12 @@ textarea {
 
 .appFooter .donate {
     grid-column: 1/-1;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
 }
 
 .appFooter .donate  img, input[type=image]{
-    margin-top: 0;
-    padding-top: 0;
-    width: 50px;
+    width: 80px;
     filter: brightness(70%);
     padding-right: 10px;;
 }

@@ -15,9 +15,9 @@
 }
 
 .header .company-name {
-  font-size: 3rem;
+  font-size: 4rem;
   text-shadow: .25vh .25vh var(--color-tertiary);
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .header-left {
@@ -43,7 +43,9 @@
   .header {
     row-gap: 3vh;
   }
-
+  .header .company-name {
+    font-size: 3rem;
+  }
   .header-left {
     margin-top: 1vh;
     grid-column: 1 / -1;
