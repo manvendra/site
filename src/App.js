@@ -15,7 +15,7 @@ import NotFound from './common/NotFound';
 function App() {
 	return (
 		<div className="App">
-			<Router basename='/mysite'>
+			<Router basename='/site'>
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
