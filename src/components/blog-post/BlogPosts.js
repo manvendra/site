@@ -4,9 +4,9 @@ import { Outlet } from 'react-router-dom';
 
 const BlogPosts = () => {
     return (
-        <div className='outer-container blog-post'>
+        <div className='main-container'>
 
-            <div className='description-bar blog-post-description'>
+            <div className='container-description'>
                 <span>These are my posts from Medium. for full list check  
                     <a href='https://medium.com/@manvendrapsingh' target="_blank">here</a>  
                      {/* and   
@@ -15,9 +15,9 @@ const BlogPosts = () => {
                 <div className="quote"> -- powered by - google api.</div>
             </div>
             <div className='search-posts' >
-                <input defaultValue='Search all posts ...' type='text' />
+                <input defaultValue='Search posts ... ' type='text' />
             </div>
-            <div className='blog-content'>
+            <div className='inner-container'>
                 <Outlet />
             </div>
         </div>

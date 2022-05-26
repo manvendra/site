@@ -27,7 +27,7 @@ const PostsList = () => {
   }, []);
 
   return (
-    <div className="cards-container post-list">
+    <div className="cards-container">
       {postDataList.map((postData) => (
         <PostOverview key={postData.id} postData={postData} />
       ))}
