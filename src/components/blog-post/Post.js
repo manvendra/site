@@ -6,13 +6,15 @@ import * as Constants from '../../common/Constants'
 function Post() {
   const { postId } = useParams();
   const [postContent, setPostContent] = useState('<div>Loading posts from Google ...<div>');
-  
+  const [postTitle, setPostTitle] = useState();
+
   useEffect(() => {
-    const url = Constants.POSTS_URL +'/'+ postId + '?key=' + Constants.POSTS_KEY;
+    const url = Constants.POSTS_URL + '/' + postId + '?key=' + Constants.POSTS_KEY;
     const fetchPostContent = async () => {
       try {
         const response = await axios.get(url);
         setPostContent(response.data.content);
+        setPostTitle(response.data.title);
       } catch (err) {
         console.error("error in calling backend");
         if (err.response) {
@@ -28,8 +30,12 @@ function Post() {
   }, [postId])
 
   return (
-    <div className="post-content"
-      dangerouslySetInnerHTML={{__html: postContent}}>
+    <div className='post'>
+      <div className='title'>{postTitle}</div>
+
+      <div className="content"
+        dangerouslySetInnerHTML={{ __html: postContent }}>
+      </div>
     </div>
   );
 }

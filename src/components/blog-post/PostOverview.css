@@ -3,7 +3,7 @@
 ***********************************/
 .post-overview-card {
   box-shadow: .25rem .25rem 1rem var(--color-tertiary);
-  border-bottom-left-radius: 3.5rem;
+  border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 1rem;
 }
 .post-overview-card:hover {
@@ -23,14 +23,20 @@
 .post-overview-card>section p {
   margin: 1rem 1rem;
 }
-.post-overview-card>section>.post-title{
-  min-height: 2rem;
+.post-overview-card>section>.title{
+  height: 5rem;
+  overflow: hidden;
+}
+.post-overview-card>section>.sample{
+  height: 4rem;
+  overflow: hidden;
 }
 .post-overview-card>section .quote {
   font-size: .875rem;
 }
 
 
+/* To show read more button at right*/
 .post-overview-card>footer{
   margin: .5rem;
   display: flex;

@@ -1,3 +1,9 @@
+:root {
+  --padding: 1.5rem 5vw;
+  --width: 85%;
+  --small-screen-width: 95%;
+}
+
 .search-posts {
   grid-column: -3 / -1;
   align-self: end;
@@ -9,42 +15,46 @@
   height: 3rem;
 
   color: var(--color-quote);
- font-size: 1em;
+  font-size: 1em;
   border: none;
   border-bottom: 1px dotted var(--color-quote-light);
 }
 
 
 /*------ actual post content -------*/
-.post-content {
-  box-shadow: .25rem .25rem 15px var(--color-secondary);
-  margin: 1vh 1vw;
-  padding: 1vh 5vw;
-  width: 85%;
+.post {
+  width: var(--width);
 }
 
-.post-content * {
+.post>* {
+  padding: var(--padding);
+  box-shadow: .25rem .25rem 15px var(--color-secondary);
+}
+
+.post>.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.post>.content * {
   font-size: 1rem !important;
-  font-family: 'Open Sans', sans-serif !important;
-  font-family: inherit;
   max-width: 100%;
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .search-posts {
     grid-column: 1 / -1;
   }
 
-  .post-content {
-    padding: 1vh 1vw;
-    width: 95%;
+  .post {
+    width: var(--small-screen-width);
   }
 }
 
-@media (min-width: 600px) and (max-width: 850px) {
-  .post-content {
-    width: 95%;
+@media (min-width: 600px) and (max-width: 768px) {
+  .post {
+    width: var(--small-screen-width);
   }
 }

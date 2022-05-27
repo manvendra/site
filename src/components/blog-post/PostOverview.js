@@ -1,5 +1,6 @@
 import * as Utils from "../../common/Utils";
 import { Link } from 'react-router-dom';
+import './PostOverview.css'
 
 const PostOverview = ({ postData }) => {
   return (
@@ -10,8 +11,8 @@ const PostOverview = ({ postData }) => {
       </header>
 
       <section>
-        <p className="post-title"><h4>{postData?.title}</h4></p>
-        <p className="quote text-left">
+        <p className="title"><h4>{postData?.title}</h4></p>
+        <p className="quote text-left sample">
           {Utils.extractOverviewFromContent(postData.content)}
         </p>
       </section>

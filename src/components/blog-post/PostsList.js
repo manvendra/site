@@ -1,5 +1,5 @@
 import PostOverview from "./PostOverview";
-import './PostsList.css'
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import * as Constants from '../../common/Constants'
