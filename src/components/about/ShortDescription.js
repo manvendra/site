@@ -26,14 +26,14 @@ function ShortDescription() {
                 </li>
                 <li>
                     For the last few years,
-                    I've been adding defects in different cloud-based Greenfield and Brownfield projects
+                    I've been damaging  different cloud-based Greenfield and Brownfield projects
                     using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
                     and a few more fancy names.
                 </li>
 
                 <li>
                     I wouldn't call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
-                    But those are limited to the level of this very archaic but highly responsive website which I can be blamed for designing and developing myself without using any ui library.
+                    However, those are limited to the level of this very archaic but highly responsive website which I can be blamed for designing and developing, without using any ui library.
                 </li>
             </ul>
             <br />
