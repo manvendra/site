@@ -1,17 +1,22 @@
 
 import './BlogPosts.css';
 import { Outlet } from 'react-router-dom';
+import { motion } from "framer-motion"
+import { animation } from '../../common/animation'
 
 const BlogPosts = () => {
     return (
-        <div className='main-container'>
-
+        <motion.div className='main-container'
+            variants={animation}
+            initial="initial"
+            animate="animate"
+            transition={animation.transition}>
             <div className='container-description'>
-                <span>These are my posts from Medium. for full list check  
-                    <a href='https://medium.com/@manvendrapsingh' target="_blank">here</a>  
-                     {/* and   
+                <span>These are my posts from Medium. for full list check
+                    <a href='https://medium.com/@manvendrapsingh' target="_blank">here</a>
+                    {/* and   
                     <a href='http://mps-kaleidoscope.blogspot.com' target="_blank">Google Blogger</a>    */}
-                 </span>
+                </span>
                 <div className="quote"> -- powered by - google api.</div>
             </div>
             <div className='search-posts' >
@@ -20,7 +25,7 @@ const BlogPosts = () => {
             <div className='inner-container'>
                 <Outlet />
             </div>
-        </div>
+        </motion.div>
     );
 }
 export default BlogPosts;

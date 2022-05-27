@@ -2,11 +2,16 @@ import './AboutMe.css';
 import './Tabs.css'
 import me from '../../images/me/me.png';
 import Description from './Description';
-
+import { motion } from "framer-motion"
+import { animation } from '../../common/animation'
 
 const AboutMe = () => {
 	return (
-		<div className='about-me'>
+		<motion.div className='about-me'
+			variants={animation}
+			initial="initial"
+			animate="animate"
+			transition={animation.transition}>
 
 			<div className='description'>
 				<Description />
@@ -18,8 +23,7 @@ const AboutMe = () => {
 				<h4>Hello !<br /> I'm Manvendra P Singh</h4>
 			</div>
 
-
-		</div>
+		</motion.div>
 	);
 }
 export default AboutMe

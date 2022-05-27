@@ -2,12 +2,19 @@ import './Home.css';
 import Header from "./Header";
 import HomeContent from "./HomeContent";
 
+import {motion} from "framer-motion"
+import {animation} from '../../common/animation'
+
 const Home = () => {
     return (
-        <div className='home'>
+        <motion.div className='home'
+        variants={animation}
+        initial="initial"
+        animate="animate"
+        transition={animation.transition}>
             <Header />
             <HomeContent />
-        </div>
+        </motion.div>
     );
 }
 export default Home;
