@@ -1,3 +1,4 @@
+import loading from '../../../images/loading.gif'
 const Feed = (props) => {
     const { id, caption, media_type, media_url } = props.feed
     let post;
@@ -21,6 +22,7 @@ const Feed = (props) => {
             post = (
                 <img id={id} src={media_url} alt={caption} 
                 draggable='false'     
+                style={{ backgroundImage: `url(${loading})` }}
                 />
             );
     }
