@@ -1,0 +1,5 @@
+http://manvendra.github.io/site/
+http://manvendra.github.io/site/home
+http://manvendra.github.io/site/photos
+http://manvendra.github.io/site/about
+http://manvendra.github.io/site/posts
