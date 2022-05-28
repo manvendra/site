@@ -9,5 +9,6 @@ export const opacity= {
 export const duration={
     fast: 25,
     medium: .45,
-    slow: .75
+    slow: .75,
+    slowest: 1
 }

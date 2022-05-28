@@ -11,7 +11,7 @@ const AboutMe = () => {
 			variants={slide}
 			initial="initial"
 			animate="animate"
-			transition={duration.medium}>
+			transition={duration.slowest}>
 
 			<div className='description'>
 				<Description />
