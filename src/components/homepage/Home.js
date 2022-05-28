@@ -3,15 +3,15 @@ import Header from "./Header";
 import HomeContent from "./HomeContent";
 
 import {motion} from "framer-motion"
-import {animation} from '../../common/animation'
+import {slide,duration} from '../../common/animation'
 
 const Home = () => {
     return (
         <motion.div className='home'
-        variants={animation}
+        variants={slide}
         initial="initial"
         animate="animate"
-        transition={animation.transition}>
+        transition={duration.medium}>
             <Header />
             <HomeContent />
         </motion.div>

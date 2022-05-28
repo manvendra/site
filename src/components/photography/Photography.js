@@ -1,14 +1,14 @@
 import FeedList from "./insta/FeedList";
 import './Photography.css'
 import { motion } from "framer-motion"
-import { animation } from '../../common/animation'
+import { slide ,duration} from '../../common/animation'
 const Photography = () => {
     return (
         <motion.div className='main-container'
-            variants={animation}
+            variants={slide}
             initial="initial"
             animate="animate"
-            transition={animation.transition}>
+            transition={duration.medium}>
             <div className="container-description">
                 <div>
                     What an iPhone can do, With little post processing.

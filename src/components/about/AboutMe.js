@@ -3,15 +3,15 @@ import './Tabs.css'
 import me from '../../images/me/me.png';
 import Description from './Description';
 import { motion } from "framer-motion"
-import { animation } from '../../common/animation'
+import { slide,duration } from '../../common/animation'
 
 const AboutMe = () => {
 	return (
 		<motion.div className='about-me'
-			variants={animation}
+			variants={slide}
 			initial="initial"
 			animate="animate"
-			transition={animation.transition}>
+			transition={duration.medium}>
 
 			<div className='description'>
 				<Description />

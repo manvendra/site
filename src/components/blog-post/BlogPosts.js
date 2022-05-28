@@ -2,15 +2,15 @@
 import './BlogPosts.css';
 import { Outlet } from 'react-router-dom';
 import { motion } from "framer-motion"
-import { animation } from '../../common/animation'
+import { opacity,duration} from '../../common/animation'
 
 const BlogPosts = () => {
     return (
         <motion.div className='main-container'
-            variants={animation}
+            variants={opacity}
             initial="initial"
             animate="animate"
-            transition={animation.transition}>
+            transition={duration.fast}>
             <div className='container-description'>
                 <span>These are my posts from Medium. for full list check
                     <a href='https://medium.com/@manvendrapsingh' target="_blank">here</a>
