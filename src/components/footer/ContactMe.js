@@ -50,7 +50,7 @@ return (
         onChange={e => setEmail(e.target.value)} />
       <textarea name='message'
         value={message}
-        placeholder='Your comments or message. Be Nice !'
+        placeholder='Your feedback or message. Be Nice !'
         required rows={3} maxLength={200}
         onChange={e => setMessage(e.target.value)} />
       <div className="content-right">
