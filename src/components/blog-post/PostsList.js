@@ -1,30 +1,18 @@
 import PostOverview from "./PostOverview";
+import useStore from "../../stores/useStore";
 
-import axios from "axios";
-import { useEffect, useState } from "react";
-import * as Constants from '../../common/Constants'
-import * as Utils from '../../common/Utils'
+import { useEffect } from "react";
 
 const PostsList = () => {
-  const [postDataList, setPostDataList] = useState([]);
+  const fetchPosts = useStore((state) => state.fetchPosts);
+  const shouldFetchPosts = useStore((state) => state.shouldFetchPosts);
+  const postDataList = useStore((state) => state.posts);
 
-  useEffect(() => {
-    const url = Constants.POSTS_URL + '?' + Constants.POSTS_QRY_PARAM + '&key=' + Constants.POSTS_KEY;
-    const fetchPosts = async () => {
-      try {
-        const response = await axios.get(url);
-        setPostDataList(Utils.sortPostByRank(response.data.items));
-      } catch (err) {
-        console.error("error in calling backend");
-        if (err.response) {
-          console.error(err.response);
-        } else {
-          console.log("printing error - " + err.message);
-        }
-      }
-    };
+useEffect(() => {
+  if(shouldFetchPosts===true){
     fetchPosts();
-  }, []);
+  }
+  }, [fetchPosts,shouldFetchPosts]);
 
   return (
     <div className="cards-container">
