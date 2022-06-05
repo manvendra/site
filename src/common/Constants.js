@@ -2,7 +2,7 @@
 
 export const POSTS_URL = process.env.REACT_APP_URL_POSTS;
 export const POSTS_KEY = process.env.REACT_APP_KEY_POSTS;
-export const POSTS_QRY_PARAM = 'orderBy=updated&status=live&maxResults=12&fetchImages=true';
+export const POSTS_QRY_PARAM = 'orderBy=updated&status=live&maxResults=16&fetchImages=true';
 export const POSTS_LABEL_RANK = 'rank=';
 
 
