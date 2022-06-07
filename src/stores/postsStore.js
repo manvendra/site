@@ -1,8 +1,8 @@
-import * as Constants from '../common/Constants'
+import {POSTS_URL,POSTS_QRY_PARAM,POSTS_KEY} from '../common/Constants'
 import * as Utils from '../common/Utils'
 import axios from "axios";
 
-const url = Constants.POSTS_URL + '?' + Constants.POSTS_QRY_PARAM + '&key=' + Constants.POSTS_KEY;
+const url = POSTS_URL + '?' + POSTS_QRY_PARAM + '&key=' + POSTS_KEY;
 
 const postsStore = (set) => ({
     posts: [],
