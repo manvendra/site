@@ -38,7 +38,11 @@
 }
 
 .post>.content * {
-  /* font-family: var(--font-family) !important; */
+/* if I don't re declare font-family here, 
+  safari doesn't take the correct font size on post code area, 
+ chrome works without  it. taking from parent container*/
+  font-family: 'Times New Roman', Times, serif  !important; 
+
   font-size: .9rem !important;
   max-width: 100%;
 }
