@@ -12,9 +12,10 @@
 
   --color-dark-red:  #570000;
   --color-red:  #680101;
+  --font-family: 'Open Sans', sans-serif;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-family);
   line-height: 1.6;
 
   max-width: 98%;

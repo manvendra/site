@@ -29,25 +29,32 @@
 .post>* {
   padding: var(--padding);
   box-shadow: .25rem .25rem 15px var(--color-secondary);
+  font-family: 'Times New Roman', Times, serif  !important;
 }
 
 .post>.title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .post>.content * {
-  font-size: 1rem !important;
+  /* font-family: var(--font-family) !important; */
+  font-size: .9rem !important;
   max-width: 100%;
 }
 
+.post>.content  h1, h1>span {
+  font-size: 1.4rem !important;
+}
+.post>.content  h2, h2>span {
+  font-size: 1.1rem !important;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 599px) {
   .search-posts {
     grid-column: 1 / -1;
   }
-
   .post {
     width: var(--small-screen-width);
   }
