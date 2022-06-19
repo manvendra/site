@@ -14,7 +14,7 @@ const App = () => {
 	return (
 		<div className="App">
 		
-					<Router basename='/site'>
+					<Router>
 						<Navbar />
 						<AnimatedRoutes />
 					</Router>
