@@ -1,1 +1,1 @@
-Sitemap: http://manvendra.github.io/site/sitemap.txt
+Sitemap: https://manvendrapsingh.com/sitemap.txt
