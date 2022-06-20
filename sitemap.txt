@@ -1,5 +1,5 @@
-http://manvendra.github.io/site/
-http://manvendra.github.io/site/home
-http://manvendra.github.io/site/photos
-http://manvendra.github.io/site/about
-http://manvendra.github.io/site/posts
+https://manvendrapsingh.com/
+https://manvendrapsingh.com/home
+https://manvendrapsingh.com/photos
+https://manvendrapsingh.com/about
+https://manvendrapsingh.com/posts
