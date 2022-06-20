@@ -23,7 +23,7 @@
 
 .inner-container {
   grid-column: 1 / -1;
-  padding: 5vh 1vw;
+  padding: 1vh 1vw;
 }
 
 .cards-container {
@@ -55,7 +55,6 @@
 
 /** low res devices**/
 @media (min-width: 600px) and (max-width: 768px) {
-
   .cards-container {
     grid-template-columns: repeat(2, 12fr);
   }

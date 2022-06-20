@@ -19,3 +19,12 @@ export const EMPTY = '';
 
 export const URL_INSTA_FEED_DEV = 'http://localhost:3001/photos';
 export const URL_POSTS_DEV = 'http://localhost:3001/posts';
+
+export const MASONRY_COLUMN_BREAKPOINTS = {
+    default: 6,
+    1468: 5,
+    1200: 4,
+    768: 3,
+    599: 2,
+    360: 1
+  };

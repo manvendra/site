@@ -1,5 +1,6 @@
 @import url('./themes/good-theme2.css');
-@import url(./common/containers.css);
+@import url(./common/style/containers.css);
+@import url(./common/style/masonry.css);
 
 :root{
   --lightest-radial-gradient: radial-gradient(transparent,var(--color-bkg));
@@ -77,6 +78,9 @@ img {
   align-items: center;
 }
 
+.pointer:hover{
+cursor: pointer;
+}
 .img-xs {
   width: 15px;
   height: 15px;
