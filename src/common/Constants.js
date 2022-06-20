@@ -28,3 +28,9 @@ export const MASONRY_COLUMN_BREAKPOINTS = {
     599: 2,
     360: 1
   };
+
+  export const SOCIAL_LINKS = {
+    INSTAGRAM: 'https://www.instagram.com/mpskaleidoscope/',
+    MEDIUM: 'https://medium.com/@manvendrapsingh',
+    LINKEDIN: 'https://www.linkedin.com/in/manvendrapsingh/'
+  }

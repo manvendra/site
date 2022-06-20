@@ -10,5 +10,5 @@
 .feed img:hover {
   box-shadow: 1vh 1vh 1vh var(--color-secondary);
   filter: brightness(100%);
-  width: 101%;
+  width: 102%;
 }

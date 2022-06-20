@@ -24,7 +24,7 @@ return (rankLabel)
 }
 
 export const openInNewTab = (url) => {
-  alert(`openInNewTab called with ${url}`);
+  // alert(`You are requesting another website called with ${url}`);
   const newWindow = window.open(url, '_blank', 'noopener');
   if (newWindow) newWindow.opener = null;
 }

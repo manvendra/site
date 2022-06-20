@@ -21,7 +21,7 @@
 
 
 .post-overview-card>section p {
-  margin: 1rem 1rem;
+  margin: .5rem .8rem;
 }
 .post-overview-card>section>.title{
   height: 5rem;
@@ -32,7 +32,7 @@
   overflow: hidden;
 }
 .post-overview-card>section .quote {
-  font-size: .875rem;
+  font-size: .8rem;
 }
 
 
