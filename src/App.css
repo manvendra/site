@@ -105,6 +105,11 @@ cursor: pointer;
   width: 250px;
 }
 
+.round{
+     /*-- make sure width and hight are set as same. --*/
+     border-radius: 50%;
+     overflow: hidden;
+}
 .round-button {
   text-align: center;
   cursor: pointer;

@@ -2,9 +2,7 @@ import FeedList from "./insta/FeedList";
 import './Photography.css'
 import { motion } from "framer-motion"
 import { slide ,duration} from '../../common/animation'
-import instagram from '../../images/social/instagram.svg'
-import * as util from '../../common/Utils'
-import { SOCIAL_LINKS as link } from '../../common/Constants'
+import instagram from '../../images/social/fb-dev.webp'
 
 const Photography = () => {
     return (
@@ -15,11 +13,10 @@ const Photography = () => {
             transition={duration.medium}>
             <div className="container-description">
                 <div>
-                    What an iPhone can do with little post processing. <i>Mostly iPhone7</i>
-                    <div className="quote "> -Powered by &nbsp;
-                        <img className='img-xs pointer' 
-                            src={instagram} alt="" 
-                            onClick={() => util.openInNewTab(link.INSTAGRAM)} />
+                    All images are taken with iPhone (<i>mostly iPhone7</i>). Followed by some post processing. 
+                    <div className="quote "> -Feed powered by &nbsp;
+                        <img className='img-s round' 
+                            src={instagram} alt="" />
                     </div>
                 </div>
             </div>
