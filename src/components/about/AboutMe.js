@@ -1,6 +1,6 @@
 import './AboutMe.css';
 import './Tabs.css'
-import me from '../../images/me/me.png';
+import me from '../../images/me/me-sktch.png';
 import Description from './Description';
 import { motion } from "framer-motion"
 import { slide,duration } from '../../common/animation'
