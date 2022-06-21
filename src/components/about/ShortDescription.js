@@ -38,7 +38,7 @@ function ShortDescription() {
                 </li>
             </ul>
             <br />
-            <h5> Here are some victims of my works :</h5>
+            <h5> Some victims of my works:</h5>
             <div className='clients'>
                 <img className='img-l' src={tc} alt='client' />
                 <img className='img-s' src={bmw} alt='client' />
