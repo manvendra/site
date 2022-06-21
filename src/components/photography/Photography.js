@@ -13,7 +13,7 @@ const Photography = () => {
             transition={duration.medium}>
             <div className="container-description">
                 <div>
-                    All images are taken with iPhone (<i>mostly iPhone7</i>). Followed by some post processing. 
+                    What we can do with iPhone (<i>mostly iPhone7</i>). 
                     <div className="quote "> -Feed powered by &nbsp;
                         <img className='img-s round' 
                             src={instagram} alt="" />
