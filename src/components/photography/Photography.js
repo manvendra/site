@@ -13,7 +13,7 @@ const Photography = () => {
             transition={duration.medium}>
             <div className="container-description">
                 <div>
-                    What we can do with iPhone (<i>mostly iPhone7</i>). 
+                    What we can do with an iPhone (<i>mostly iPhone7</i>)
                     <div className="quote "> -Feed powered by &nbsp;
                         <img className='img-s round' 
                             src={instagram} alt="" />

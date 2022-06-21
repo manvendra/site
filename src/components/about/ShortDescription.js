@@ -17,11 +17,11 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    In last 15 years, I've worked on various enterprise-scale solutions for different clients,
-                    spanning across Finance, Automotive, Healthcare, Products & Travel domains.
+                    I've worked on various enterprise-scale solutions for different clients,
+                    spanning across Finance, Automotive, Healthcare, Products & Travel domains in 15 years <i>(and counting)</i>.
                 </li>
                 <li>
-                    I'm usually the culprit for ruining the architecture & design of backend systems.
+                    Usually I'm the culprit for messing up the architecture & design of backend systems.
                     And most of the time, if not always, the contributor of the highest number of code defects.
                 </li>
                 <li>
@@ -34,7 +34,7 @@ function ShortDescription() {
                 <li>
                     I wouldn't call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
                     However, those are limited to the level of this very archaic but highly responsive website.
-                    I hold the blame of independently designing and developing it, without using any ui library.
+                    I hold the blame for designing every single pixel here, and guilty of writing each line of code.
                 </li>
             </ul>
             <br />
