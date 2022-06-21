@@ -1,8 +1,10 @@
+
 const HomeContent = () => {
     return (
         <div className="home-content">
-            <blockquote className="multi-color-text">&ldquo;You don't have to be great to start, but you have to start to be great.&rdquo; 
-                <footer className='quote' style={{ textAlign: 'right'}}>&mdash; Zig Ziglar</footer>
+            <blockquote className="multi-color-text"> 
+            &ldquo; I am the wisest man alive, for I know one thing, and that is that I know nothing &rdquo;
+                <footer className='quote' style={{ textAlign: 'right'}}>&mdash; Pluto</footer>
             </blockquote>
         </div>
     );
