@@ -3,6 +3,7 @@ import './BlogPosts.css';
 import { Outlet } from 'react-router-dom';
 import { motion } from "framer-motion"
 import { opacity,duration} from '../../common/animation'
+import ggl from '../../images/api/ggl-api.png'
 
 const BlogPosts = () => {
     return (
@@ -17,7 +18,10 @@ const BlogPosts = () => {
                     {/* and   
                     <a href='http://mps-kaleidoscope.blogspot.com' target="_blank">Google Blogger</a>    */}
                 </span>
-                <div className="quote"> -- powered by - google api.</div>
+                <div className="quote "> - Content powered by &nbsp;
+                        <img className='img-s round' 
+                            src={ggl} alt="" />
+                    </div>
             </div>
             <div className='search-posts' >
                 <input defaultValue='Search posts ... ' type='text' />

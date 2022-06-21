@@ -2,7 +2,7 @@ import FeedList from "./insta/FeedList";
 import './Photography.css'
 import { motion } from "framer-motion"
 import { slide ,duration} from '../../common/animation'
-import instagram from '../../images/social/fb-dev.webp'
+import instagram from '../../images/api/fb-dev.webp'
 
 const Photography = () => {
     return (
