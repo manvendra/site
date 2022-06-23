@@ -13,7 +13,7 @@ const BlogPosts = () => {
             animate="animate"
             transition={duration.fast}>
             <div className='container-description'>
-                <span>These are my posts from Medium. for full list check
+                <span>My posts from Medium. for full list check
                     <a href='https://medium.com/@manvendrapsingh' target="_blank">here</a>
                     {/* and   
                     <a href='http://mps-kaleidoscope.blogspot.com' target="_blank">Google Blogger</a>    */}

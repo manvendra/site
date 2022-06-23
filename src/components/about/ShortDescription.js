@@ -18,10 +18,10 @@ function ShortDescription() {
             <ul>
                 <li>
                     I've worked on various enterprise-scale solutions for different clients,
-                    spanning across Finance, Automotive, Healthcare, Products & Travel domains. Fifteen years <i>(and counting)</i>.
+                    spanning across Finance, Automotive, Healthcare, Products & Travel domains. Fifteen years and counting.
                 </li>
                 <li>
-                    Usually I'm the culprit behind the architectural & design flaw of backend systems.
+                    Usually I'm the culprit behind the architectural & design flaws of backend systems.
                     And most of the time, if not always, the contributor of the highest number of code defects.
                 </li>
                 <li>
@@ -34,11 +34,11 @@ function ShortDescription() {
                 <li>
                     I wouldn't call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
                     However, those are limited to the level of this very archaic but highly responsive website.
-                    I hold the blame for designing every single pixel here, and guilty of writing each line of code.
+                    I hold the blame for designing every single pixel here, and guilty of writing each line of ui code using reactJS.
                 </li>
             </ul>
             <br />
-            <h5> Some prominent victims of my works:</h5>
+            <h5> Some prominent victims of my work:</h5>
             <div className='clients'>
                 <img className='img-l' src={tc} alt='Thomas Cook' />
                 <img className='img-s' src={bmw} alt='BMW' />
