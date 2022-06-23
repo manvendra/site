@@ -83,23 +83,18 @@ cursor: pointer;
 }
 .img-xs {
   width: 15px;
-  height: 15px;
 }
 .img-s {
   width: 30px;
-  height: 30px;
 }
 .img-m {
   width: 70px;
-  height: 70px;
 }
 .img-l {
   width: 110px;
-  height: 110px;
 }
 .img-xl {
   width: 150px;
-  height: 150px;
 }
 .img-xxl {
   width: 250px;
