@@ -1,0 +1,35 @@
+
+.review-card {
+  box-shadow: .25rem .25rem 1rem var(--color-tertiary);
+  border-radius: 1rem;
+  height: 250px;
+}
+.review-card:hover {
+  box-shadow: .25rem .25rem 1rem var(--color-primary);
+  height: 251px;
+}
+
+.caption {
+  background: radial-gradient(#fcc221,#ce9b10);
+  opacity: 0.8;
+  color: black;
+  text-shadow: .5px .5px rgb(167, 165, 165);
+}
+
+.amazon-iframe {
+  width: 120px;
+  height: 250px;
+  margin: 20px;
+}
+
+.big-font-shadow {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 599px) {
+  .alert {
+    grid-column: 1 / -1;
+    height: 7rem;
+  }
+}
