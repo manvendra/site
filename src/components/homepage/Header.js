@@ -1,8 +1,8 @@
 import logo from '../../images/logo/logo.png';
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header-left">
+    <header>
+      <div className="left">
         <div className='company-name'>
           <font color="#FF2626">K</font>
           <font color="#00C1D4">a</font>
@@ -22,7 +22,7 @@ const Header = () => {
           - A little something about many different things.
         </div>
       </div>
-      <div className="header-right">
+      <div className="right">
         <img src={logo} alt="" />
       </div>
     </header>
