@@ -3,12 +3,11 @@
 @import url(./common/style/masonry.css);
 
 :root{
-  --lightest-radial-gradient: radial-gradient(transparent,var(--color-bkg));
-  --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-tertiary));
-  --medium-radial-gradient: radial-gradient(var(--color-tertiary), var(--color-secondary));
-  --dark-radial-gradient: radial-gradient(var(--color-secondary), var(--color-primary));
   
-  --color-quote: #8a8989;
+  --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-tertiary));
+   --dark-radial-gradient: radial-gradient(var(--color-secondary), var(--color-primary));
+  
+  --color-quote: #a5a3a3;
   --color-quote-light: #8a8989a7 ;
 
   --color-dark-red:  #570000;

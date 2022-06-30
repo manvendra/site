@@ -1,10 +1,10 @@
 .appFooter {
     padding-top: 3rem;
     font-size: .875rem;
-    
-    color: var(--color-quote)  !important;
+
+    color: var(--color-quote) !important;
     background: #842A2A;
-    /* box-shadow: inset 0px 0px 10px 1px var(--color-primary); */
+    box-shadow: inset 0px 0px 5px 1px ;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -31,6 +31,14 @@
     border-radius: 1rem;
 }
 
+.appFooter .contact-me header {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+}
+
 .contact-me .thanks {
     width: 12rem;
     text-align: center;
@@ -54,7 +62,6 @@ textarea {
     margin: .5rem 0px;
     border: none;
     border-bottom: 1px dotted var(--color-quote-light);
-
     background-color: var(--dark-radial-gradient);
     color: var(--color-quote-light);
 }
@@ -83,13 +90,16 @@ textarea {
     justify-content: center;
 }
 
-.appFooter .donate  img, input[type=image]{
+.appFooter .donate img,
+input[type=image] {
     width: 80px;
     filter: brightness(70%);
-    padding-right: 10px;;
+    padding-right: 10px;
+    ;
 }
 
-.appFooter .donate  img:hover, input[type=image]:hover{
+.appFooter .donate img:hover,
+input[type=image]:hover {
     filter: brightness(95%);
 }
 

@@ -37,6 +37,7 @@ const handleSubmit = (e) => {
 return (
   <div className="contact-me">
    { !messageSent && (<form onSubmit={handleSubmit} autoComplete="off">
+      <header>  Contact me  </header>
       <input type="text"
         name='name'
         value={name}
@@ -50,7 +51,7 @@ return (
         onChange={e => setEmail(e.target.value)} />
       <textarea name='message'
         value={message}
-        placeholder='Your feedback or message. Be Nice !'
+        placeholder='Your feedback or message.  (Be Nice !)'
         required rows={3} maxLength={200}
         onChange={e => setMessage(e.target.value)} />
       <div className="content-right">
