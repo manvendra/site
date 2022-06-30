@@ -25,9 +25,9 @@ function ShortDescription() {
                     And most of the time, if not always, the contributor of the highest number of code defects.
                 </li>
                 <li>
-                    For the last few years,
-                    I've been harming various cloud-based Greenfield and Brownfield projects
-                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
+                    In the last 5-6 years,
+                    I've tried to not harm various cloud-based Greenfield and Brownfield projects
+                    by using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
                     and a few more fancy names.
                 </li>
 
