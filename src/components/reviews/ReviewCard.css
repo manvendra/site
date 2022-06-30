@@ -2,22 +2,26 @@
 .review-card {
   box-shadow: .25rem .25rem 1rem var(--color-tertiary);
   border-radius: 1rem;
-  height: 250px;
 }
 .review-card:hover {
   box-shadow: .25rem .25rem 1rem var(--color-primary);
-  height: 251px;
+}
+.my-review-card{
+  box-shadow: .25rem .25rem 1rem #fcc221;
+  border-radius: 1rem;
+}
+.my-review-card:hover{
+  box-shadow: .25rem .25rem 1rem #a67b03;
 }
 
 .caption {
   background: radial-gradient(#fcc221,#ce9b10);
   opacity: 0.8;
   color: black;
-  text-shadow: .5px .5px rgb(167, 165, 165);
 }
 
 .amazon-iframe {
-  width: 120px;
+  width: 130px;
   height: 250px;
   margin: 20px;
 }
@@ -25,6 +29,7 @@
 .big-font-shadow {
   font-size: 1rem;
   font-weight: 500;
+  text-shadow: 2px 2px 2px gray;
 }
 
 @media (max-width: 599px) {
