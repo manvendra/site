@@ -4,7 +4,9 @@
 
     color: var(--color-quote) !important;
     background: #842A2A;
-    box-shadow: inset 0px 0px 5px 1px ;
+    background: linear-gradient(#541818,#722424);
+    background: #420707;
+    box-shadow:  0px 0px 5px 1px ;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -27,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 15px 1px var(--color-primary);
+    box-shadow: 0px 0px 10px var(--color-primary);
     border-radius: 1rem;
 }
 
