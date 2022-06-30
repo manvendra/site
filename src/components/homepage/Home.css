@@ -1,5 +1,5 @@
 .home {
-  background: var(--light-radial-gradient);
+  background: radial-gradient(#f1f3f6, #8a91a1);
   display: flex;
   flex-direction: column;
   align-items: center;
