@@ -2,12 +2,11 @@
     padding-top: 3rem;
     font-size: .875rem;
     
-    color: var(--color-quote) !important;
-    background: var(--dark-radial-gradient);
-
+    color: var(--color-quote)  !important;
+    background: #842A2A;
+    /* box-shadow: inset 0px 0px 10px 1px var(--color-primary); */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    
 }
 
 .appFooter>div {
@@ -19,6 +18,7 @@
 .appFooter .company-info {
     grid-column: 2 / 7;
     font-style: italic;
+    font-size: small;
 }
 
 /*--.appFooter Contact Info ----*/
@@ -27,6 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 15px 1px var(--color-primary);
+    border-radius: 1rem;
 }
 
 .contact-me .thanks {
