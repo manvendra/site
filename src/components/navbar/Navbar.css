@@ -34,11 +34,13 @@
 /** <Link> gets rendered as a tag **/
 .navbar-link a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: .9rem;
   color: var(--color-bkg);
 }
 .navbar-links li a:hover {
   font-weight: 500;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
