@@ -144,3 +144,6 @@ cursor: pointer;
 .no-decoration{
   text-decoration: none !important;
 }
+.small-text{
+  font-size: small;
+}

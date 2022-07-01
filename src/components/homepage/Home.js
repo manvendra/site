@@ -13,7 +13,7 @@ const Home = () => {
         animate="animate"
         transition={duration.medium}>
             <Header />
-            {/* <HomeContent /> */}
+            <HomeContent />
         </motion.div>
     );
 }

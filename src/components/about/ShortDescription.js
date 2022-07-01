@@ -17,23 +17,23 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    I've worked on various enterprise-scale solutions for different clients,
-                    spanning across Finance, Automotive, Healthcare, Products & Travel domains. Fifteen years and counting.
+                    In last fifteen years, I've worked on various enterprise-scale solutions for different clients,
+                    spanning across Finance, Automotive, Healthcare, Products & Travel domains.
                 </li>
                 <li>
                     Usually I'm the culprit behind the architectural & design flaws of backend systems.
                     And most of the time, if not always, the contributor of the highest number of code defects.
                 </li>
                 <li>
-                    In the last 5-6 years,
+                    In the last half decade,
                     I've tried to not harm various cloud-based Greenfield and Brownfield projects
-                    by using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
+                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
                     and a few more fancy names.
                 </li>
 
                 <li>
-                    I wouldn't call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
-                    However, those are limited to the level of this very archaic but highly responsive website.
+                    I can not call myself a front-end developer or designer. However, I do have a lot of UI tricks up my sleeves. <br />
+                    But those are limited to the level of this very archaic but highly responsive website.
                     I hold the blame for designing every single pixel here, and guilty of writing each line of ui code using reactJS.
                 </li>
             </ul>
