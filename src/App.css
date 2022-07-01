@@ -84,7 +84,8 @@ cursor: pointer;
   width: 15px;
 }
 .img-s {
-  width: 30px;
+  width: 35px;
+  height: 30px;
 }
 .img-m {
   width: 70px;
@@ -122,10 +123,24 @@ cursor: pointer;
   color: var(--color-quote);
 }
 
+.main-button {
+  background-color: var( --color-primary);
+  color: var(--color-quote);
+}
+
+.main-button:hover {
+  background-color: var(  --color-secondary);
+  color: var(--color-quote);
+}
+
 .multi-color-text {
   background-image: linear-gradient(to right, #FF2626, #0295a3, #0ab90a, #b79917, #ef7b45, #0353a4, #08ab08, #FF2626, #c29f04, #036b75, #FF2626, #0353a4);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.no-decoration{
+  text-decoration: none !important;
 }

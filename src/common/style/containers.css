@@ -31,7 +31,35 @@
   grid-template-columns: repeat(4, 3fr);
   column-gap: 2vw;
   row-gap: 3vh;
+}
 
+/************************************
+          default Card
+***********************************/
+.card {
+  padding: 1rem;
+  background: transparent;
+
+  font-size: small;
+  text-align: center;
+
+  box-shadow: inset 0rem 0rem 1rem var(--color-tertiary);
+  border-radius: .3rem;
+}
+.card:hover {
+  box-shadow: inset 0rem 0rem 1rem var(--color-primary);
+  filter: brightness(95%);
+}
+.card > *{
+  padding: .25rem;
+}
+.card>header  {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.card img  {
+  width: 100%;
+  filter: brightness(80%);
 }
 
 /** Phones **/

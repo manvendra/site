@@ -12,6 +12,7 @@ import NotFound from './common/NotFound';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import {AnimatePresence} from "framer-motion"
 import ProductReview from './components/reviews/ProductReview';
+import Akshay from './components/reviews/Akshay';
 
 
 function AnimatedRoutes() {
@@ -30,6 +31,7 @@ function AnimatedRoutes() {
                 <Route path='/photos' element={<Photography />} />
                 <Route path='/about' element={<AboutMe />} />
                 <Route path="/reviews" element={<ProductReview />} />
+                <Route path="/aksh" element={<Akshay />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </AnimatePresence>
