@@ -33,12 +33,13 @@
 
 .home>header>.left .company-name {
   font-size: 4rem;
-  text-shadow: 1px 1px 2px var(--color-tertiary);
+  text-shadow: 1px 3px 3px var(--color-primary);
   font-weight: 300;
 }
 
 .home>header .right img {
   width: 80%;
+  filter: drop-shadow(3px 3px 10px black);
 }
 
 /*********************
@@ -75,8 +76,6 @@
 
 .home>.content .card img {
   border-radius: .5rem;
-  max-height: 250px;
-  width: auto;
 }
 
 .home>.content .card>* {
@@ -90,9 +89,9 @@
   .home>header {
     row-gap: 3vh;
   }
-
   .home>header>.left .company-name {
     font-size: 3rem;
+    text-shadow: 1px 2px 3px var(--color-primary);
   }
 
   .home>header .left {
@@ -110,6 +109,7 @@
 
   .home>header .right img {
     width: 40%;
+    filter: drop-shadow(2px 2px 5px black);
   }
   .home>.content {
     padding: 1rem;
