@@ -25,13 +25,14 @@ const HomeContent = () => {
 			title: 'About Me',
 			desc: 'Nothing much interesting.',
 			link: '/about',
-			img:'/images/sp-me2.png'
+			img:'/images/spme.png'
 		},
 
 
 	];
 	return (
 		<div className="content">
+	
 			{/* <div className="small-text container-description {">
 				This website is a  collection of my random interests. Feel free to navigate.
 				Here are some quick links.

@@ -1,5 +1,5 @@
 .home {
-  background: radial-gradient(#ffffff, #b2bbd0);
+  background: radial-gradient(#f5f6f8, #dce2ee);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,6 +75,8 @@
 
 .home>.content .card img {
   border-radius: .5rem;
+  max-height: 250px;
+  width: auto;
 }
 
 .home>.content .card>* {
@@ -109,7 +111,9 @@
   .home>header .right img {
     width: 40%;
   }
-
+  .home>.content {
+    padding: 1rem;
+  }
   .home>.content>.cards-container {
     grid-template-columns: repeat(2, 12fr);
     gap: .5rem;
