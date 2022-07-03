@@ -32,8 +32,8 @@ function ShortDescription() {
                 </li>
 
                 <li>
-                    I can not call myself a front-end developer or designer. However, I do have a lot of UI tricks up my sleeves. <br />
-                    But those are limited to the level of this very archaic but highly responsive website.
+                    I can not call myself a front-end developer or designer. But I do have many UI tricks up my sleeves. <br />
+                    However, those are limited to the level of this very archaic but highly responsive website.
                     I hold the blame for designing every single pixel here, and guilty of writing each line of ui code using reactJS.
                 </li>
             </ul>

@@ -22,7 +22,7 @@ function ProductReview() {
 
             <div className='container-description caption'>
                 <span className='big-font-shadow text-center'>
-                    Bear with me, very soon something awesome will be here !!
+                    Bear with me, Something awesome will be here very soon !!
                 </span>
             </div>
 
