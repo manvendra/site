@@ -1,35 +1,8 @@
 import { Link } from "react-router-dom";
+import { SITE_MODULES as modules } from '../../common/Constants'
 
 const HomeContent = () => {
-	const sections = [
-		{
-			title: 'Blog Posts',
-			desc: 'My opinions on ideas and events in Tech, History, Science & Coding.',
-			link: '/posts',
-			img:'/images/blg3.jpeg'
-		},
-		{
-			title: 'Photography',
-			desc: 'Random clicks at not so random locations, all from iphone.',
-			link: '/photos',
-			img:'/images/b.png'
-		},
-		
-		{
-			title: 'Reviews',
-			desc: 'My opinions on various different "things"' ,
-			link: '/reviews',
-			img: '/images/rvw.jpg'
-		},
-		{
-			title: 'About Me',
-			desc: 'Nothing much interesting.',
-			link: '/about',
-			img:'/images/spme.png'
-		},
-
-
-	];
+	 
 	return (
 		<div className="content">
 	
@@ -38,14 +11,16 @@ const HomeContent = () => {
 				Here are some quick links.
 			</div> */}
 			<div className="cards-container">
-				{sections.map((section, index) => (
-					<Link to={section.link} key={index}>
+				{modules.map((module, index) => (
+					(module.homeEnabled) && (
+					<Link to={module.link} key={'home_content_section_'+index}>
 						<div className="card">
-						    <img src= {section.img} alt=".."></img>
-							<header> {section.title}</header>
-							<section> {section.desc}</section>
+						    <img src= {module.img} alt=".."></img>
+							<header> {module.title}</header>
+							<section> {module.shortDesc}</section>
 						</div>
 					</Link>
+					)
 				))}
 			</div>
 

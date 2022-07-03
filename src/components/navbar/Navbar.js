@@ -3,6 +3,7 @@ import hamburger from '../../images/hamburger.png';
 import './Navbar.css'
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react'
+import { SITE_MODULES as modules } from '../../common/Constants'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -22,7 +23,7 @@ const Navbar = () => {
 
       <div className="brand-title">
         <Link to="/">
-          <img src={logo} height="40" alt="" loading="lazy" />  
+          <img src={logo} height="40" alt="" loading="lazy" />
         </Link>
       </div>
 
@@ -32,10 +33,17 @@ const Navbar = () => {
 
       {(toggleMenu || screenWidth > 768) && (
         <ul className="navbar-links">
-          <li className="navbar-link"><Link to="/home" onClick={() => setToggleMenu(!toggleMenu)}>Home</Link></li>
-          <li className="navbar-link"><Link to="/posts" onClick={() => setToggleMenu(!toggleMenu)}>BlogPosts</Link></li>
-          <li className="navbar-link"><Link to="/photos"onClick={() => setToggleMenu(!toggleMenu)}>Photography</Link></li>
-          <li className="navbar-link"><Link to="/about" onClick={() => setToggleMenu(!toggleMenu)}>About Me</Link></li>
+          {
+            modules.map((module, index) => (
+              (module.navEnabled) && (
+                <li className="navbar-link" key={'nav_'+index}>
+                  <Link to={module.link}
+                    onClick={() => setToggleMenu(!toggleMenu)}>
+                    {module.title}
+                  </Link>
+                </li>
+              )
+            ))}
         </ul>
 
       )}

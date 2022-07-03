@@ -21,16 +21,67 @@ export const URL_INSTA_FEED_DEV = 'http://localhost:3001/photos';
 export const URL_POSTS_DEV = 'http://localhost:3001/posts';
 
 export const MASONRY_COLUMN_BREAKPOINTS = {
-    default: 5,
-    1468: 5,
-    1200: 4,
-    768: 3,
-    599: 2,
-    360: 1
-  };
+	default: 5,
+	1468: 5,
+	1200: 4,
+	768: 3,
+	599: 2,
+	360: 1
+};
 
-  export const SOCIAL_LINKS = {
-    INSTAGRAM: 'https://www.instagram.com/mpskaleidoscope/',
-    MEDIUM: 'https://medium.com/@manvendrapsingh',
-    LINKEDIN: 'https://www.linkedin.com/in/manvendrapsingh/'
-  }
+export const SOCIAL_LINKS = {
+	INSTAGRAM: 'https://www.instagram.com/mpskaleidoscope/',
+	MEDIUM: 'https://medium.com/@manvendrapsingh',
+	LINKEDIN: 'https://www.linkedin.com/in/manvendrapsingh/'
+}
+
+
+export const SITE_MODULES = [
+	{
+		title: 'Home',
+		shortDesc: 'Welcome to manvendrapsingh.com.',
+		longDesc: '',
+		link: '/home',
+		img: '',
+		navEnabled: true,
+		homeEnabled:false,
+	}
+	,
+	{
+		title: 'BlogPosts',
+		shortDesc: 'My opinions on ideas and events in Tech, History, Science & Coding.',
+		longDesc: '',
+		link: '/posts',
+		img: '/images/blg3.jpeg',
+		navEnabled: true,
+		homeEnabled:true,
+	},
+	{
+		title: 'Photography',
+		shortDesc: 'Random clicks at not so random locations, all from iphone.',
+		longDesc: '',
+		link: '/photos',
+		img: '/images/b.png',
+		navEnabled: true,
+		homeEnabled:true,
+	},
+
+	{
+		title: 'Reviews',
+		shortDesc: 'My opinions on various different "things"',
+		longDesc: '',
+		link: '/reviews',
+		img: '/images/rvw.jpg',
+		navEnabled: true,
+		homeEnabled:true,
+	},
+	{
+		title: 'About Me',
+		shortDesc: 'Nothing much interesting.',
+		longDesc: '',
+		link: '/about',
+		img: '/images/spme.png',
+		navEnabled: true,
+		homeEnabled:true,
+	},
+];
