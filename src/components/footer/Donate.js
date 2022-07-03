@@ -2,7 +2,7 @@ import React from 'react'
 
 function Donate() {
     return (
-        <div className='donate'>
+        <div className='donate content-center'>
             {/* <div className='paypal'>
                 <form action="https://www.paypal.com/donate" method="post" target="_blank">
                     <input type="hidden" name="business" value="3N2V583ZR5LEN" />

@@ -7,7 +7,7 @@ import ggl from '../../images/api/ggl-api.png'
 
 const BlogPosts = () => {
     return (
-        <motion.div className='main-container'
+        <motion.div className='main-container blog-post'
             variants={opacity}
             initial="initial"
             animate="animate"

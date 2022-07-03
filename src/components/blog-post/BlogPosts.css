@@ -62,6 +62,10 @@
   .post {
     width: var(--small-screen-width);
   }
+  .blog-post>.inner-container>.cards-container {
+    padding:  1rem !important;
+  }
+
 }
 
 @media (min-width: 600px) and (max-width: 768px) {

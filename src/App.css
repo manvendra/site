@@ -111,6 +111,7 @@ cursor: pointer;
   cursor: pointer;
   border-radius: 1.5rem;
   border: 1px solid var(--color-secondary);
+  padding: 5px;
 }
 
 .red-button {

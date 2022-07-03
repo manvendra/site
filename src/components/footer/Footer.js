@@ -9,7 +9,7 @@ const Footer = () => {
       <CompanyInfo />
       <ContactMe />
       <FooterIcon/> 
-      <Donate/>
+      {/* <Donate/> */}
       <div className="bottom">
         <span>© 2022 Copyright: Manvendra P Singh</span>
       </div>

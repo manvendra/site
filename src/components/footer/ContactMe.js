@@ -35,7 +35,7 @@ const ContactMe = () => {
 
 
 	return (
-		<div className="contact-me">
+		<div className="contact-me content-center ">
 			{!messageSent && (<form onSubmit={handleSubmit} autoComplete="off">
 				<header>  Contact me  </header>
 				<input type="text"
@@ -61,7 +61,7 @@ const ContactMe = () => {
 			{(messageSent &&
 				(<div className="thanks">
 					{/* <img className="img-s" src={thanks} alt=""/> */}
-					Thanks for your feedback !
+					Thanks for contacting, I'll get back to you shortly !
 				</div>))}
 		</div>
 	);
