@@ -1,115 +1,123 @@
-.main-container {
-  padding: 10vh 1rem;
+@import url('./zigzag-container.css');
 
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, auto-fill);
-  row-gap: 3vh;
+.main-container {
+	padding: 10vh 1rem;
+
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(2, auto-fill);
+	row-gap: 3vh;
 }
 
 .container-description {
-  grid-column: 1 / 5;
-  padding: 1em 1em;
-  height: 5em;
-  border-radius: .5em;
-  box-shadow: .5vh .5vh 2vh .5vh var(--color-secondary)
+	grid-column: 1 / 5;
+	padding: 1em 1em;
+	height: 5em;
+	border-radius: .5em;
+	box-shadow: .5vh .5vh 2vh .5vh var(--color-secondary)
 }
 
 .container-description a {
-  padding: .25rem;
-  text-decoration: none;
-  font-weight: 500;
+	padding: .25rem;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 .inner-container {
-  grid-column: 1 / -1;
-  padding: 1vh 1vw;
+	grid-column: 1 / -1;
+	padding: 1vh 1vw;
 }
 
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(4, 3fr);
-  column-gap: 2vw;
-  row-gap: 3vh;
+	display: grid;
+	grid-template-columns: repeat(4, 3fr);
+	column-gap: 2vw;
+	row-gap: 3vh;
 }
 
 /************************************
           default Card
 ***********************************/
 .card {
-  padding: 1rem;
-  background: transparent;
+	padding: 1rem;
+	background: transparent;
 
-  font-size: small;
-  text-align: center;
+	font-size: small;
+	text-align: center;
 
-  box-shadow: inset 0rem 0rem 1rem var(--color-tertiary);
-  border-radius: .3rem;
+	box-shadow: inset 0rem 0rem 1rem var(--color-tertiary);
+	border-radius: .3rem;
 }
+
 .card:hover {
-  box-shadow: inset 0rem 0rem 1rem var(--color-primary);
-  filter: brightness(95%);
+	box-shadow: inset 0rem 0rem 1rem var(--color-primary);
+	filter: brightness(95%);
 }
-.card > *{
-  padding: .25rem;
+
+.card>* {
+	padding: .25rem;
 }
-.card>header  {
-  font-size: 1.1rem;
-  font-weight: 500;
+
+.card>header {
+	font-size: 1.1rem;
+	font-weight: 500;
 }
-.card img  {
-  width: 100%;
-  filter: brightness(80%);
+
+.card img {
+	width: 100%;
+	filter: brightness(80%);
 }
 
 /** Phones **/
 @media (max-width: 599px) {
-  .main-container {
-    padding-left: .75rem;
-    padding-right: .75rem;
-  }
-  .inner-container {
-    padding: 5vh 0;
-  }
-  .cards-container {
-    grid-template-columns: repeat(1, 12fr);
-  }
+	.main-container {
+		padding-left: .75rem;
+		padding-right: .75rem;
+	}
 
-  .container-description {
-    grid-column: 1 / -1;
-    height: 6rem;
-  }
+	.inner-container {
+		padding: 5vh 0;
+	}
+
+	.cards-container {
+		grid-template-columns: repeat(1, 12fr);
+	}
+
+	.container-description {
+		grid-column: 1 / -1;
+		height: 6rem;
+	}
 }
 
 /** low res devices**/
 @media (min-width: 600px) and (max-width: 768px) {
-  .cards-container {
-    grid-template-columns: repeat(2, 12fr);
-  }
+	.cards-container {
+		grid-template-columns: repeat(2, 12fr);
+	}
 
-  .container-description {
-    height: 6rem;
-    grid-column: 1 / 6;
-  }
+	.container-description {
+		height: 6rem;
+		grid-column: 1 / 6;
+	}
 }
 
 /** Small Computer screens**/
 @media (min-width: 769px) and (max-width: 1200px) {
-  .cards-container {
-    grid-template-columns: repeat(3, 4fr);
-  }
+	.cards-container {
+		grid-template-columns: repeat(3, 4fr);
+	}
 }
 
 /** Big  Computer screens**/
 @media (min-width: 1201px) and (max-width: 1468px) {
-  .cards-container {
-    grid-template-columns: repeat(4, 3fr);
-  }
+	.cards-container {
+		grid-template-columns: repeat(4, 3fr);
+	}
 }
 
 /** *huge devices*/
 @media (min-width: 1800px) {
-  .cards-container {
-    grid-template-columns: repeat(6, 2fr);
-  }
+	.cards-container {
+		grid-template-columns: repeat(6, 2fr);
+	}
 }
