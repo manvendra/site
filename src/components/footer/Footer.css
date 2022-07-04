@@ -39,39 +39,19 @@
     text-align: center;
 }
 
-.contact-me .thanks {
-    text-align: center;
-    font-weight: 600;
-    border-radius: .5rem;
-    background-color: #2c76dc;
-    padding: 0 .75rem;
-}
-
 .appFooter .contact-me form {
     width: 100%;
+    filter: brightness(80%);
+
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
-/*--.appFooter Contact Info ----*/
-.appFooter .contact-me input[type="text"],
-input[type="email"],
-textarea {
-    margin: .5rem 0px;
-    
-    border: none;
-    border-bottom: 1px dotted var(--color-quote-light);
-
-    background-color: var(--dark-radial-gradient);
-    color: var( --footer-color);
-    filter: brightness(80%);
-}
-
-.appFooter .contact-me input[type='submit'] {
-    font-size: .7rem;
-    min-width: 10em;
-    border-radius: .7rem;
-    background: #2c76dc;
+.contact-me .thanks {
+    font-weight: 600;
+    cursor: default;
+    filter: brightness(90%);
 }
 
 /*--.appFooter Copyright----*/

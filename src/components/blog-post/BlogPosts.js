@@ -19,7 +19,7 @@ const BlogPosts = () => {
                     <a href='http://mps-kaleidoscope.blogspot.com' target="_blank">Google Blogger</a>    */}
                 </span>
                 <div className="quote "> - Content powered by &nbsp;
-                        <img className='img-s round' 
+                        <img className='img-s circle' 
                             src={ggl} alt="" />
                     </div>
             </div>

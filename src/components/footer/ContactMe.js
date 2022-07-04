@@ -55,11 +55,11 @@ const ContactMe = () => {
 					required rows={3} maxLength={200}
 					onChange={e => setMessage(e.target.value)} />
 				<div className="content-right">
-					<input className="main-button round-button" type="submit" value="Send Feedback" />
+					<input className="blue-button" type="submit" value="Send message" />
 				</div>
 			</form>)}
 			{(messageSent &&
-				(<div className="thanks">
+				(<div className="thanks button red-button">
 					{/* <img className="img-s" src={thanks} alt=""/> */}
 					Thanks for contacting, I'll get back to you shortly !
 				</div>))}
