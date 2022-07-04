@@ -1,0 +1,56 @@
+.button,
+button,
+input[type="button"],
+input[type="submit"] {
+    font-size: .8em;
+    text-align: center;
+
+    padding: .5em 1.1em;
+    cursor: pointer;
+
+    border: 1px solid var(--color-secondary);
+    border-radius: .3em;
+
+    background-color: var(--color-bkg);
+    color: var(--color-secondary);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: var(--color-primary);
+    color: var(--color-bkg);
+}
+
+.round-button {
+    border-radius: .8rem !important;
+}
+
+.blue-button {
+    background: #2c76dc !important;
+    color: var(--color-bkg) !important;
+    filter: brightness(80%) !important;
+}
+
+.blue-button:hover {
+    filter: brightness(95%) !important;
+}
+
+.red-button {
+    background-color: var(--color-dark-red) !important;
+    color: var(--color-quote) !important;
+    filter: brightness(90%) !important;
+}
+
+.red-button:hover {
+    filter: brightness(100%) !important;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dotted var(--color-quote-light);
+}
