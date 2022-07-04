@@ -12,6 +12,7 @@
     padding: 2vh 2vw;
     font-weight: bold;
     background: var(--color-bkg);
+    font-size: large ;
 }
 
 .tabs input :hover {
@@ -20,12 +21,12 @@
 
 .tabs .tab {
     width: 100%;
-    padding: 50px;
+    padding: 3rem  2.5rem;
 
     order: 1;
     display: none;
 
-    box-shadow: inset .5vh .5vh 3vh .5vh var(--color-tertiary);
+    /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-tertiary); */
     /* border: 1px solid #8d9cb8; */
 }
 
@@ -37,7 +38,10 @@
 }
 
 .tabs input[type="radio"]:checked+label {
-    background: var(--light-radial-gradient);
+    background: #2c76dc;
+    color: var(--color-bkg);
+    border-radius: 5px;
+ 
 }
 
 .tab .clients {
