@@ -29,11 +29,11 @@ input[type="submit"]:hover {
 .blue-button {
     background: #2c76dc !important;
     color: var(--color-bkg) !important;
-    filter: brightness(80%) !important;
+    filter: brightness(90%) !important;
 }
 
 .blue-button:hover {
-    filter: brightness(95%) !important;
+    filter: brightness(110%) !important;
 }
 
 .red-button {

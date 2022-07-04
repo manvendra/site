@@ -14,16 +14,16 @@ const HomeContent = () => {
 				{modules.map((module, index) => (
 					(module.homeEnabled) && (
 						<div className="horizontal-card">
-							<div>
+							<div className="img-div">
 								<img src={module.img} alt={module.shortDesc}></img>
 							</div>
 
 							<header> {module.title}</header>
-							<div> {module.shortDesc}
+							<section> {module.longDesc}
 								<Link to={module.link} key={'home_content_section_' + index}>
 									<button className="round-button blue-button">Show more</button>
 								</Link>
-							</div>
+							</section>
 						</div>
 					)
 				))}

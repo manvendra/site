@@ -49,8 +49,8 @@ export const SITE_MODULES = [
 	,
 	{
 		title: 'BlogPosts',
-		shortDesc: 'My opinions on ideas and events in Tech, History, Science & Coding.',
-		longDesc: '',
+		shortDesc: '',
+		longDesc: 'My thoughts & opinions on ideas and events in Technology, History, Science, Software & programing.',
 		link: '/posts',
 		img: '/images/blg.png',
 		navEnabled: true,
@@ -59,7 +59,7 @@ export const SITE_MODULES = [
 	{
 		title: 'Photography',
 		shortDesc: 'Random clicks at not so random locations, all from iphone.',
-		longDesc: '',
+		longDesc: 'Some random clicks at not so random locations, all taken from iphone. Mostly iPhone7.',
 		link: '/photos',
 		img: '/images/pht.png',
 		navEnabled: true,
@@ -69,7 +69,7 @@ export const SITE_MODULES = [
 	{
 		title: 'Reviews',
 		shortDesc: 'My opinions on various different "things"',
-		longDesc: '',
+		longDesc: 'My thoughts & recommendations about different "things" across various catagories. Some articles in this section can have affiliated links',
 		link: '/reviews',
 		img: '/images/rvw1.png',
 		navEnabled: true,
@@ -78,7 +78,7 @@ export const SITE_MODULES = [
 	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
-		longDesc: '',
+		longDesc: 'Just another poor subpar technologist, Who loves Coding, Chocolates, Coffee, History, Philosophy, Construction. Not necessarily in same order',
 		link: '/about',
 		img: '/images/sp-me3.png',
 		navEnabled: true,

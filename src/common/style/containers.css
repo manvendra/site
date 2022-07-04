@@ -1,4 +1,5 @@
 @import url('./zigzag-container.css');
+@import url('./horizontal-card.css');
 
 .main-container {
 	padding: 10vh 1rem;
