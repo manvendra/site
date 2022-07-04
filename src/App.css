@@ -1,6 +1,7 @@
 @import url('./themes/y.css');
 @import url(./common/style/containers.css);
 @import url(./common/style/masonry.css);
+@import url(./common/style/inputs.css);
 
 :root{
   
@@ -100,39 +101,13 @@ cursor: pointer;
   width: 250px;
 }
 
-.round{
+.circle{
      /*-- make sure width and hight are set as same. --*/
      border-radius: 50%;
      overflow: hidden;
      box-shadow:  5px 5px 5px ;
 }
-.round-button {
-  text-align: center;
-  cursor: pointer;
-  border-radius: 1.5rem;
-  border: 1px solid var(--color-secondary);
-  padding: 5px;
-}
 
-.red-button {
-  background-color: var( --color-dark-red);
-  color: var(--color-quote);
-}
-
-.red-button:hover {
-  background-color: var(  --color-red);
-  color: var(--color-quote);
-}
-
-.main-button {
-  background-color: var( --color-primary);
-  color: var(--color-quote);
-}
-
-.main-button:hover {
-  background-color: var(  --color-secondary);
-  color: var(--color-quote);
-}
 
 .multi-color-text {
   background-image: linear-gradient(to right, #FF2626, #0295a3, #0ab90a, #b79917, #ef7b45, #0353a4, #08ab08, #FF2626, #c29f04, #036b75, #FF2626, #0353a4);
