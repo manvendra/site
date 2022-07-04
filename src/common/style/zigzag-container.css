@@ -6,27 +6,26 @@
 	gap: 1rem;
 }
 
-.zigzag-container :nth-child(odd) {
+.zigzag-container>:nth-child(odd) {
 	align-self: flex-start;
 }
-.zigzag-container :nth-child(even) {
+.zigzag-container>:nth-child(even) {
 	align-self: flex-end;
 }
 
 
 .horizontal-card{
-	width: 60%;
+	width: 70%;
 	display: flex;
 	flex-direction: row;
+  }
+  .horizontal-card>*{
+	align-self: center;
+	padding: 1rem 1rem 0 0;
+  }
 
-  }
   .horizontal-card img{
-    height: 300px;
-	margin-right: 1rem;
-	align-self: center;
-  }
-  .horizontal-card>div{
-	align-self: center;
+    height: 250px;
   }
 
   @media (max-width: 599px) {

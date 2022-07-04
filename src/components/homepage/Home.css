@@ -21,6 +21,9 @@
   text-decoration: none;
   color: var(--color-secondary);
 }
+.home>.content img{
+  filter: drop-shadow( 1px 1px 3px  var(--color-secondary));
+}
 
 @media (max-width: 599px) {
   .home>.content {
