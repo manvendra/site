@@ -15,7 +15,7 @@ const Photography = () => {
                 <div>
                     What an iPhone can do.(<i>mostly iPhone 7</i>)
                     <div className="quote "> -Feed powered by &nbsp;
-                        <img className='img-s round' 
+                        <img className='img-s circle' 
                             src={instagram} alt="" />
                     </div>
                 </div>
