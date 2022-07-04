@@ -29,8 +29,8 @@
 
   .horizontal-card> header{
 	grid-area: h;
-	font: small-caps 600 xx-large var(--font-family);
 	align-items: baseline;
+	font: small-caps 600 2rem  var(--font-family);
   }
   .horizontal-card>section{
 	grid-area: s;
@@ -40,7 +40,14 @@
 	font-size: .875rem;
   }
 
-
+/*****
+Some common breakpoints for devices with different screen sizes are:
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+****/
 
   @media (max-width: 599px) {
 	.horizontal-card{
@@ -51,9 +58,69 @@
 		  "i i i i s s s s s "
 	}
 	.horizontal-card> header{
-		font-size: x-large ;
+		font-size: 1.8rem ;
+		justify-content: flex-end;
 	  }
 	  .horizontal-card> section{
 		font-size: .7rem;
 	  }
   }
+
+/** low res devices**/
+@media (min-width: 600px) and (max-width: 768px) {
+	.horizontal-card{
+		width: 80%;
+		row-gap: 0;
+		grid-template-areas:
+		  "i i i i h h h h h"
+		  "i i i i s s s s s "
+	}
+	.horizontal-card> header{
+		font-size: 1.8rem ;
+
+	  }
+}
+
+/** Small Computer screens**/
+@media (min-width: 769px) and (max-width: 1024px) {
+	.horizontal-card{
+		width: 85%;
+		column-gap: .5rem;
+		grid-template-areas:
+			"i i h h s s s s -"
+			"i i h h s s s s -"
+	}
+	.horizontal-card> header{
+		font-size: 1.5rem ;
+	  }
+
+}
+/** Small Computer screens**/
+@media (min-width: 1025px) and (max-width: 1200px) {
+	.horizontal-card{
+		row-gap: 0;
+		width: 80%;
+		column-gap: .5rem;
+		grid-template-areas:
+			"i i h h s s s s -"
+			"i i h h s s s s -"
+	}
+	.horizontal-card> header{
+		font-size: 1.7rem ;
+	  }
+}
+
+/** New  Computer /laptop screens**/
+@media (min-width: 1201px) and (max-width: 1468px) {
+	.horizontal-card{
+		width: 80%;
+		column-gap: .5rem;
+	}
+}
+
+/** *huge devices*/
+@media (min-width: 1800px) {
+	.horizontal-card> header{
+		font-size: 3rem ;
+	  }
+}

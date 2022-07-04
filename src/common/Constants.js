@@ -69,7 +69,7 @@ export const SITE_MODULES = [
 	{
 		title: 'Reviews',
 		shortDesc: 'My opinions on various different "things"',
-		longDesc: 'My thoughts & recommendations about different "things" across various catagories. Some articles in this section can have affiliated links',
+		longDesc: 'My thoughts & recommendations about "things" across various catagories.  Some articles may contain affiliated links',
 		link: '/reviews',
 		img: '/images/rvw1.png',
 		navEnabled: true,
@@ -78,7 +78,7 @@ export const SITE_MODULES = [
 	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
-		longDesc: 'Just another poor subpar technologist, Who loves Coding, Chocolates, Coffee, History, Philosophy, Construction. Not necessarily in same order',
+		longDesc: 'Just another subpar technologist, Who loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
 		link: '/about',
 		img: '/images/sp-me3.png',
 		navEnabled: true,

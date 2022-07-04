@@ -26,9 +26,9 @@ const Header = () => {
 				<img src={logo} alt="" />
 			</div>
 			<div className="bottom quote">
-			If it is better to be happy as a result of one's own exertions than by physical possessions, wealth or fortune.<br/>
+				One will be happiest if can find the happiness in one's own exertions than searching it in wealth or in worldly possessions.<br/>
 				{/* I am the wisest man alive, for I know one thing that is that I know nothing. */}
-				{/* <footer className='quote' style={{ textAlign: 'right' }}>&mdash; Aristotle</footer> */}
+				<footer className='quote' style={{ textAlign: 'right' }}>&mdash; MPS (refined from Aristotle)</footer>
 			</div>
 		</header>
 
