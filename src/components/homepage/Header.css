@@ -8,6 +8,8 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
+
+    color: var(--color-secondary);
   }
   
   .home>header>.left {
@@ -61,5 +63,8 @@
     .home>header .right img {
       width: 40%;
       filter: drop-shadow(2px 2px 5px black);
+    }
+    .home>header>.bottom {
+       text-align: left;
     }
   }

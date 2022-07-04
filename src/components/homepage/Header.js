@@ -25,9 +25,10 @@ const Header = () => {
 			<div className="right">
 				<img src={logo} alt="" />
 			</div>
-			<div className="bottom multi-color-text quote">
-				I am the wisest man alive, for I know one thing that is that I know nothing.
-				<footer className='quote' style={{ textAlign: 'right' }}>&mdash; Pluto</footer>
+			<div className="bottom quote">
+			If it is better to be happy as a result of one's own exertions than by physical possessions, wealth or fortune.<br/>
+				{/* I am the wisest man alive, for I know one thing that is that I know nothing. */}
+				{/* <footer className='quote' style={{ textAlign: 'right' }}>&mdash; Aristotle</footer> */}
 			</div>
 		</header>
 
