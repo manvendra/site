@@ -12,7 +12,6 @@
     padding: 2vh 2vw;
     font-weight: bold;
     background: var(--color-bkg);
-    font-size: large ;
 }
 
 .tabs input :hover {

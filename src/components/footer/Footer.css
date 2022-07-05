@@ -1,7 +1,5 @@
-:root{
+:root {
     --footer-color: #e8dddd;
-    --footer-blue: #03243b;
-    --button-blue: var(--color-tertiary);
 }
 
 .appFooter {
@@ -9,7 +7,7 @@
     color: var(--footer-color);
     font-size: .8rem;
 
-    background: radial-gradient(var(--color-secondary), var(--footer-blue));
+    background: radial-gradient(var(--color-secondary), var(--color-primary));
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -18,6 +16,7 @@
 .appFooter>div {
     padding: .5rem;
 }
+
 /*--.appFooter Company Info ----*/
 .appFooter .company-info {
     grid-column: 2 / 7;
@@ -70,13 +69,15 @@
     grid-column: 1/-1;
 }
 
-.appFooter .donate img,input[type=image] {
+.appFooter .donate img,
+input[type=image] {
     width: 80px;
     filter: brightness(70%);
     padding-right: 10px;
 }
 
-.appFooter .donate img:hover,input[type=image]:hover {
+.appFooter .donate img:hover,
+input[type=image]:hover {
     filter: brightness(95%);
 }
 
@@ -93,9 +94,11 @@
     .appFooter {
         padding-top: 2rem;
     }
+
     .appFooter .company-info {
         grid-column: 2 / -2;
     }
+
     .appFooter .contact-me {
         grid-column: 2/ -2;
         margin: 2rem 1rem;
