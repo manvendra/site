@@ -26,7 +26,7 @@
     order: 1;
     display: none;
 
-    /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-tertiary); */
+    /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-shadow); */
     /* border: 1px solid #8d9cb8; */
 }
 
@@ -38,7 +38,7 @@
 }
 
 .tabs input[type="radio"]:checked+label {
-    background: #2c76dc;
+    background: var(--color-tertiary);
     color: var(--color-bkg);
     border-radius: 5px;
  

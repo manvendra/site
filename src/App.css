@@ -1,20 +1,8 @@
-@import url('./themes/y.css');
+@import url('./themes/theme.css');
 @import url(./common/style/containers.css);
 @import url(./common/style/masonry.css);
 @import url(./common/style/inputs.css);
 
-:root{
-  
-  --light-radial-gradient: radial-gradient(var(--color-bkg), var(--color-tertiary));
-   --dark-radial-gradient: radial-gradient(var(--color-secondary), var(--color-primary));
-  
-  --color-quote: #a5a3a3;
-  --color-quote-light: #8a8989a7 ;
-
-  --color-dark-red:  #570000;
-  --color-red:  #680101;
-  --font-family: 'Open Sans', sans-serif;
-}
 body {
   font-family: var(--font-family);
   line-height: 1.6;

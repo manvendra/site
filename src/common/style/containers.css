@@ -46,7 +46,7 @@
 	font-size: small;
 	text-align: center;
 
-	box-shadow: inset 0rem 0rem 1rem var(--color-tertiary);
+	box-shadow: inset 0rem 0rem 1rem var(--color-shadow);
 	border-radius: .3rem;
 }
 

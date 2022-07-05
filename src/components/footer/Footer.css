@@ -1,7 +1,7 @@
 :root{
     --footer-color: #e8dddd;
     --footer-blue: #03243b;
-    --button-blue: #2c76dc;
+    --button-blue: var(--color-tertiary);
 }
 
 .appFooter {

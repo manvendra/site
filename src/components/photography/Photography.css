@@ -3,7 +3,7 @@
   width: 100%;
   max-height: 100%;
   filter: brightness(95%);
-  box-shadow: .75vh .75vh .75vh var(--color-tertiary);
+  box-shadow: .75vh .75vh .75vh var(--color-shadow);
   border-radius: .5rem;
 }
 

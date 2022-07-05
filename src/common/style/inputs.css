@@ -27,7 +27,7 @@ input[type="submit"]:hover {
 }
 
 .blue-button {
-    background: #2c76dc !important;
+    background: var(--color-tertiary) !important;
     color: var(--color-bkg) !important;
     filter: brightness(90%) !important;
 }
@@ -38,7 +38,7 @@ input[type="submit"]:hover {
 
 .red-button {
     background-color: var(--color-dark-red) !important;
-    color: var(--color-quote) !important;
+    color: var(--color-bkg) !important;
     filter: brightness(90%) !important;
 }
 
@@ -52,5 +52,5 @@ input[type="email"],
 textarea {
     border: none;
     background-color: transparent;
-    border-bottom: 1px dotted var(--color-quote-light);
+    border-bottom: 1px dotted var(--color-shadow);
 }
