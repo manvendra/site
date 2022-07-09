@@ -73,11 +73,11 @@ element.style {
 }
 
 .post>.content pre {
-  margin: 1rem 30%  1rem 5% !important;
-  background-color: #e5e4e4 !important;
+  margin: 2rem 30%  1rem 5% !important;
+  background-color: #eeebeb !important;
 }
 /* .post>.content pre *{
-  color: white !important;
+   font-family: var(--font-family) !important;
 } */
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 599px) {
@@ -90,11 +90,17 @@ element.style {
   .blog-post>.inner-container>.cards-container {
     padding:  1rem !important;
   }
+  .post>.content pre {
+    margin: 2rem 1rem !important;
+  }
 
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
   .post {
     width: var(--small-screen-width);
+  }
+  .post>.content pre {
+    margin: 1rem !important;
   }
 }
