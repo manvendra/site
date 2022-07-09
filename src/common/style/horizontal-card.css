@@ -51,7 +51,7 @@ Some common breakpoints for devices with different screen sizes are:
 
   @media (max-width: 599px) {
 	.horizontal-card{
-		width: 90%;
+		width: 85%;
 		row-gap: .5rem;
 		grid-template-areas:
 		  "i i i i h h h h h"

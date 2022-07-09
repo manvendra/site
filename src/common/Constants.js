@@ -78,7 +78,7 @@ export const SITE_MODULES = [
 	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
-		longDesc: 'Just another subpar technologist, Who loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
+		longDesc: 'Just another subpar technologist. Loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
 		link: '/about',
 		img: '/images/sp-me3.png',
 		navEnabled: true,
