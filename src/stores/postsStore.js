@@ -6,13 +6,13 @@ const url = POSTS_URL + '?' + POSTS_QRY_PARAM + '&key=' + POSTS_KEY;
 
 const postsStore = (set) => ({
     posts: [],
-    wordCloudData:[],
+    labels:[],
     shouldFetchPosts: true,
     fetchPosts: async () => {
             const response = await axios.get(url);
             set({ posts:  Utils.sortPostByRank(response.data.items), 
                 shouldFetchPosts: false, 
-                wordCloudData:  Utils.extractWordCloudData(response.data.items)});
+                labels:  Utils.extractUniqueLabels(response.data.items)});
     }
   });
   
