@@ -64,6 +64,9 @@ Some common breakpoints for devices with different screen sizes are:
 	  .horizontal-card> section{
 		font-size: .7rem;
 	  }
+	  .horizontal-card img{
+		width: 75%;
+	  }
   }
 
 /** low res devices**/
@@ -77,7 +80,6 @@ Some common breakpoints for devices with different screen sizes are:
 	}
 	.horizontal-card> header{
 		font-size: 1.8rem ;
-
 	  }
 }
 
@@ -95,7 +97,9 @@ Some common breakpoints for devices with different screen sizes are:
 		font-size: 1.8rem ;
 		justify-content: flex-end;
 	  }
-
+	  .horizontal-card img{
+		width: 60%;
+	  }
 }
 /** Small Computer screens**/
 @media (min-width: 1025px) and (max-width: 1200px) {
