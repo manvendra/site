@@ -48,7 +48,9 @@
     margin-top: 3vh;
     padding: 1vh 0vw;
 }
-
+.about-me .description .self-summary .tabs .tab ul{
+    padding-inline-start: 1rem;
+}
 
 
 @media (max-width: 768px) {
