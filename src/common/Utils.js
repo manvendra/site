@@ -28,3 +28,16 @@ export const openInNewTab = (url) => {
   const newWindow = window.open(url, '_blank', 'noopener');
   if (newWindow) newWindow.opener = null;
 }
+
+export const extractWordCloudData = (posts) => {
+	const allLabels
+		= posts
+			.flatMap(post => post.labels);
+
+	return allLabels
+			.filter((label, index) => allLabels.indexOf(label) === index)
+			.filter((label) => !label?.startsWith(Constants.POSTS_LABEL_RANK))
+			.map(label => (
+				{ 'text': label, 'value': Math.floor(Math.random() * 20) }
+			));
+}
