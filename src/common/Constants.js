@@ -71,7 +71,7 @@ export const SITE_MODULES = [
 		shortDesc: 'My opinions on various different "things"',
 		longDesc: 'My thoughts & recommendations about "things" across various catagories.  Some articles may contain affiliated links',
 		link: '/reviews',
-		img: '/images/rvw1.png',
+		img: '/images/rvw.png',
 		navEnabled: true,
 		homeEnabled:true,
 	},
