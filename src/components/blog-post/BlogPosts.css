@@ -54,6 +54,31 @@
   font-size: 1.1rem !important;
 }
 
+
+element.style {
+  background-color: #f2f2f2;
+  box-sizing: inherit;
+  margin-bottom: 0px;
+  margin-top: 56px;
+  overflow-x: auto;
+  padding: 20px;
+}
+.post>.content * {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: .9rem !important;
+  max-width: 100%;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.post>.content pre {
+  margin: 1rem 30%  1rem 5% !important;
+  background-color: #e5e4e4 !important;
+}
+/* .post>.content pre *{
+  color: white !important;
+} */
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 599px) {
   .search-posts {
