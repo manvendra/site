@@ -15,6 +15,7 @@
 **********************/
 .home>.content {
   padding: 3rem;
+  padding-bottom: 5rem;
   width: 100%;
 }
 .home>.content a {

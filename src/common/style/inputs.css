@@ -29,7 +29,7 @@ input[type="submit"]:hover {
 .blue-button {
     background: var(--color-tertiary) !important;
     color: var(--color-bkg) !important;
-    filter: brightness(90%) !important;
+    filter: brightness(95%) !important;
 }
 
 .blue-button:hover {

@@ -20,7 +20,7 @@ const PostOverview = ({ postData }) => {
       <footer>
         <div>
         <Link to={postData.id} >
-          <button className="read-more round-button">Read More</button>
+          <button className="read-more round-button blue-button">Read More</button>
         </Link>
         </div>
       </footer>
