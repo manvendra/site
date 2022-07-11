@@ -36,38 +36,28 @@
 	row-gap: 3vh;
 }
 
+
 /************************************
           default Card
 ***********************************/
-.card {
+.simple-card{
+	background: #f9f8f8;
+	border: solid .5px #ddd;
+	margin: 1rem;
+	border-radius: 2rem;
+}
+
+.simple-card>header {
+	background: #f5f4f4;
+	margin: 0 0 .5rem 0;
+	border-radius: 2rem 2rem 0 0;
+
 	padding: 1rem;
-	background: transparent;
-
-	font-size: small;
-	text-align: center;
-
-	box-shadow: inset 0rem 0rem 1rem var(--color-shadow);
-	border-radius: .3rem;
+	color: var(--color-shadow);
+	font: small-caps 500 1.7em var(--font-family);
+	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
 }
 
-.card:hover {
-	box-shadow: inset 0rem 0rem 1rem var(--color-primary);
-	filter: brightness(95%);
-}
-
-.card>* {
-	padding: .25rem;
-}
-
-.card>header {
-	font-size: 1.1rem;
-	font-weight: 500;
-}
-
-.card img {
-	width: 100%;
-	filter: brightness(80%);
-}
 
 /** Phones **/
 @media (max-width: 599px) {
@@ -87,6 +77,13 @@
 	.container-description {
 		grid-column: 1 / -1;
 		height: 6rem;
+	}
+	.simple-card {
+		border-radius: 1rem;
+	}
+	.simple-card>header {
+		border-radius: 1rem 1rem 0 0;
+		font-size: 1.4rem;
 	}
 }
 

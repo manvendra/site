@@ -29,7 +29,7 @@ function WordCloud(props) {
             ));
 
     return (
-        <div className='word-cloud'>  
+        <div className='simple-card word-cloud'>  
             <header className='text-center'>Topics discussed in these posts</header>  
             <ReactWordcloud
                 words={prepareCloudData(data)}
