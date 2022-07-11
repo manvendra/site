@@ -1,13 +1,25 @@
 .word-cloud {
-    background: #f9f8f8;
-    border: solid .5px #ddd;
-    margin: 2rem;
-    border-radius: 2rem;
+	background: #f9f8f8;
+	border: solid .5px #ddd;
+	margin: 2rem;
+	border-radius: 2rem;
+}
+
+.word-cloud>header {
+	font: small-caps 500 1.7rem var(--font-family);
+	text-shadow: .1rem .2rem .6rem var(--color-shadow);
+	color: var(--color-shadow);
+	margin: 0;
+	margin-bottom: 1rem;
 }
 
 @media (max-width: 599px) {
-    .word-cloud {
-        margin: 0rem .5rem 1rem .5rem;
-        border-radius: 1rem;
-    }
+	.word-cloud {
+		margin: 0rem .5rem 1rem .5rem;
+		border-radius: 1rem;
+	}
+
+	.word-cloud>header {
+		font-size: 1.5rem;
+	}
 }

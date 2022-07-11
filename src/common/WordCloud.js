@@ -10,7 +10,7 @@ function WordCloud(props) {
 
     const options = {
         enableTooltip: true,
-        padding: 1,
+        padding: 2,
         scale: "sqrt",
         spiral: "archimedean",
         transitionDuration: 1500
@@ -29,7 +29,8 @@ function WordCloud(props) {
             ));
 
     return (
-        <div className="word-cloud content-center">
+        <div className='word-cloud'>  
+            <header className='text-center'>Topics discussed in these posts</header>  
             <ReactWordcloud
                 words={prepareCloudData(data)}
                 options={options}
