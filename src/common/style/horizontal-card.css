@@ -127,6 +127,6 @@ Some common breakpoints for devices with different screen sizes are:
 /** *huge devices*/
 @media (min-width: 1800px) {
 	.horizontal-card> header{
-		font-size: 3rem ;
+		font-size: 2.5rem ;
 	  }
 }
