@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1f0a1c1.css",
-    "main.js": "/static/js/main.70f11f96.js",
+    "main.css": "/static/css/main.9a3e4b91.css",
+    "main.js": "/static/js/main.0e0bd0ec.js",
     "static/js/787.6fb3f59a.chunk.js": "/static/js/787.6fb3f59a.chunk.js",
     "static/media/me-sktch.png": "/static/media/me-sktch.4a4d2c1f14ea29051667.png",
     "static/media/logo.png": "/static/media/logo.5db61043c9245816f7b6.png",
@@ -23,12 +23,12 @@
     "static/media/intertek.svg": "/static/media/intertek.4ac229513d24689b88f88c18666cffea.svg",
     "static/media/twitter.svg": "/static/media/twitter.642a257c76b89972f7fe182bc63ef990.svg",
     "static/media/medium.svg": "/static/media/medium.072a36cf6a5d32fe5cdecaf5ecc2ba21.svg",
-    "main.b1f0a1c1.css.map": "/static/css/main.b1f0a1c1.css.map",
-    "main.70f11f96.js.map": "/static/js/main.70f11f96.js.map",
+    "main.9a3e4b91.css.map": "/static/css/main.9a3e4b91.css.map",
+    "main.0e0bd0ec.js.map": "/static/js/main.0e0bd0ec.js.map",
     "787.6fb3f59a.chunk.js.map": "/static/js/787.6fb3f59a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1f0a1c1.css",
-    "static/js/main.70f11f96.js"
+    "static/css/main.9a3e4b91.css",
+    "static/js/main.0e0bd0ec.js"
   ]
 }
