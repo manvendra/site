@@ -76,9 +76,9 @@ element.style {
   margin: 2rem 30%  1rem 5% !important;
   background-color: #eeebeb !important;
 }
-/* .post>.content pre *{
-   font-family: var(--font-family) !important;
-} */
+.post>.content pre *{
+  font-size: 1.1em !important;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 599px) {
   .search-posts {
