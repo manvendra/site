@@ -76,6 +76,15 @@ export const SITE_MODULES = [
 		homeEnabled:true,
 	},
 	{
+		title: 'Prime Day Deals',
+		shortDesc: '',
+		longDesc: 'My favorite Amazon Prime Day deals.',
+		link: '/primeDeals',
+		img: '/images/primeday-home.png',
+		navEnabled: true,
+		homeEnabled:false,
+	},
+	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
 		longDesc: 'Just another subpar technologist. Loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',

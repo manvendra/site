@@ -61,6 +61,7 @@
 	color: var(--color-shadow);
 	font: small-caps 500 1.7em var(--font-family);
 	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
+	text-align: center;
 }
 
 

@@ -1,4 +1,10 @@
 
+.prime-day{
+  /* background-image: url('../../images/primeday.webp');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #3e85c7;
+}
 .review-card {
   box-shadow: .25rem .25rem 1rem var(--color-shadow);
   border-radius: 1rem;
@@ -7,8 +13,9 @@
   box-shadow: .25rem .25rem 1rem var(--color-primary);
 }
 .my-review-card{
-  box-shadow: .25rem .25rem 1rem #fcc221;
-  border-radius: 1rem;
+  /* box-shadow: .25rem .25rem 1rem #fcc221; */
+  /* border-radius: 1rem; */
+  border: none;
 }
 .my-review-card:hover{
   box-shadow: .25rem .25rem 1rem #a67b03;
@@ -16,14 +23,31 @@
 
 .caption {
   background: radial-gradient(#fcc221,#ce9b10);
-  opacity: 0.8;
+  opacity: 0.9;
   color: black;
+  display: flex;
+  gap: 1rem;
+}
+.caption img{
+  height: 100%;
+  border-radius: .5rem;
 }
 
+.prime-day .simple-card {
+  margin-top: 3rem;
+}
+
+.prime-day .simple-card section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .amazon-iframe {
   width: 130px;
   height: 250px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .big-font-shadow {
