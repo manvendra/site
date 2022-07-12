@@ -65,7 +65,7 @@ function PrimeDay() {
                 <div>
                     <div className='big-font-shadow '>
                         My Favorite Prime Day 2022 Deals.<br></br>
-                        <span className='blink_me' style={{ color: "red" }}>Deal prices will be shown once you click "Shop now".</span>
+                        <span className='blink_me' style={{ color: "red" }}>Click "Shop now" to see deal prices</span>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@
   border: none;
 }
 .my-review-card:hover{
-  box-shadow: .25rem .25rem 1rem #a67b03;
+  box-shadow: .25rem .25rem 1rem #3e85c7;
 }
 
 .caption {
@@ -60,5 +60,12 @@
   .alert {
     grid-column: 1 / -1;
     height: 7rem;
+  }
+  .prime-day .container-description {
+		height: 8rem;
+    font-size: small;
+  }
+  .prime-day .container-description img{
+		height: 80%;
   }
 }
