@@ -16,9 +16,10 @@
   /* box-shadow: .25rem .25rem 1rem #fcc221; */
   /* border-radius: 1rem; */
   border: none;
+  filter: opacity(.95);
 }
 .my-review-card:hover{
-  box-shadow: .25rem .25rem 1rem #a67b03;
+  filter: opacity(1.1);
 }
 
 .caption {
@@ -45,6 +46,18 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.prime-day .simple-card section .simple-card section {
+  background-color: #2264a3;
+  margin: .25rem;
+  border-radius:0 0 2rem 2rem;
+}
+.prime-day .simple-card section .simple-card header {
+ font-size: 1.3rem;
+}
+
+
+
 .amazon-iframe {
   width: 130px;
   height: 250px;
@@ -63,10 +76,21 @@
     height: 7rem;
   }
   .prime-day .container-description {
-		height: 8rem;
-    font-size: small;
+		height: 7rem;
+  }
+  .prime-day .container-description *{
+    font-size: .9rem;
   }
   .prime-day .container-description img{
 		height: 80%;
   }
+
+.prime-day .simple-card section .simple-card section {
+  background-color: #2264a3;
+  margin: .25rem;
+  border-radius:0 0 1rem 1rem;
+}
+.prime-day .simple-card section .simple-card header {
+  font-size: 1.1rem;
+ }
 }
