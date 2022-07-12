@@ -123,9 +123,6 @@
   
   /** *huge devices*/
   @media (min-width: 1800px) {
-    .horizontal-card> header{
-      font-size: 5rem ;
-      }
       .home>header .right img {
         width: 90%;
       }
