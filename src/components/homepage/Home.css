@@ -1,7 +1,7 @@
 @import url('./Header.css');
 
 :root{
-  --header-background: radial-gradient(#fdfeff, #e2e8f6);
+  /* --header-background: radial-gradient(#fdfeff, #e2e8f6); */
 }
 .home {
   background: var(--header-background);

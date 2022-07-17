@@ -6,12 +6,9 @@
 body {
   font-family: var(--font-family);
   line-height: 1.6;
-
-  max-width: 98%;
   align-items: center;
-  margin: 0px auto;
-
   color: var(--color-primary);
+  margin: 0px auto;
   /* background-color: var(--color-bkg); */
 }
 
@@ -39,6 +36,10 @@ img {
  -webkit-touch-callout: none; /* to disable iphone force touch*/
 }
 
+.content-area{
+  max-width: 1800px;
+  margin: auto;
+}
 .quote {
   font-size: 0.85em;
   color: var(--color-quote);
@@ -121,3 +122,26 @@ cursor: pointer;
   }
 }
 
+
+@media (max-width: 599px){
+  .App>*{
+    padding: 0;;
+    background: border-box;
+  }
+}
+@media (min-width: 600px) and (max-width: 1919px){
+  .App>*{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background: border-box;
+  }
+}
+
+/** enforcing content to stay in 1920px area **/
+@media (min-width: 1920px){
+  .App>*{
+    padding-left: calc((100vw - 1920px)/2);
+    padding-right: calc((100vw - 1920px)/2);
+    background: border-box;
+  }
+}

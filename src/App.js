@@ -13,12 +13,12 @@ const App = () => {
 
 	return (
 		<div className="App">
-		
-					<Router>
-						<Navbar />
-						<AnimatedRoutes />
-					</Router>
-			
+			<Router>
+				<Navbar />
+				<div className='content-area'>
+					<AnimatedRoutes />
+				</div>
+			</Router>
 			<Footer />
 		</div>
 	);

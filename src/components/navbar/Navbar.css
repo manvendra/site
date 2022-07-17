@@ -9,7 +9,8 @@
   z-index: 100;
 
   background: var(--color-secondary) !important;
-  padding: .5rem 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .brand-title {

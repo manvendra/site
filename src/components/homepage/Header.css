@@ -15,7 +15,7 @@
     text-align: center;
   }
   .home>header>.left .company-name {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-shadow: 1px 3px 3px var(--color-primary);
     font-weight: 300;
   }
@@ -124,6 +124,6 @@
   /** *huge devices*/
   @media (min-width: 1800px) {
       .home>header .right img {
-        width: 90%;
+        width: 80%;
       }
   }
