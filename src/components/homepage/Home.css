@@ -4,7 +4,6 @@
   /* --header-background: radial-gradient(#fdfeff, #e2e8f6); */
 }
 .home {
-  background: var(--header-background);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +22,7 @@
   color: var(--color-secondary);
 }
 .home>.content img{
-  filter: drop-shadow( 1px 1px 2px  var(--color-secondary));
+  filter: drop-shadow( 1px 1px 2px  var(--color-secondary)) grayscale(.2);;
 }
 
 @media (max-width: 599px) {

@@ -13,7 +13,7 @@ function WordCloud(props) {
         padding: 2,
         scale: "sqrt",
         spiral: "archimedean",
-        transitionDuration: 1500
+        transitionDuration: 1000
       };
 
       const callbacks = {
