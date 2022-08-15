@@ -17,7 +17,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: var(-color-primary);
   }
 
   .horizontal-card>.img-div{
