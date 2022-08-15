@@ -25,14 +25,12 @@ function ShortDescription() {
                     And most of the time, if not always, the contributor of the highest number of code defects.
                 </li>
                 <li>
-                    In the last half decade,
-                    I've tried to not harm various cloud-based Greenfield and Brownfield projects
-                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra,
-                    and a few more fancy names.
+                    In the last half-decade, I've been trying my spells on various cloud-based Greenfield and Brownfield projects 
+                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, and a few more fancy names.
                 </li>
 
                 <li>
-                    I can not call myself a front-end developer or designer. But I do have many UI tricks up my sleeves. <br />
+                    I can not call myself a front-end developer or designer. But I do have some UI tricks up my sleeves. <br />
                     However, those are limited to the level of this very archaic but highly responsive website.
                     I hold the blame for designing every single pixel here, and guilty of writing each line of ui code using reactJS.
                 </li>

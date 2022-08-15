@@ -9,8 +9,8 @@
   z-index: 100;
 
   background: var(--color-secondary) !important;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
 }
 
 .brand-title {
@@ -36,7 +36,7 @@
 .navbar-link a {
   text-decoration: none;
   font-weight: 400;
-  font-size: .875rem;;
+  font-size: .9rem;;
   color: var(--color-bkg);
 }
 .navbar-links li a:hover {
