@@ -14,6 +14,7 @@ import {AnimatePresence} from "framer-motion"
 import ProductReview from './components/reviews/ProductReview';
 import Akshay from './components/reviews/Akshay';
 import PrimeDay from './components/reviews/PrimeDay';
+import PostEditor from './components/editor/PostEditor';
 
 
 function AnimatedRoutes() {
@@ -34,6 +35,7 @@ function AnimatedRoutes() {
                 <Route path="/reviews" element={<ProductReview />} />
                 <Route path="/aksh" element={<Akshay />} />
                 <Route path='/primeDeals' element={<PrimeDay/>}/>
+                <Route path='/new-post' element={<PostEditor/>}/>
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </AnimatePresence>

@@ -1,0 +1,100 @@
+.post-editor {
+	margin: 3rem auto;
+	padding: 1rem;
+	width: 80%;
+
+	box-shadow: 0rem 0rem 3rem var(--color-shadow);
+	border-radius: 1rem;
+}
+
+.editor-menu {
+	border-radius: 1rem;
+	background-color: var(--color-shadow);
+	padding: .75rem .5rem;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	row-gap: .5rem;
+	column-gap: .75rem;
+}
+
+.menu-group {
+	/* padding: 0 1rem 0 0; */
+}
+
+.editor-menu:last-child {
+	justify-self: flex-end;
+}
+
+.editor-content {
+	margin: 1rem auto;
+	border-top: 1px solid var(--color-secondary);
+	padding: 1.5rem;
+
+}
+
+
+/** ----- From tiptap internals ***/
+.ProseMirror {
+	padding: 1rem;
+}
+
+.ProseMirror ul,ol {
+	padding: 0 1rem;
+}
+
+.ProseMirror h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.1;
+}
+
+.ProseMirror code {
+	background-color: #6161611a;
+	color: #616161;
+}
+
+.ProseMirror pre {
+	background: #0d0d0d;
+	color: #fff;
+	font-family: 'jetBrainsMono', monospace;
+	padding: 0.75rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.ProseMirror pre code {
+	color: inherit;
+	padding: 0;
+	background: none;
+	font-size: 0.8rem;
+}
+
+.ProseMirror mark {
+	background-color: #faf594;
+}
+
+.ProseMirror img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ProseMirror blockquote {
+	padding-left: 1rem;
+	border-left: 2px solid rgba(13, 13, 13, 0.1);
+}
+
+.ProseMirror hr {
+	border: none;
+	border-top: 2px solid rgba(13, 13, 13, 0.1);
+	margin: 2rem 0;
+}
+
+.ProseMirror:focus {
+	background: #fafafa;
+	outline: none;
+}
