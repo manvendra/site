@@ -23,7 +23,7 @@
 	grid-area: i;
   }
   .horizontal-card img{
-	width: 80%;
+	width: 50%;
   }
 
   .horizontal-card> header{
@@ -64,7 +64,7 @@ Some common breakpoints for devices with different screen sizes are:
 		font-size: .7rem;
 	  }
 	  .horizontal-card img{
-		width: 75%;
+		width: 65%;
 	  }
   }
 
@@ -97,7 +97,7 @@ Some common breakpoints for devices with different screen sizes are:
 		justify-content: flex-end;
 	  }
 	  .horizontal-card img{
-		width: 60%;
+		width: 50%;
 	  }
 }
 /** Small Computer screens**/
