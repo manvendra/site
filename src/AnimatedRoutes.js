@@ -15,6 +15,7 @@ import ProductReview from './components/reviews/ProductReview';
 import Akshay from './components/reviews/Akshay';
 import PrimeDay from './components/reviews/PrimeDay';
 import PostEditor from './components/editor/PostEditor';
+import Apple from './components/reviews/Apple';
 
 
 function AnimatedRoutes() {
@@ -34,6 +35,7 @@ function AnimatedRoutes() {
                 <Route path='/about' element={<AboutMe />} />
                 <Route path="/reviews" element={<ProductReview />} />
                 <Route path="/aksh" element={<Akshay />} />
+                <Route path="/apple" element={<Apple />} />
                 <Route path='/primeDeals' element={<PrimeDay/>}/>
                 <Route path='/new-post' element={<PostEditor/>}/>
                 <Route path="*" element={<NotFound />} />
