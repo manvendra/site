@@ -1,58 +1,73 @@
+/** Enhancing the existing css classes of the react component **/
+
+
+
+.react-tabs__tab-list {
+    border-bottom: none !important;
+    margin: 0 0 1px !important;
+}
+
 .react-tabs__tab {
-    display: inline-block;
-    border-bottom: none;
-    position: relative;
+    font-weight: 500;
+    border-radius: 7px 7px 0 0 !important;
+    margin: 0 .5px !important;
 
-    list-style: none;
-    cursor: pointer;
-
-    border-color: #301080;
-    font-size: 1rem;
-}
-
-.react-tabs__tab-panel--selected .react-tabs__tab {
     font-size: .9rem;
+    box-shadow: inset 0px 0px 15px var(--color-primary);
 }
 
+.react-tabs__tab--selected {
+    box-shadow: inset 0px 0px 5px var(--color-primary);
+}
+
+/** Second level tabs **/
+.react-tabs__tab-panel--selected 
+.react-tabs__tab {
+    font-size: .8rem;
+    background: var(--color-tertiary) !important;
+    box-shadow: inset 0px 0px 8px var(--color-dark-red);
+}
+
+/** Second level tabs **/
+.react-tabs__tab-panel--selected 
+.react-tabs__tab--selected {
+    box-shadow: inset 0px 0px 2px var(--color-dark-red);
+}
+
+/** Third level tabs **/
 .react-tabs__tab-panel--selected 
 .react-tabs__tab-panel--selected 
 .react-tabs__tab {
     font-size: .75rem;
+    background: none !important;
+    box-shadow: inset 0px 0px 15px var(--color-shadow);
 }
 
-
+.react-tabs__tab-panel--selected 
+.react-tabs__tab-panel--selected 
 .react-tabs__tab--selected {
-  
-    color: black;
-    border-radius: 5px 5px 0 0;
+    box-shadow: inset 0px 0px 5px var(--color-shadow);
 }
 
-.react-tabs__tab:focus {
-    outline: none;
-}
-
-.react-tabs__tab:focus:after {
-    content: '';
-    position: absolute;
-    height: 5px;
-    left: -4px;
-    right: -4px;
-    bottom: -5px;
-    background: yellow;
-}
 
 .react-tabs__tab-panel {
     display: none;
+    padding-left: 2px;
 }
 
 .react-tabs__tab-panel--selected {
     display: block;
-    border: .25px solid black;
-    border-top: none;
+    border: none;
 }
+
 .react-tabs__tab-panel--selected 
 .react-tabs__tab-panel--selected 
 .react-tabs__tab-panel--selected {
-font-size: small;
-display: flex;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: .05px solid var(--color-shadow);
+    box-shadow: inset 0px 0px 15px var(--color-secondary);
+    padding-top: 20px;
 }

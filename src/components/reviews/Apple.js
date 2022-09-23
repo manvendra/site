@@ -49,27 +49,29 @@ function Apple() {
                     items: [{
                         heading: 'Screen Protector',
                         data: [
-                            'placement=B0B244R4KB&asins=B0B244R4KB&linkId=cb8d94b8db4da7453b177e49e208503d'
+                            'placement=B095RTJH1M&asins=B095RTJH1M&linkId=b049a4ea7dd53e51cee02f16170ce36e'
                         ]
                     },
                     {
                         heading: 'Transparent Cases',
                         data: [
-                            'placement=B085WTWYS4&asins=B085WTWYS4&linkId=fcf8a610fc8bea381c317995b408fa40',
-                            'placement=B08CJP6V6W&asins=B08CJP6V6W&linkId=d9242247b63414daa103de8ad590b5a1',
-                            'placement=B09YL76VSR&asins=B09YL76VSR&linkId=2f487ed5b876c3aac272d653d58fc31a',
-                            'placement=B094C4VDJZ&asins=B094C4VDJZ&linkId=f733eb8fb01c3d734775812902f4f861',
-                            'placement=B096SSCV5K&asins=B096SSCV5K&linkId=49b09ae1cf0c9e61526d285deda707c0',
+                            'placement=B0BDJBR9SJ&asins=B0BDJBR9SJ&linkId=f8ee844138603f57f304e3c074ced901',
+                            'placement=B0B1NTZMK6&asins=B0B1NTZMK6&linkId=1214a36b9cd2a60af550464829146bec',                      
+                            'placement=B0B1P7Z2GQ&asins=B0B1P7Z2GQ&linkId=daa9fec3963171e6c18448acaca058ee',
+                            'placement=B0B1P3MY66&asins=B0B1P3MY66&linkId=d6d48a9980c912494b465959890f564c',
+                            'B0B5TQ2SV6&asins=B0B5TQ2SV6&linkId=e7ce3efd895d313ee1d274d201488f42'
+
                         ]
                     },
                     {
                         heading: 'Solid Cases',
                         data: [
-                            'placement=B0B1P24DWL&asins=B0B1P24DWL&linkId=ba0781b33ccf13563a046accfb9183eb',
-                            'placement=B0B1PFV1DD&asins=B0B1PFV1DD&linkId=ceb72be1c995ac89a38c1d20792e0ad2',
-                            'placement=B0B1NRHF47&asins=B0B1NRHF47&linkId=a609d2eac977e61256b34150e3d3627c',
-                            // 'placement=B0B1PGPLJ5&asins=B0B1PGPLJ5&linkId=0bfe3c2946ba18971be0536aadfbeeaa',
-                            'placement=B0BDJF643J&asins=B0BDJF643J&linkId=36f97aede711d08659569f4b5d7fad4b'
+                            'placement=B0BDHTSJ2Z&asins=B0BDHTSJ2Z&linkId=be69ff88f75edf059f9509bc4b2544a7',
+                            'placement=B0BDJ8M4R4&asins=B0BDJ8M4R4&linkId=00038411dfe4b51fff7d117823f3de1a',
+                            'placement=B0B1NWDPN5&asins=B0B1NWDPN5&linkId=6e597b11f4bb41d707d24b2cad19afd7',
+                            'placement=B0B1NTJWSS&asins=B0B1NTJWSS&linkId=0291d8634dfb02d3ad32bc2013739c8d',
+                            'placement=B0B1PJ2QPL&asins=B0B1PJ2QPL&linkId=544d514b72f50a1b58c0aa680dee32ff'
+                         
                         ]
                     }
                     ]
@@ -79,25 +81,22 @@ function Apple() {
                     items: [{
                         heading: 'Screen Protector',
                         data: [
-                            'placement=B0B244R4KB&asins=B0B244R4KB&linkId=cb8d94b8db4da7453b177e49e208503d'
+                            'placement=B0B244R4KB&asins=B0B244R4KB&linkId=cb8d94b8db4da7453b177e49e208503d',
+                         
                         ]
                     },
                     {
                         heading: 'Clear Cases',
                         data: [
                             'placement=B09G9B9WH5&asins=B09G9B9WH5&linkId=64fae08658c6d590320e21637519da77',
-                            'placement=B09G8YSGPR&asins=B09G8YSGPR&linkId=685d36e1feb8536accba17280b7d2310',
-                            'placement=B08M5TJPXY&asins=B08M5TJPXY&linkId=fd5b0736b10a668dba9946ef1df81419',
                         ]
                     },
                     {
                         heading: 'Solid Cases',
                         data: [
-                            'placement=B0B1P24DWL&asins=B0B1P24DWL&linkId=ba0781b33ccf13563a046accfb9183eb',
-                            'placement=B0B1PFV1DD&asins=B0B1PFV1DD&linkId=ceb72be1c995ac89a38c1d20792e0ad2',
-                            'placement=B0B1NRHF47&asins=B0B1NRHF47&linkId=a609d2eac977e61256b34150e3d3627c',
-                            // 'placement=B0B1PGPLJ5&asins=B0B1PGPLJ5&linkId=0bfe3c2946ba18971be0536aadfbeeaa',
-                            'placement=B0BDJF643J&asins=B0BDJF643J&linkId=36f97aede711d08659569f4b5d7fad4b'
+                            'placement=B09G8S927G&asins=B09G8S927G&linkId=f602a313a1c571818cdd3b2f33b3e0a6',
+                            'placement=B09G7FSHV5&asins=B09G7FSHV5&linkId=bc65d8871036e196903f4cca7061d6a6',
+                            'placement=B09G8WTNVR&asins=B09G8WTNVR&linkId=f470a5fb94f03c5c334d7e6c11a95b03'
                         ]
                     }
                     ]

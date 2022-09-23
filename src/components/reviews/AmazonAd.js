@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import  './AmazonAd.css'
 
 const AmazonAd = (props) => {
 
@@ -15,7 +16,7 @@ const AmazonAd = (props) => {
 
   return (
     <motion.div
-      animate={{ scale: [1, 1.2, 1], duration: 2 }}>
+      animate={{ scale: [1, 1.2, 1], duration: 3 }}>
       <iframe
         title={index}
         key={index}
@@ -25,7 +26,8 @@ const AmazonAd = (props) => {
                                    allow-scripts 
                                    allow-modals 
                                    allow-forms 
-                                   allow-same-origin">
+                                   allow-same-origin"
+        style={ {width: '120px', height:'240px',border:'1px solid black'}} >
       </iframe>
     </motion.div>
   )

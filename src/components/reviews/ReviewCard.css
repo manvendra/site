@@ -62,45 +62,6 @@
  font-size: 1.3rem;
 }
 
-
-/*** Appple *---*/
-.apple .simple-card {
-  margin-top: 3rem;
-  background: transparent;
-}
-
-.apple .simple-card section{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #f8f7fc;
-  border-radius:0 0 2rem 2rem;
-
-}
-
-.apple .simple-card section .simple-card section {
-  background-color: #eeedf2;
-  margin: .25rem;
-  border-radius:0 0 2rem 2rem;
-}
-.apple  header {
-  box-shadow: inset 0px 0px 20px var(--color-shadow);
- }
-.apple .simple-card section .simple-card header {
- font-size: 1.3rem;
-}
-
-/**** Apple end ----*/
-
-
-.amazon-iframe {
-  width: 130px;
-  height: 250px;
-  margin: 10px;
-}
-
 .big-font-shadow {
   font-size: 1rem;
   font-weight: 500;
