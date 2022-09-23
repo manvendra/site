@@ -25,13 +25,13 @@
 .react-tabs__tab {
     font-size: .8rem;
     background: var(--color-tertiary) !important;
-    box-shadow: inset 0px 0px 8px var(--color-dark-red);
+    box-shadow: inset 0px 0px 15px var(--color-dark-red);
 }
 
 /** Second level tabs **/
 .react-tabs__tab-panel--selected 
 .react-tabs__tab--selected {
-    box-shadow: inset 0px 0px 2px var(--color-dark-red);
+    box-shadow: inset 0px 0px 5px var(--color-dark-red);
 }
 
 /** Third level tabs **/
