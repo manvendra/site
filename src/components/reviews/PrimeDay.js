@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import './ReviewCard.css'
 import Masonry from 'react-masonry-css'
 import primeimg from '../../images/primeday.png'
-import  {generateIframeUrl}  from './Amazon'
+import  AmazonAd  from './AmazonAd'
 
 
 function PrimeDay() {
@@ -146,18 +146,8 @@ function PrimeDay() {
                     <header>Smart Watches</header>
                     <section>
                         {wearable.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>                    
                         ))}
                     </section>
                 </div>
@@ -166,18 +156,8 @@ function PrimeDay() {
                     <header>Apple Products (Prime day or other deal)</header>
                     <section>
                         {appleDeals.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
@@ -189,18 +169,8 @@ function PrimeDay() {
                             <header>Wireless Earbuds</header>
                             <section>
                                 {earbuds.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -208,18 +178,8 @@ function PrimeDay() {
                             <header>Bluetooth Speakers</header>
                             <section>
                                 {speaker.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -227,18 +187,8 @@ function PrimeDay() {
                             <header>Wireless Headphones</header>
                             <section>
                                 {headphone.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -253,18 +203,8 @@ function PrimeDay() {
                             <header>Lights</header>
                             <section>
                                 {lights.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -273,18 +213,8 @@ function PrimeDay() {
                             <header>Smart plugs and other devices</header>
                             <section>
                                 {otherDevices.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -292,18 +222,8 @@ function PrimeDay() {
                             <header>Security Cameras</header>
                             <section>
                                 {cameras.map((src, index) => (
-                                    <motion.div
-                                        animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                        <iframe title={index} key={index}
-                                            className='amazon-iframe my-review-card'
-                                            sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                            src={generateIframeUrl(src)}>
-                                        </iframe>
-                                    </motion.div>
+                                    <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                                 ))}
                             </section>
                         </div>
@@ -315,18 +235,8 @@ function PrimeDay() {
                     <header>Small Electronics</header>
                     <section>
                         {smallElectronics.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
@@ -335,18 +245,8 @@ function PrimeDay() {
                     <header>Electronic Accesories</header>
                     <section>
                         {electronicAcccessories.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
@@ -355,18 +255,8 @@ function PrimeDay() {
                     <header>Kitchen</header>
                     <section>
                         {kitchen.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
@@ -375,18 +265,8 @@ function PrimeDay() {
                     <header>Luggage (Not everything on prime-day deal)</header>
                     <section>
                         {luggage.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
@@ -395,18 +275,8 @@ function PrimeDay() {
                     <header>Gift Cards</header>
                     <section>
                         {gitCard.map((src, index) => (
-                            <motion.div
-                                animate={{ scale: [1, 1.2, 1], duration: 2 }}>
-                                <iframe title={index} key={index}
-                                    className='amazon-iframe my-review-card'
-                                    sandbox="allow-popups 
-                                        allow-scripts 
-                                        allow-modals 
-                                        allow-forms 
-                                        allow-same-origin"
-                                    src={generateIframeUrl(src)}>
-                                </iframe>
-                            </motion.div>
+                            <AmazonAd 
+                            index={index} src={src}></AmazonAd>
                         ))}
                     </section>
                 </div>
