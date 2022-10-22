@@ -25,7 +25,7 @@
 .react-tabs__tab {
     font-size: .8rem;
     background: var(--color-tertiary) !important;
-    box-shadow: inset 0px 0px 15px var(--color-dark-red);
+    box-shadow: inset 0px 0px 20px var(--color-dark-red);
 }
 
 /** Second level tabs **/
@@ -66,8 +66,19 @@
     font-size: small;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 25px;
     border: .05px solid var(--color-shadow);
     box-shadow: inset 0px 0px 15px var(--color-secondary);
-    padding-top: 20px;
+    padding: 20px;
+}
+
+
+@media (min-width: 599px) {
+.react-tabs__tab-panel--selected 
+.react-tabs__tab-panel--selected 
+.react-tabs__tab-panel--selected {
+
+    justify-content: space-evenly;
+
+}
 }

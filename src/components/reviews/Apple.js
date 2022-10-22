@@ -56,10 +56,11 @@ function Apple() {
                         heading: 'Transparent Cases',
                         data: [
                             'placement=B0BDJBR9SJ&asins=B0BDJBR9SJ&linkId=f8ee844138603f57f304e3c074ced901',
+                            'placement=B0B9NWG4KX&asins=B0B9NWG4KX&linkId=61ddcde7575b194a9d82d37d58d6b008',
                             'placement=B0B1NTZMK6&asins=B0B1NTZMK6&linkId=1214a36b9cd2a60af550464829146bec',                      
                             'placement=B0B1P7Z2GQ&asins=B0B1P7Z2GQ&linkId=daa9fec3963171e6c18448acaca058ee',
                             'placement=B0B1P3MY66&asins=B0B1P3MY66&linkId=d6d48a9980c912494b465959890f564c',
-                            'B0B5TQ2SV6&asins=B0B5TQ2SV6&linkId=e7ce3efd895d313ee1d274d201488f42'
+                            'placement=B0B5TQ2SV6&asins=B0B5TQ2SV6&linkId=e7ce3efd895d313ee1d274d201488f42'
 
                         ]
                     },

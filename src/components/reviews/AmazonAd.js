@@ -3,7 +3,7 @@ import  './AmazonAd.css'
 
 const AmazonAd = (props) => {
 
-  const { src, index } = props;
+  const { src, index , price} = props;
 
   const generateIframeUrl = (identifier) => {
     const amazonUrl = '//ws-na.amazon-adsystem.com/widgets/q';
@@ -17,6 +17,11 @@ const AmazonAd = (props) => {
   return (
     <motion.div
       animate={{ scale: [1, 1.2, 1], duration: 3 }}>
+      <div className='deal-price' > 
+      <span>Deal price starts at ${price} </span>
+        {/* <hr></hr> 
+      <span style={{'font-size':'.8rem'}}>get extra 10$ with amazon card</span> */}
+      </div>
       <iframe
         title={index}
         key={index}
@@ -27,7 +32,7 @@ const AmazonAd = (props) => {
                                    allow-modals 
                                    allow-forms 
                                    allow-same-origin"
-        style={ {width: '120px', height:'240px',border:'1px solid black'}} >
+        style={ {width: '125px', height:'245px'}} >
       </iframe>
     </motion.div>
   )

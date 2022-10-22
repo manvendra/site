@@ -44,6 +44,7 @@
 }
 
 .prime-day .simple-card section{
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -51,6 +52,7 @@
   flex-wrap: wrap;
   background-color: #2264a3;
   border-radius:0 0 2rem 2rem;
+  gap: 10px;
 }
 
 .prime-day .simple-card section .simple-card section {
@@ -65,7 +67,22 @@
 .big-font-shadow {
   font-size: 1rem;
   font-weight: 500;
-  text-shadow: 2px 2px 2px gray;
+  text-shadow: 1px 1px 5px gray;
+}
+
+.prime-day .simple-card section .deal-price {
+  width: 120px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+
+  padding: 10px;
+  background: var(--card-header-color);
+  border-radius: 1rem 1rem 0 0;
+
+  font: small-caps 500 medium var(--font-family);
+  text-shadow: .1rem .1rem .3rem var(--color-shadow);
+  text-align: center;
+  color: #7a29cc;
 }
 
 @media (max-width: 599px) {
