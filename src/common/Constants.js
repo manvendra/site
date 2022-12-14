@@ -59,7 +59,7 @@ export const SITE_MODULES = [
 	{
 		title: 'Photography',
 		shortDesc: 'Random clicks at not so random locations, all from iphone.',
-		longDesc: 'Some random clicks at not so random locations, all taken from iphone. Mostly iPhone7.',
+		longDesc: 'Phone photography, so many random clicks at not so random places, all taken from iphone.',
 		link: '/photos',
 		img: '/images/trnsp-cmr.png',
 		navEnabled: true,
@@ -87,7 +87,7 @@ export const SITE_MODULES = [
 	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
-		longDesc: 'Just another subpar technologist. Loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
+		longDesc: 'Another subpar technologist. Loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
 		link: '/about',
 		img: '/images/trnsp-spme-blue-200.png',
 		navEnabled: true,
