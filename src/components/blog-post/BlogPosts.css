@@ -66,14 +66,14 @@ element.style {
 }
 
 .post>.content pre {
-  margin: 2rem 30%  1rem 5% !important;
-  /* background-color: #eeebeb !important;
-  background-color: #616574 !important; */
-  background-color: #324561 !important;
-  border-radius: 5px;
+    margin: 2rem 30%  1rem 5% !important;
+    background-color: #a1a9b9 !important;
+    border-radius: 5px;
 }
 .post>.content pre *{
+  font-family: 'Courier New', Courier, monospace !important;
   font-size: 1.1em !important;
+  color: var(--color-primary) !important;
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 599px) {
