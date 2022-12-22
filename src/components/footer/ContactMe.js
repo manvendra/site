@@ -55,7 +55,7 @@ const ContactMe = () => {
 					required rows={3} maxLength={200}
 					onChange={e => setMessage(e.target.value)} />
 				<div className="content-right">
-					<input className="blue-button" type="submit" value="Send message" />
+					<input className="tertiary-color-button" type="submit" value="Send message" />
 				</div>
 			</form>)}
 			{(messageSent &&

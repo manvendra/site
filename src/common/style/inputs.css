@@ -26,13 +26,13 @@ input[type="submit"]:hover {
     border-radius: .8rem !important;
 }
 
-.blue-button {
+.tertiary-color-button {
     background: var(--color-tertiary) !important;
     color: var(--color-bkg) !important;
     filter: brightness(95%) !important;
 }
 
-.blue-button:hover {
+.tertiary-color-button:hover {
     filter: brightness(110%) !important;
 }
 

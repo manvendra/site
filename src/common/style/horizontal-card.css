@@ -35,8 +35,6 @@
 	grid-area: s;
 	align-items: baseline;
 	justify-content: space-evenly;
-
-	font-size: .875rem;
   }
 
 /*****
@@ -61,7 +59,7 @@ Some common breakpoints for devices with different screen sizes are:
 		justify-content: flex-end;
 	  }
 	  .horizontal-card> section{
-		font-size: .7rem;
+		font-size: .8rem;
 	  }
 	  .horizontal-card img{
 		width: 65%;

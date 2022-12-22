@@ -4,55 +4,73 @@
 @import url(./common/style/inputs.css);
 
 body {
-  font-family: var(--font-family);
-  line-height: 1.6;
   align-items: center;
-  color: var(--color-primary);
   margin: 0px auto;
+
+  font-family: var(--font-family);
+  /* line-height: 1.5; */
+  line-height: 1.7;
+
   /* background-color: var(--color-bkg); */
+  background: radial-gradient(#364761, var(--color-primary));
+
+  /* color: var(--color-primary);  */
+  color: var(--font-color);
 }
 
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 img {
   /*--copied following properties from internet
  to disable drag. not sure which one works ---*/
- -webkit-user-drag: none;/* Chrome all / Safari all */
- -khtml-user-drag: none;
- -moz-user-drag: none;  /* Firefox all */
- -o-user-drag: none;
+  -webkit-user-drag: none;
+  /* Chrome all / Safari all */
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  /* Firefox all */
+  -o-user-drag: none;
   user-drag: none;
 
-    /*--copied following properties from internet
+  /*--copied following properties from internet
  to disable click. not sure which one works ---*/
- -webkit-user-select: none;  /* Chrome all / Safari all */
- -moz-user-select: none; 
- -ms-user-select: none;  /* IE 10+ */
- -o-user-select: none;
- user-select: none;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;
 
- -webkit-touch-callout: none; /* to disable iphone force touch*/
+  -webkit-touch-callout: none;
+  /* to disable iphone force touch*/
 }
 
-.content-area{
+.content-area {
   max-width: 1800px;
   margin: auto;
 }
+
 .quote {
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: var(--color-quote);
   font-style: italic;
   text-align: right;
 }
-.text-left{
+
+.text-left {
   text-align: left;
 }
-.text-right{
+
+.text-right {
   text-align: right;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
 
@@ -61,57 +79,77 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 .content-right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.pointer:hover{
-cursor: pointer;
+.pointer:hover {
+  cursor: pointer;
 }
+
 .img-xs {
   width: 15px;
 }
+
 .img-s {
   width: 35px;
   height: 30px;
 }
+
 .img-m {
   width: 70px;
 }
+
 .img-l {
   width: 110px;
 }
+
 .img-xl {
   width: 150px;
 }
+
 .img-xxl {
   width: 250px;
 }
 
-.circle{
-     /*-- make sure width and hight are set as same. --*/
-     border-radius: 50%;
-     overflow: hidden;
-     box-shadow:  5px 5px 5px ;
+.circle {
+  /*-- make sure width and hight are set as same. --*/
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px;
 }
 
-
 .multi-color-text {
-  background-image: linear-gradient(to right, #FF2626, #0295a3, #0ab90a, #b79917, #ef7b45, #0353a4, #08ab08, #FF2626, #c29f04, #036b75, #FF2626, #0353a4);
+  background-image: linear-gradient(to right,
+      #FF2626,
+      #0295a3,
+      #0ab90a,
+      #b79917,
+      #ef7b45,
+      #0353a4,
+      #08ab08,
+      #FF2626,
+      #c29f04,
+      #036b75,
+      #FF2626,
+      #0353a4);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.no-decoration{
+.no-decoration {
   text-decoration: none !important;
 }
-.small-text{
+
+.small-text {
   font-size: small;
 }
+
 .blink_me {
   animation: blinker 1s linear infinite;
 }
@@ -123,14 +161,15 @@ cursor: pointer;
 }
 
 
-@media (max-width: 599px){
-  .App>*{
-    padding: 0;;
+@media (max-width: 599px) {
+  .App>* {
+    padding: 0;
     background: border-box;
   }
 }
-@media (min-width: 600px) and (max-width: 1919px){
-  .App>*{
+
+@media (min-width: 600px) and (max-width: 1919px) {
+  .App>* {
     padding-left: 1vw;
     padding-right: 1vw;
     background: border-box;
@@ -138,8 +177,8 @@ cursor: pointer;
 }
 
 /** enforcing content to stay in 1920px area **/
-@media (min-width: 1920px){
-  .App>*{
+@media (min-width: 1920px) {
+  .App>* {
     padding-left: calc((100vw - 1920px)/2);
     padding-right: calc((100vw - 1920px)/2);
     background: border-box;

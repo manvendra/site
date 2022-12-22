@@ -28,12 +28,11 @@
 
 .post>* {
   padding: var(--padding);
-  box-shadow: .25rem .25rem 15px var(--color-secondary);
-  font-family: 'Times New Roman', Times, serif  !important;
+  box-shadow: .25rem .25rem 15px var(--color-primary);
 }
 
 .post>.title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -41,17 +40,16 @@
 /* if I don't re declare font-family here, 
   safari doesn't take the correct font size on post code area, 
  chrome works without  it. taking from parent container*/
-  font-family: 'Times New Roman', Times, serif  !important; 
-
-  font-size: .9rem !important;
+  color: var(--font-color) !important;
+  font-size: 1rem !important;
   max-width: 100%;
 }
 
 .post>.content  h1, h1>span {
-  font-size: 1.4rem !important;
+  font-size: 1.5rem !important;
 }
 .post>.content  h2, h2>span {
-  font-size: 1.1rem !important;
+  font-size: 1.2rem !important;
 }
 
 
@@ -63,18 +61,16 @@ element.style {
   overflow-x: auto;
   padding: 20px;
 }
-.post>.content * {
-  font-family: 'Times New Roman', Times, serif !important;
-  font-size: .9rem !important;
-  max-width: 100%;
-}
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 .post>.content pre {
   margin: 2rem 30%  1rem 5% !important;
-  background-color: #eeebeb !important;
+  /* background-color: #eeebeb !important;
+  background-color: #616574 !important; */
+  background-color: #324561 !important;
+  border-radius: 5px;
 }
 .post>.content pre *{
   font-size: 1.1em !important;

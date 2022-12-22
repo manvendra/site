@@ -9,13 +9,17 @@
 }
 
 .tabs label {
-    padding: 2vh 2vw;
+    padding: 1.5vh 1.5vw;
     font-weight: bold;
-    background: var(--color-bkg);
+
+    border-radius: 5px;
+
+    color: var(--color-shadow);
+    background: var(--font-color);
 }
 
-.tabs input :hover {
-    cursor: grab;
+.tabs input+ label :hover {
+    cursor: pointer;
 }
 
 .tabs .tab {
@@ -24,24 +28,26 @@
 
     order: 1;
     display: none;
-
     /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-shadow); */
     /* border: 1px solid #8d9cb8; */
 }
-
-.tab li{
-   margin-bottom: 0.5rem;
-}   
 .tabs input[type='radio']:checked+label+.tab {
     display: block;
 }
 
 .tabs input[type="radio"]:checked+label {
-    background: var(--color-tertiary);
     color: var(--color-bkg);
-    border-radius: 5px;
- 
+    background: var(--color-tertiary);
+    filter: opacity(90%);
 }
+
+
+
+.tab li{
+   margin-bottom: 0.5rem;
+}   
+
+
 
 .tab .clients {
     width: 90%;
