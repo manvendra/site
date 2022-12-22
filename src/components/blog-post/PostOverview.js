@@ -11,7 +11,7 @@ const PostOverview = ({ postData }) => {
       </header>
 
       <section>
-        <p className="title"><h4>{postData?.title}</h4></p>
+        <h4 className="title">{postData?.title}</h4>
         <p className="quote text-left sample">
           {Utils.extractOverviewFromContent(postData.content)}
         </p>
@@ -20,7 +20,7 @@ const PostOverview = ({ postData }) => {
       <footer>
         <div>
         <Link to={postData.id} >
-          <button className="read-more round-button blue-button">Read More</button>
+          <button className="read-more round-button tertiary-color-button">Read More</button>
         </Link>
         </div>
       </footer>
