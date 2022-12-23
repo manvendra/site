@@ -29,7 +29,7 @@
   .horizontal-card> header{
 	grid-area: h;
 	align-items: baseline;
-	font: small-caps 600 2rem  var(--font-family);
+	font: small-caps 600 2rem  var(--app-font-family);
   }
   .horizontal-card>section{
 	grid-area: s;

@@ -7,15 +7,12 @@ body {
   align-items: center;
   margin: 0px auto;
 
-  font-family: var(--font-family);
+  font-family: var(--app-font-family) !important;
   /* line-height: 1.5; */
   line-height: 1.7;
 
-  /* background-color: var(--color-bkg); */
-  background: radial-gradient(#364761, var(--color-primary));
-
-  /* color: var(--color-primary);  */
-  color: var(--font-color);
+  background: var(--app-background);
+  color: var(--app-font-color) !important;
 }
 
 
@@ -57,9 +54,9 @@ img {
 
 .quote {
   font-size: 0.9em;
-  color: var(--color-quote);
   font-style: italic;
   text-align: right;
+  opacity: 65%;
 }
 
 .text-left {
@@ -120,26 +117,6 @@ img {
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 5px 5px 5px;
-}
-
-.multi-color-text {
-  background-image: linear-gradient(to right,
-      #FF2626,
-      #0295a3,
-      #0ab90a,
-      #b79917,
-      #ef7b45,
-      #0353a4,
-      #08ab08,
-      #FF2626,
-      #c29f04,
-      #036b75,
-      #FF2626,
-      #0353a4);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 .no-decoration {

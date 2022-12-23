@@ -37,8 +37,8 @@
 .cards-container {
 	display: grid;
 	grid-template-columns: repeat(4, 3fr);
-	column-gap: 2vw;
-	row-gap: 3vh;
+	column-gap: 2.8rem;
+	row-gap: 3rem;
 }
 
 
@@ -58,7 +58,7 @@
 	border-radius: 2rem 2rem 0 0;
 
 	padding: 1rem;
-	font: small-caps 500 1.7em var(--font-family);
+	font: small-caps 500 1.7em var(--app-font-family);
 	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
 	text-align: center;
 }

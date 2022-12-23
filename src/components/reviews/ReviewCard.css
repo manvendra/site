@@ -79,7 +79,7 @@
   background: var(--card-header-color);
   border-radius: 1rem 1rem 0 0;
 
-  font: small-caps 500 medium var(--font-family);
+  font: small-caps 500 medium var(--app-font-family);
   text-shadow: .1rem .1rem .3rem var(--color-shadow);
   text-align: center;
   color: #7a29cc;

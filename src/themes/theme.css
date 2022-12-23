@@ -1,38 +1,19 @@
 :root {
-  --color-bkg: #f4f7f9;
+
+  /* --app-font-family: 'Open Sans', sans-serif; */
+  --app-font-family: 'Mukta', sans-serif;
+  --app-font-color: #bec6cc;
+
 
   --color-primary: #1b2038;
-  --color-secondary: #425068;
-  /* --color-tertiary: #ef8354; */
-  --color-tertiary: #d15723;
+  --color-secondary: #37445c;
+  --color-tertiary: #cb5d2d;
+
+  /* --app-background: #f4f7f9; */
+  --app-background: radial-gradient(var(--color-secondary), var(--color-primary));
 
 
-  --color-quote: #a5a3a3;
-  /* --font-family: 'Open Sans', sans-serif; */
-  --font-family: 'Mukta', sans-serif;
-
-  /***  these 2 are extra, but used now, planned to be removed**/
+  /***  this is extra, but used now, planned to be removed**/
   --color-dark-red: #570000;
-  --color-shadow: #616574;
-
-  --font-color:#c8d3dc;
-
-  /*  RED PALLET
-    --color-primary: #590d22;
-    --color-secondary: #800F2F;
-    --color-tertiary: #C9184A; 
-    */
-
-  /* BLUE PALLET 1
-  --color-primary: #062e4d;
-  --color-secondary: #145485;
-  --color-tertiary: #1E6091;
-*/
-
-  /* BLUE PALLET 2
---color-primary: #001845;
---color-secondary: #023e7d;
---color-tertiary: #0353a4;
-*/
 
 }

@@ -15,7 +15,7 @@
     border-radius: 5px;
 
     color: var(--color-shadow);
-    background: var(--font-color);
+    background: var(--app-font-color);
 }
 
 .tabs input+ label :hover {
@@ -36,7 +36,7 @@
 }
 
 .tabs input[type="radio"]:checked+label {
-    color: var(--color-bkg);
+    color: var(--app-background);
     background: var(--color-tertiary);
     filter: opacity(90%);
 }

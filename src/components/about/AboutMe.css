@@ -41,7 +41,7 @@
     grid-area: 1 / 3/ 4/ 9;
 }
 .about-me .description>h3 {
-    font: 600 xx-large var(--font-family);
+    font: 600 xx-large var(--app-font-family);
 }
 .about-me .description .self-summary {
     margin-top: 3vh;

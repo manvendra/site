@@ -11,7 +11,7 @@ const Header = () => {
 					<font color="#FF9966">i</font>
 					<font color="#0F52BA">d</font>
 					<font color="#66CC66">o</font>
-					<font color="#FF2626">s</font>
+					<font color="#cb5d2d">s</font>
 					<font color="#FFD523">c</font>
 					<font color="#00C1D4">o</font>
 					<font color="#0F52BA">p</font>

@@ -11,7 +11,7 @@ input[type="submit"] {
     border: 1px solid var(--color-secondary);
     border-radius: .3em;
 
-    background-color: var(--color-bkg);
+    background-color: var(--app-background);
     color: var(--color-secondary);
 }
 
@@ -19,7 +19,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
     background-color: var(--color-primary);
-    color: var(--color-bkg);
+    color: var(--app-background);
 }
 
 .round-button {
@@ -28,7 +28,7 @@ input[type="submit"]:hover {
 
 .tertiary-color-button {
     background: var(--color-tertiary) !important;
-    color: var(--color-bkg) !important;
+color: var(--app-font-color) !important;
     filter: brightness(95%) !important;
 }
 
@@ -38,7 +38,7 @@ input[type="submit"]:hover {
 
 .red-button {
     background-color: var(--color-dark-red) !important;
-    color: var(--color-bkg) !important;
+    color: var(--app-font-color) !important;
     filter: brightness(90%) !important;
 }
 

@@ -29,6 +29,7 @@
 .post-overview-card>section>.title{
   height: 5rem;
   overflow: hidden;
+  padding: 1rem;
 }
 .post-overview-card>section>.sample{
   height: 4rem;

@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     align-items: center;
+    opacity: 70%;
   }
   
   .home>header>.left {
@@ -18,6 +19,7 @@
     font-size: 3.5rem;
     text-shadow: 1px 3px 3px var(--color-primary);
     font-weight: 300;
+
   }
 
   .home>header>.right {

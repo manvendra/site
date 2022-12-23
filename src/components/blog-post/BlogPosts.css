@@ -13,11 +13,8 @@
 .search-posts input {
   width: 100%;
   height: 3rem;
-
-  color: var(--color-quote);
   font-size: 1em;
   border: none;
-  border-bottom: 1px dotted var(--color-quote);
 }
 
 
@@ -40,16 +37,16 @@
 /* if I don't re declare font-family here, 
   safari doesn't take the correct font size on post code area, 
  chrome works without  it. taking from parent container*/
-  color: var(--font-color) !important;
+  color: var(--app-font-color) !important;
   font-size: 1rem !important;
   max-width: 100%;
 }
 
 .post>.content  h1, h1>span {
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
 }
 .post>.content  h2, h2>span {
-  font-size: 1.2rem !important;
+  font-size: 1.3rem !important;
 }
 
 
@@ -89,6 +86,13 @@ element.style {
   .post>.content pre {
     margin: 2rem 1rem !important;
   }
+
+  .post>.title {
+    font-size: 1.4rem;
+  }
+  .post>.content * {
+      font-size: .95rem !important;
+    }
 
 }
 
