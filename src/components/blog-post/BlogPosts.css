@@ -48,7 +48,9 @@
 .post>.content  h2, h2>span {
   font-size: 1.3rem !important;
 }
-
+.post>.content blockquote {
+  box-shadow: 3px 0 0 0 var(--app-font-color) inset !important;
+}
 
 element.style {
   background-color: #f2f2f2;
