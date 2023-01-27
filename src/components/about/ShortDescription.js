@@ -17,7 +17,7 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    In the last sixteen years, I've played many different roles to work on various enterprise-scale solutions for different clients,
+                    In last sixteen years, I've played different roles to work on many enterprise-scale solutions for various clients 
                     spanning Finance, Automotive, Healthcare, Products & Travel domains.
                 </li>
                 <li>
@@ -28,7 +28,6 @@ function ShortDescription() {
                     For the last many years, I've been trying my spells on various Greenfield and Brownfield cloud-based projects, 
                     using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, and a few more fancy names.
                 </li>
-
                 <li>
                     I can not call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
                     However, those are limited to the level of this very archaic but highly responsive website.
