@@ -1,19 +1,14 @@
 :root {
-
-  /* --app-font-family: 'Open Sans', sans-serif; */
-  --app-font-family: 'Mukta', sans-serif;
-  --app-font-color: #bec6cc;
-
-
   --color-primary: #1b2038;
   --color-secondary: #37445c;
   --color-tertiary: #cb5d2d;
 
-  /* --app-background: #f4f7f9; */
+  --app-font-family: 'Mukta', sans-serif;
+  --app-font-color: #cbd3db;
+  
   --app-background: radial-gradient(var(--color-secondary), var(--color-primary));
-
+  /* --app-background: radial-gradient(#354156, #1d2942); */
 
   /***  this is extra, but used now, planned to be removed**/
   --color-dark-red: #570000;
-
 }

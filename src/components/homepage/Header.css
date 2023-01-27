@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     align-items: center;
-    opacity: 75%;
+    opacity: 85%;
   }
   
   .home>header>.left {
@@ -72,7 +72,6 @@
     }
     .home>header>.left .company-name {
       font-size: 3.5rem;
-      /* text-shadow: 1px 2px 3px var(--color-primary); */
     }
     .home>header .left {
       grid-column: 1 / -1;

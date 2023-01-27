@@ -5,11 +5,11 @@
 	display: grid;
 	grid-template-columns: repeat(9,1fr);
 	grid-template-rows: repeat(2, auto-fill);
-	gap:  1rem;
+	row-gap:  10rem;
 
 	grid-template-areas:
-	"i i h h s s s - -"
-	"i i h h s s s - -"
+	"i i h h s s s s -"
+	"i i h h s s s s -"
   }
 
   .horizontal-card>*{
@@ -51,8 +51,8 @@ Some common breakpoints for devices with different screen sizes are:
 		width: 85%;
 		row-gap: .5rem;
 		grid-template-areas:
-		  "i i i i h h h h h"
-		  "i i i i s s s s s "
+		  "- i i i h h h h h"
+		  "- i i i s s s s s "
 	}
 	.horizontal-card> header{
 		font-size: 1.7rem ;
@@ -72,8 +72,8 @@ Some common breakpoints for devices with different screen sizes are:
 		width: 80%;
 		row-gap: 0;
 		grid-template-areas:
-		  "i i i i h h h h h"
-		  "i i i i s s s s s "
+		  "i i i - h h h h h"
+		  "i i i - s s s s s "
 	}
 	.horizontal-card> header{
 		font-size: 1.8rem ;
@@ -87,8 +87,8 @@ Some common breakpoints for devices with different screen sizes are:
 		row-gap: 0;
 		column-gap: .5rem;
 		grid-template-areas:
-		"i i i i h h h h h"
-		"i i i i s s s s s "
+		"- i i i h h h h h"
+		"- i i i s s s s s "
 	}
 	.horizontal-card> header{
 		font-size: 1.8rem ;
