@@ -21,7 +21,7 @@ const HomeContent = () => {
 							<header> {module.title}</header>
 							<section> {module.longDesc}
 								<Link to={module.link} key={'home_content_section_' + index}>
-									<button className="round-button tertiary-color-button padding-top-5">Show more</button>
+									<button className="round-button secondary-color-button padding-top-5">Show more</button>
 								</Link>
 							</section>
 						</div>
