@@ -20,7 +20,7 @@
 
 .home>.content img{
   /* filter: drop-shadow( 1px 1px 2px  var(--color-secondary)) grayscale(.2);; */
-    filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(60%);
+    filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(70%);
     
 }
 
