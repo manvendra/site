@@ -116,7 +116,7 @@ img {
   /*-- make sure width and hight are set as same. --*/
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 5px 5px 5px;
+  /* box-shadow: 5px 5px 5px; */
 }
 
 .no-decoration {

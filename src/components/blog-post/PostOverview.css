@@ -5,7 +5,7 @@
   box-shadow: .25rem .25rem .5rem var(--color-primary);
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 1rem;
-  filter: brightness(90%);
+  filter: brightness(95%);
 }
 .post-overview-card:hover {
   box-shadow: .25rem .25rem 1.5rem var(--color-primary);
@@ -14,11 +14,11 @@
 
 .post-overview-card>header img {
   width: 100%;
-  filter: brightness(85%);
+  filter: brightness(95%);
   /* max-height: 300px !important; */
 }
 .post-overview-card>header img:hover {
-  filter: brightness(95%);
+  filter: brightness(100%);
 
 }
 

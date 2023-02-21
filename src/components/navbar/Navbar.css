@@ -7,7 +7,7 @@
   top: 0;
   position: sticky;
   z-index: 100;
-  /* background: var(--color-secondary) !important; */
+  background: var(--color-secondary) !important;
   padding-top: .6rem;
   padding-bottom: .6rem;
 }
@@ -36,7 +36,8 @@
   text-decoration: none;
   font-weight: 400;
   font-size: 1.2rem;
-  color: var(--app-font-color); 
+  /* color: var(--app-font-color);  */
+  color: var(--app-background);
   filter: brightness(120%);
 }
 .navbar-links li a:hover {

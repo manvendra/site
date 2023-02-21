@@ -28,8 +28,8 @@ input[type="submit"]:hover {
 
 .tertiary-color-button {
     background: var(--color-tertiary) !important;
-color: var(--app-font-color) !important;
-    filter: brightness(95%) !important;
+    color: var(--app-background) !important;
+    filter: brightness(90%) !important;
 }
 
 .tertiary-color-button:hover {
