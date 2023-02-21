@@ -4,7 +4,9 @@
   --color-tertiary: #cb5d2d;
   
 
-  --app-font-family: 'Mukta', sans-serif;
+
+  --app-font-family: 'Open Sans', sans-serif;
+  /* --app-font-family: 'Mukta', sans-serif; */
   /* --app-font-color: #cbd3db; */
 
   --app-background: #f0f1f6;
