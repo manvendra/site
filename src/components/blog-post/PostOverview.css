@@ -1,63 +1,36 @@
 /************************************
-          Overview Card
+          Override properties for simple card 
 ***********************************/
-.post-overview-card {
-  box-shadow: .25rem .25rem .5rem var(--color-primary);
-  border-bottom-left-radius: 4rem;
-  border-bottom-right-radius: 1rem;
-  filter: brightness(95%);
-}
-.post-overview-card:hover {
-  box-shadow: .25rem .25rem 1.5rem var(--color-primary);
-  filter: brightness(100%);
-}
 
-.post-overview-card>header img {
-  width: 100%;
-  filter: brightness(95%);
-  /* max-height: 300px !important; */
+.blog-post .simple-card>header {
+	font: small-caps 500 1.2em var(--app-font-family);
+  padding: .5rem;
+  height: 4rem; /* for double line title to come in same space as single line*/
 }
-.post-overview-card>header img:hover {
-  filter: brightness(100%);
-
-}
-
-
-.post-overview-card>section p {
-  margin: .5rem .8rem;
-}
-.post-overview-card>section>.title{
-  height: 5rem;
-  overflow: hidden;
-  padding: 1rem;
-}
-.post-overview-card>section>.sample{
-  height: 4rem;
-  overflow: hidden;
-}
-.post-overview-card>section .quote {
+.blog-post .simple-card>section .quote {
   font-size: .8rem;
 }
 
-
-/* To show read more button at right*/
-.post-overview-card>footer{
-  margin: .5rem;
-  display: flex;
-  justify-content: flex-end;
+.blog-post .simple-card>section img {
+  width: 40%;
+  filter: grayscale(50%);
+  border-radius: 1rem;
+  margin: 1rem;
+  /* max-height: 300px !important; */
+}
+.blog-post .simple-card>section img:hover {
+  filter: grayscale(20%);
 }
 
+
+
 @media (max-width: 599px) {
-  .post-overview-card {
-    border-bottom-right-radius: 4rem;
+  .blog-post .simple-card>section img {
+    margin: .75rem;
   }
-  .post-overview-card>header img {
-    padding: 5px;
-  }
-  .post-overview-card>footer {
-    justify-content: center;
-  }
-  .post-overview-card>footer .read-more {
-    font-size: .9rem;
+}
+@media (max-width: 768px) {
+  .blog-post .simple-card>section img {
+    margin: .75rem;
   }
 }

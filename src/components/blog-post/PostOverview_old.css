@@ -1,0 +1,63 @@
+/************************************
+          Overview Card
+***********************************/
+.post-overview-card {
+  box-shadow: .25rem .25rem .5rem var(--color-primary);
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 1rem;
+  filter: brightness(95%);
+}
+.post-overview-card:hover {
+  box-shadow: .25rem .25rem 1.5rem var(--color-primary);
+  filter: brightness(100%);
+}
+
+.post-overview-card>header img {
+  width: 100%;
+  filter: brightness(95%);
+  /* max-height: 300px !important; */
+}
+.post-overview-card>header img:hover {
+  filter: brightness(100%);
+
+}
+
+
+.post-overview-card>section p {
+  margin: .5rem .8rem;
+}
+.post-overview-card>section>.title{
+  height: 5rem;
+  overflow: hidden;
+  padding: 1rem;
+}
+.post-overview-card>section>.sample{
+  height: 4rem;
+  overflow: hidden;
+}
+.post-overview-card>section .quote {
+  font-size: .8rem;
+}
+
+
+/* To show read more button at right*/
+.post-overview-card>footer{
+  margin: .5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 599px) {
+  .post-overview-card {
+    border-bottom-right-radius: 4rem;
+  }
+  .post-overview-card>header img {
+    padding: 5px;
+  }
+  .post-overview-card>footer {
+    justify-content: center;
+  }
+  .post-overview-card>footer .read-more {
+    font-size: .9rem;
+  }
+}

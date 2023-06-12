@@ -10,29 +10,27 @@ const HomeContent = () => {
 				This website is a  collection of my random interests. Feel free to navigate.
 				Here are some quick links.
 			</div> */}
+			<di className="simple-card-container">
+				{modules.map((module, index) => (
+					(module.homeEnabled) && (
+						<div key={module.title} className="simple-card">
+							<header> {module.title}</header>
+							<section>
+								<img src={module.img} alt={module.shortDesc}></img>
+								<div className="desc">
+									{module.longDesc}
+								</div>
 
-			{modules.map((module, index) => (
-				(module.homeEnabled) && (
-					<div className="simple-card">
-						<header> {module.title}</header>
-						<section>
-							<img src={module.img} alt={module.shortDesc}></img>
-							<div className="desc">
-								{module.longDesc}
-							</div>
-							
-						</section>
-						<footer>
-							<Link to={module.link} key={'home_content_section_' + index}>
-								<button className="round-button tertiary-color-button  padding-top-5 ">Show more</button>
-							</Link>
+							</section>
+							<footer>
+								<Link to={module.link} key={'home_content_section_' + index}>
+									<button className="round-button tertiary-color-button  padding-top-5 ">Show more</button>
+								</Link>
 							</footer>
-					</div>
-				)
-			))}
-
-
-
+						</div>
+					)
+				))}
+			</di>
 		</div>
 	);
 }

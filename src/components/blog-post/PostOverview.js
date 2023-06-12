@@ -4,25 +4,26 @@ import './PostOverview.css'
 
 const PostOverview = ({ postData }) => {
   return (
-    <div className="post-overview-card">
+    <div className="simple-card">
 
       <header>
-        <img src={`${postData?.images?.[0]?.url}`} alt="..." />
+        {postData?.title}
       </header>
 
       <section>
-        <h4 className="title">{postData?.title}</h4>
-        <p className="quote text-left sample">
+        <img src={`${postData?.images?.[0]?.url}`} alt="..." />
+        <div className="desc quote text-left">
           {Utils.extractOverviewFromContent(postData.content)}
-        </p>
+        </div>
       </section>
 
       <footer>
-        <div>
+
         <Link to={postData.id} >
-          <button className="read-more round-button tertiary-color-button ">Read More</button>
+          <button className="read-more round-button ">
+            Read More
+          </button>
         </Link>
-        </div>
       </footer>
     </div>
   );

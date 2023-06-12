@@ -21,7 +21,7 @@ const PostsList = () => {
   return (
     <>
       <WordCloud data={labels} />
-      <div className="cards-container">
+      <div className="simple-card-container">
         {postDataList.map((postData) => (
           <PostOverview key={postData.id} postData={postData} />
         ))}
