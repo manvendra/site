@@ -12,26 +12,29 @@ function ShortDescription() {
     return (
         <p>
             <div className='quote text-left'>
-                ( Admission of guilt )  Not a usual boastful about-me section
+                Not a usual about-me section, Just an admission of guilt.  
             </div>
             <br />
             <ul>
                 <li>
-                    In last sixteen years, I've played different roles to work on many enterprise-scale solutions for various clients 
-                    spanning Finance, Automotive, Healthcare, Products & Travel domains.
+                    Over the past sixteen years, I have assumed diverse roles in developing enterprise-scale solutions for clients 
+                    across  Finance, Automotive, Healthcare, Products, and Travel domains.
                 </li>
                 <li>
                     Usually, I'm the culprit behind the architectural & design flaws of backend systems.
-                    And most of the time, if not always, the contributor of the highest number of code defects.
+                    And often being the contributor to the highest number of defects.
                 </li>
                 <li>
-                    For the last many years, I've been trying my spells on various Greenfield and Brownfield cloud-based projects, 
-                    using AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, and a few more fancy names.
+                    Throughout recent years, I have focused my efforts on both Greenfield and Brownfield projects, 
+                    leveraging cloud-based technologies like AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, 
+                    and other fancy names.
                 </li>
                 <li>
-                    I can not call myself a front-end developer or designer, but I do have some UI tricks up my sleeves. <br />
-                    However, those are limited to the level of this very archaic but highly responsive website.
-                    I hold the blame for designing every single pixel here and am guilty of writing each line of ui code using reactJS and some libraries.
+                    While I don't consider myself a front-end developer or designer, 
+                    I do possess some UI skills that I apply to this very archaic but highly responsive website. 
+                    I hold the blame for every aspect of the design, guilty of crafting each pixel and writing the UI code 
+                    using reactJS and several supporting libraries.
+                
                 </li>
             </ul>
             <br />
