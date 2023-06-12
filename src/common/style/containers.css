@@ -30,12 +30,7 @@
 	padding: 1vh 1vw;
 }
 
-.cards-container {
-	display: grid;
-	grid-template-columns: repeat(4, 3fr);
-	column-gap: 2rem;
-	row-gap: 2rem;
-}
+
 
 /** Phones **/
 @media (max-width: 599px) {
@@ -43,15 +38,9 @@
 		padding-left: .75rem;
 		padding-right: .75rem;
 	}
-
 	.inner-container {
 		padding: 5vh 0;
 	}
-
-	.cards-container {
-		grid-template-columns: repeat(1, 12fr);
-	}
-
 	.container-description {
 		grid-column: 1 / -1;
 		height: 6rem;
@@ -60,33 +49,8 @@
 
 /** low res devices**/
 @media (min-width: 600px) and (max-width: 768px) {
-	.cards-container {
-		grid-template-columns: repeat(2, 12fr);
-	}
-
 	.container-description {
 		height: 6rem;
 		grid-column: 1 / 6;
-	}
-}
-
-/** Small Computer screens**/
-@media (min-width: 769px) and (max-width: 1200px) {
-	.cards-container {
-		grid-template-columns: repeat(3, 4fr);
-	}
-}
-
-/** Big  Computer screens**/
-@media (min-width: 1201px) and (max-width: 1468px) {
-	.cards-container {
-		grid-template-columns: repeat(4, 3fr);
-	}
-}
-
-/** *huge devices*/
-@media (min-width: 1800px) {
-	.cards-container {
-		grid-template-columns: repeat(6, 2fr);
 	}
 }

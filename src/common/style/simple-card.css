@@ -15,7 +15,10 @@
 	border-radius: 2rem;
     box-shadow: .20rem .25rem .5rem var(--card-border-color);
 }
-
+.simple-card:hover {
+    box-shadow: .20rem .25rem 1.5rem var(--card-border-color);
+    filter: brightness(99%);
+  }
 .simple-card>header {
 	background: var(--card-header-color);
 	margin: 0 0 .5rem 0;
@@ -26,20 +29,63 @@
 	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
 	text-align: center;
 }
-
 .simple-card>footer{
-    float: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
     margin: 0 1rem 1rem 0 ;
 }
+.simple-card section{
+	display: flex;
+	padding: .5rem;
+   }
+ .simple-card section .desc{
+	 margin: 1rem;
+	 font-size: .9rem;
+}
 
+.simple-card-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);
+	gap: 1rem;
+}
 /** Phones **/
 @media (max-width: 599px) {
 	.simple-card {
 		border-radius: 1rem;
-        width: 100% !important;
 	}
 	.simple-card>header {
 		border-radius: 1rem 1rem 0 0;
 		font-size: 1.4rem;
+	}
+}
+
+/** low res devices**/
+@media (max-width: 768px) {
+	.simple-card-container {
+		grid-template-columns: repeat(1, 12fr);
+	}
+}
+/** Small Computer screens( until 1200px then Big  Computer screens**/
+@media (min-width: 769px) and (max-width: 1024px) {
+	.simple-card-container {
+		grid-template-columns: repeat(2, 6fr);
+		gap: .25rem;
+	}
+}
+
+/** Small Computer screens( until 1200px then Big  Computer screens**/
+@media (min-width: 1024px) and (max-width: 1468px) {
+	.simple-card-container {
+		grid-template-columns: repeat(2, 6fr);
+		gap: .75rem;
+	}
+}
+
+/** *huge devices*/
+@media (min-width: 1920px) {
+	.simple-card-container {
+		grid-template-columns: repeat(4, 3fr);
 	}
 }
