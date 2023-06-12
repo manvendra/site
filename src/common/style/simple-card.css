@@ -1,0 +1,45 @@
+/************************************
+          default Card
+***********************************/
+
+:root{
+	--card-background-color: #f9f8f8;
+	--card-border-color: #ddd;
+	--card-header-color: #f5f4f4;
+}
+
+.simple-card{
+	background: var(--card-background-color);
+	border: solid .5px var(--card-border-color);
+	margin: 1rem;
+	border-radius: 2rem;
+    box-shadow: .20rem .25rem .5rem var(--card-border-color);
+}
+
+.simple-card>header {
+	background: var(--card-header-color);
+	margin: 0 0 .5rem 0;
+	border-radius: 2rem 2rem 0 0;
+
+	padding: 1rem;
+	font: small-caps 500 1.7em var(--app-font-family);
+	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
+	text-align: center;
+}
+
+.simple-card>footer{
+    float: right;
+    margin: 0 1rem 1rem 0 ;
+}
+
+/** Phones **/
+@media (max-width: 599px) {
+	.simple-card {
+		border-radius: 1rem;
+        width: 100% !important;
+	}
+	.simple-card>header {
+		border-radius: 1rem 1rem 0 0;
+		font-size: 1.4rem;
+	}
+}

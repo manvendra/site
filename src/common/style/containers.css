@@ -1,11 +1,7 @@
 @import url('./zigzag-container.css');
 @import url('./horizontal-card.css');
 
-:root{
-	--card-background-color: #f9f8f8;
-	--card-border-color: #ddd;
-	--card-header-color: #f5f4f4;
-}
+
 .main-container {
 	padding: 10vh 1rem;
 
@@ -41,29 +37,6 @@
 	row-gap: 2rem;
 }
 
-
-/************************************
-          default Card
-***********************************/
-.simple-card{
-	background: var(--card-background-color);
-	border: solid .5px var(--card-border-color);
-	margin: 1rem;
-	border-radius: 2rem;
-}
-
-.simple-card>header {
-	background: var(--card-header-color);
-	margin: 0 0 .5rem 0;
-	border-radius: 2rem 2rem 0 0;
-
-	padding: 1rem;
-	font: small-caps 500 1.7em var(--app-font-family);
-	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
-	text-align: center;
-}
-
-
 /** Phones **/
 @media (max-width: 599px) {
 	.main-container {
@@ -82,13 +55,6 @@
 	.container-description {
 		grid-column: 1 / -1;
 		height: 6rem;
-	}
-	.simple-card {
-		border-radius: 1rem;
-	}
-	.simple-card>header {
-		border-radius: 1rem 1rem 0 0;
-		font-size: 1.4rem;
 	}
 }
 

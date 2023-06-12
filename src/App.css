@@ -1,5 +1,6 @@
 @import url('./themes/theme.css');
 @import url(./common/style/containers.css);
+@import url(./common/style/simple-card.css);
 @import url(./common/style/masonry.css);
 @import url(./common/style/inputs.css);
 
