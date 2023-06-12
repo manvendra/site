@@ -9,7 +9,7 @@ body {
 
   font-family: var(--app-font-family) !important;
   /* line-height: 1.5; */
-  line-height: 1.7;
+  line-height: 1.6;
 
   background: var(--app-background);
   color: var(--app-font-color) !important;
@@ -48,7 +48,7 @@ img {
 }
 
 .content-area {
-  max-width: 1800px;
+  /* max-width: 1860px;  */
   margin: auto;
 }
 
@@ -159,5 +159,9 @@ img {
     padding-left: calc((100vw - 1920px)/2);
     padding-right: calc((100vw - 1920px)/2);
     background: border-box;
+  }
+  .content-area {
+    max-width: 1900px; /**For wide screen which are more than 1920*/
+    margin: auto;
   }
 }

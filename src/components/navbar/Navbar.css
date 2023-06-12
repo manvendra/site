@@ -35,7 +35,7 @@
 .navbar-link a {
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: .95rem;
   /* color: var(--app-font-color);  */
   color: var(--app-background);
   filter: brightness(120%);
