@@ -1,15 +1,13 @@
 :root {
   --color-primary: #1b2038;
   --color-secondary: #37445c;
-  --color-tertiary: #cb5d2d;
-  
-
+  --color-tertiary: #46556f;
 
   --app-font-family: 'Open Sans', sans-serif;
   /* --app-font-family: 'Mukta', sans-serif; */
-  /* --app-font-color: #cbd3db; */
+  --app-font-color: #010b15;
 
-  --app-background: #f0f1f6;
+  --app-background: #ffffff;
   /* --app-background: radial-gradient(var(--color-secondary), var(--color-primary)); */
 
   /***  this is extra, but used now, planned to be removed**/

@@ -14,6 +14,7 @@
   .home>header>.left {
     grid-column: 3 / 8;
     text-align: center;
+    filter: brightness(90%);
   }
   .home>header>.left .company-name {
     font-size: 3.5rem;
@@ -30,7 +31,8 @@
   }
   .home>header .right img {
     width: 80%;
-    filter: drop-shadow(3px 3px 10px black);
+    filter: drop-shadow(3px 3px 10px black) brightness(80%);
+  
   }
 
 

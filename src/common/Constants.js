@@ -50,7 +50,7 @@ export const SITE_MODULES = [
 	{
 		title: 'BlogPosts',
 		shortDesc: '',
-		longDesc: 'My thoughts & opinions on ideas and events in Technology, History, Science, Software & programing.',
+		longDesc: 'My perspectives and viewpoints on ideas and events in technology, history, science, software, and programming.',
 		link: '/posts',
 		img: '/images/blog.png',
 		navEnabled: true,
@@ -59,7 +59,7 @@ export const SITE_MODULES = [
 	{
 		title: 'Photography',
 		shortDesc: 'Random clicks at not so random locations, all from iphone.',
-		longDesc: 'Phone photography, so many random clicks at not so random places, all taken from iphone.',
+		longDesc: 'Some of my favorite photographs, Many random clicks at not so random places, mostly from iphone.',
 		link: '/photos',
 		img: '/images/camera.png',
 		navEnabled: true,
@@ -87,7 +87,7 @@ export const SITE_MODULES = [
 	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
-		longDesc: 'Another subpar technologist. Loves Coding, Chocolates, Mountains, History, Philosophy & Construction. Not necessarily in same order',
+		longDesc: 'A subpar technologist. Loves chocolates, mountains, coding, history, philosophy & construction. Not necessarily in same order',
 		link: '/about',
 		img: '/images/spme.png',
 		navEnabled: true,

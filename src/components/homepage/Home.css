@@ -16,25 +16,74 @@
   padding: 0 3rem;
   padding-bottom: 5rem;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.home>.content img{
-  /* filter: drop-shadow( 1px 1px 2px  var(--color-secondary)) grayscale(.2);; */
-    filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(70%);
-    
+.home>.content .simple-card {
+  width: 30%;
+}
+
+.home>.content .simple-card section{
+ display: flex;
+}
+.home>.content .simple-card section .desc{
+  max-width: 80%;
+  margin: 1rem;
+  font-size: .9rem;
+ }
+.home>.content .simple-card   img{
+  filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(85%);
+  
+  width: 130px;
+  height: 130px;
+  margin: .25rem 1rem;
+
+}
+
+.home>.content .simple-card  footer{
+ float: right;
+margin: 0 1rem 1rem 0 ;
 }
 
 /* for my south park image */
-.home>.content>.zigzag-container>:last-child img{
-  filter: drop-shadow( 0px 0px 0px  black);
+.home>.content>:last-child img{
+  
 }
 
 @media (max-width: 599px) {
   .home>.content {
     padding: .5rem .5rem 3rem .5rem;
   }
-  .home>.content .horizontal-card>section button{
-    margin-top: .5rem;
+  .home>.content .simple-card {
+    width: 100%;
+  }
+  .home>.content .simple-card   img{
+    width: 110px;
+    height: 110px;
+    margin:  1rem;
+  }
+}
+/** low res devices**/
+@media (min-width: 600px) and (max-width: 768px) {
+  .home>.content .simple-card {
+    width: 100%;
+  }
+  .home>.content .simple-card   img{
+    width: 110px;
+    height: 110px;
+    margin:  1rem;
+  }
+}
+/** Small Computer screens**/
+@media (min-width: 769px) and (max-width: 1200px) {
+  .home>.content .simple-card {
+    width: 45%;
+  }
+  .home>.content .simple-card   img{
+    width: 110px;
+    height: 110px;
+    margin:  1rem;
   }
 }
 
