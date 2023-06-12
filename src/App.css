@@ -160,8 +160,4 @@ img {
     padding-right: calc((100vw - 1920px)/2);
     background: border-box;
   }
-  .content-area {
-    max-width: 1900px; /**For wide screen which are more than 1920*/
-    margin: auto;
-  }
 }
