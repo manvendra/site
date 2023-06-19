@@ -25,11 +25,11 @@ export const photos = [
     width: 4,
     height: 3
   },
-  {
-    src: "https://source.unsplash.com/abwJ_2g9t6k/600x799",
-    width: 2.5,
-    height: 3
-  },
+  // {
+  //   src: "https://source.unsplash.com/abwJ_2g9t6k/600x799",
+  //   width: 2.5,
+  //   height: 3
+  // },
   {
     src: 'https://source.unsplash.com/6-afi_aUuDU/',
     width: 4,
