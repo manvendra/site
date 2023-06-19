@@ -32,13 +32,10 @@
 .appFooter .contact-me:hover{
     box-shadow: 0px 0px 1rem black;
 }
-
-.appFooter .contact-me header {
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 3px;
-    width: 100%;
-    text-align: center;
+.appFooter .contact-me input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 0.85rem;
 }
 
 .appFooter .contact-me form {

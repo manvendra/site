@@ -85,6 +85,15 @@ export const SITE_MODULES = [
 		homeEnabled:false,
 	},
 	{
+		title: 'Code Snippets',
+		shortDesc: '',
+		longDesc: 'Some code snippets in various languages. some are ready to use and some for references',
+		link: '/codeSnippets',
+		img: '/images/primeday-home.png',
+		navEnabled: false,
+		homeEnabled:false,
+	},
+	{
 		title: 'About Me',
 		shortDesc: 'Nothing much interesting.',
 		longDesc: 'A subpar technologist. Loves chocolates, mountains, coding, history, philosophy & construction. Not necessarily in same order',

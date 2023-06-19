@@ -12,4 +12,9 @@
 
   /***  this is extra, but used now, planned to be removed**/
   --color-dark-red: #570000;
+
+
+  --simple-card-background-color: #f9f8f8;
+	--simple-card-border-color: #ddd;
+	--simple-card-header-color: #f5f4f4;
 }

@@ -35,7 +35,7 @@ const ContactMe = () => {
 
 
 	return (
-		<div className="contact-me content-center ">
+		<div className="contact-me content-center">
 			{!messageSent && (<form onSubmit={handleSubmit} autoComplete="off">
 				<header>  Contact me  </header>
 				<input type="text"
@@ -54,9 +54,11 @@ const ContactMe = () => {
 					placeholder='Your feedback or message.  (Be Nice !)'
 					required rows={3} maxLength={200}
 					onChange={e => setMessage(e.target.value)} />
-				<div className="content-right">
-					<input className="tertiary-color-button" type="submit" value="Send message" />
-				</div>
+				<footer>
+					<div className="content-right">
+						<input className="tertiary-color-button" type="submit" value="Send message" />
+					</div>
+				</footer>
 			</form>)}
 			{(messageSent &&
 				(<div className="thanks button red-button">
