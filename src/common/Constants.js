@@ -81,8 +81,8 @@ export const SITE_MODULES = [
 		longDesc: 'My favorite Amazon Prime Day deals.',
 		link: '/primeDeals',
 		img: '/images/primeday-home.png',
-		navEnabled: false,
-		homeEnabled:false,
+		navEnabled: true,
+		homeEnabled:true,
 	},
 	{
 		title: 'Code Snippets',
