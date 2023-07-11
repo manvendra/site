@@ -7,8 +7,6 @@
     color: var(--footer-color);
     font-size: .8rem;
 
-    /* background: radial-gradient(var(--color-secondary), var(--color-primary)); */
-
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }

@@ -6,7 +6,6 @@
 }
 .word-cloud>header {
 	padding: 0;
-	color: var(--color-secondary);
 }
 
 @media (max-width: 599px) {

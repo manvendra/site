@@ -75,7 +75,7 @@
   margin-top: 10px;
 
   padding: 10px;
-  background: var(--card-header-color);
+  background: var(--color-red);
   border-radius: 1rem 1rem 0 0;
 
   font: small-caps 500 medium var(--app-font-family);
@@ -83,7 +83,6 @@
   text-align: center;
   
   color: white;
-  background: #aa0101;
 }
 
 @media (max-width: 599px) {
