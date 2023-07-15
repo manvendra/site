@@ -7,7 +7,7 @@
 	border: solid .5px var(--simple-card-border-color);
 	margin: 1rem;
 	border-radius: 2rem;
-    box-shadow: .20rem .25rem .5rem var(--simple-card-border-color);
+    box-shadow: .0 .0 .35rem var(--simple-card-border-color);
 }
 .simple-card:hover {
     box-shadow: .20rem .25rem 1.5rem var(--simple-card-border-color);
