@@ -18,7 +18,7 @@ const AmazonAd = (props) => {
     <motion.div
       animate={{ scale: [1, 1.2, 1], duration: 3 }}>
       <div className='deal-price' > 
-     <span>Deal price</span>  <br></br> <span className='blink_me'>${price}</span>
+     <span>Deal price</span>  <br></br> no<span className='blink_me'>${price}</span>
         {/* <hr></hr> 
       <span style={{'font-size':'.8rem'}}>get extra 10$ with amazon card</span> */}
       </div>

@@ -19,6 +19,7 @@ function PrimeDay() {
     const watchesMen = [
 
         { link: 'placement=B0B9146LHG&asins=B0B9146LHG&linkId=d046a64340882ce010f7e68f48fc9896', price: 170 },
+        {link:'placement=B099T1ZJWP&asins=B099T1ZJWP&linkId=e9a004f315c7a250535b0b1ce1a79955',price:174},
 
         { link: 'placement=B08NTN1D2R&asins=B08NTN1D2R&linkId=429095064a9c5b05c5318983d7be2fea', price: 208 },
         { link: 'placement=B00PXVTMCI&asins=B00PXVTMCI&linkId=4060e9f92a5cdceeb3b6987286c1aa07', price: 213 },
@@ -87,6 +88,7 @@ function PrimeDay() {
         { link: 'placement=B09MF6TJLW&asins=B09MF6TJLW&linkId=3bb290923a1549137b8869ca43a6e96f', price: 69 },
     ]
     const otherElectronics = [
+        { link: 'placement=B0B1PNKXLP&asins=B0B1PNKXLP&linkId=290f6ffebfdb8733db81c2626e9f5325', price:109},
 
         { link: 'placement=B07B8W2KHZ&asins=B07B8W2KHZ&linkId=7d5f493195add31d3038f2794909b4c7', price: 12 },
         { link: 'placement=B09PGXWNWG&asins=B09PGXWNWG&linkId=1844d8a97afd0c28f700da9010031353', price: 14 },
