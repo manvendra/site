@@ -4,19 +4,20 @@
   --color-tertiary: #3a4975;/* #40516e;*/
   --color-red: #950202;
 
-  
-  --app-font-family: 'Open Sans', sans-serif;
-  /* --app-font-family: 'Mukta', sans-serif; */
-  /* --app-font-color: var(--color-primary); */
+  --app-font-family: 'Open Sans', sans-serif; 
   --app-background: #ffffff;
-  /* --app-background: radial-gradient(var(--color-secondary), var(--color-primary)); */
-
-  /***  this is extra, but used now, planned to be removed**/
-
-
 
   --simple-card-background-color: #f9f8f8;
 	--simple-card-border-color: #ddd;
 	--simple-card-header-bkg-color: #f5f4f4;/*var(--color-tertiary);*/
-  --simple-card-header-color: /*var(--app-background);*/
+  
+  /*  --app-font-family:: 'Spectral', serif;
+      --app-font-family: 'Mukta', sans-serif; 
+     --app-font-color: var(--color-primary); 
+     --app-background: radial-gradient(var(--color-secondary), var(--color-primary)); 
+    --simple-card-header-color: var(--app-background);
+     */
+
+
+
 }
