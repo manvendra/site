@@ -7,7 +7,7 @@
   top: 0;
   position: sticky;
   z-index: 100;
-  background: var(--color-secondary) !important;
+  background: var(--navbar-bkg-color) !important;
   padding-top: .6rem;
   padding-bottom: .6rem;
 }
@@ -29,19 +29,17 @@
 }
 .navbar-link {
   list-style: none;
-  padding: .5rem 1.5rem;
+  padding: .25rem 1.3rem;
 }
 /** <Link> gets rendered as a tag **/
 .navbar-link a {
   text-decoration: none;
-  font-weight: 400;
   font-size: .95rem;
-  /* color: var(--app-font-color);  */
-  color: var(--app-background);
+  color: var(--navbar-font-color) !important;
   filter: brightness(120%);
 }
 .navbar-links li a:hover {
-  font-weight: 500;
+  font-weight: 600;
   /* font-size: 1.1rem; */
 }
 

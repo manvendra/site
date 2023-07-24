@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 
   background: var(--app-background);
-  color: var(--app-font-color) !important;
+  color: var(--app-font-color);
 }
 
 

@@ -4,13 +4,13 @@
 
 .simple-card{
 	background: var(--simple-card-background-color);
-	border: solid .5px var(--simple-card-border-color);
 	margin: 1rem;
 	border-radius: 2rem;
-    box-shadow: .0 .0 .35rem var(--simple-card-border-color);
+	box-shadow: .15rem .15rem .5rem var(--simple-card-border-color);
+	color: var(--simple-card-font-color) !important;
 }
 .simple-card:hover {
-    box-shadow: .20rem .25rem 1.5rem var(--simple-card-border-color);
+	box-shadow: .25rem .25rem 1rem var(--simple-card-border-color);
     filter: brightness(99%);
   }
 .simple-card>header {
@@ -22,8 +22,6 @@
 	font: small-caps 500 1.7em var(--app-font-family);
 	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
 	text-align: center;
-
-	color: var(--simple-card-header-color);
 }
 .simple-card>footer{
 	display: flex;
@@ -37,7 +35,7 @@
    }
  .simple-card section .desc{
 	 margin: 1rem;
-	 font-size: .9rem;
+	 font-size: .95rem;
 }
 
 .simple-card-container {

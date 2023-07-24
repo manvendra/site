@@ -1,11 +1,10 @@
 .word-cloud {
 	width: 55%;
-	filter: opacity(90%);
     background: radial-gradient(var(--color-secondary), var(--color-primary));
 	margin: 1.5rem 0px 3rem 0px;
 }
 .word-cloud>header {
-	padding: 0;
+	padding: 1rem !important;
 }
 
 @media (max-width: 599px) {

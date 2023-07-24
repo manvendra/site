@@ -11,15 +11,16 @@ input[type="submit"] {
     border: 1px solid var(--color-secondary);
     border-radius: .3em;
 
-    background-color: var(--app-background);
+    background-color: var(--color-tertiary);
     color: var(--color-secondary);
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-    background-color: var(--color-primary);
-    color: var(--app-background);
+    /* background-color: var(--color-primary);
+    color: var(--app-background); */
+    filter: brightness(120%) !important;
 }
 
 .round-button {
@@ -28,8 +29,7 @@ input[type="submit"]:hover {
 
 .tertiary-color-button {
     background: var(--color-tertiary) !important;
-    color: var(--app-background) !important;
-    filter: brightness(90%) !important;
+    color: var(--color-secondary) !important;
 }
 
 .tertiary-color-button:hover {
@@ -48,13 +48,12 @@ input[type="submit"]:hover {
 
 .secondary-color-button {
     background: var(--color-secondary) !important;
-    color: var(--app-font-color) !important;
-    filter: brightness(80%) !important;
+    color: var(--color-tertiary) !important;
     box-shadow: 0px 0px .9px ;
 }
 
 .secondary-color-button:hover {
-    filter: brightness(100%) !important;
+    filter: brightness(120%) !important;
 }
 
 input[type="text"],
@@ -62,5 +61,4 @@ input[type="email"],
 textarea {
     border: none;
     background-color: transparent;
-    border-bottom: 1px dotted var(--color-shadow);
 }

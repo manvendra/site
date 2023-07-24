@@ -1,23 +1,34 @@
 :root {
-  --color-primary: #010b15;
-  --color-secondary: #303c5f;/* #35435e;*/
-  --color-tertiary: #3a4975;/* #40516e;*/
-  --color-red: #950202;
+  --color-primary: #0e1730;
+  --color-secondary: #1c2f5a;
+  --color-tertiary: #f8f8f8;  
+/**Light 
+  --navbar-font-color: var(--color-tertiary);
+  --app-font-color: var(--color-secondary);
+  --navbar-bkg-color: var(--color-secondary);
+  --simple-card-border-color: #dddddf;
+*/
+
+  /**Dark **/
+  --app-background: var(--color-secondary);
+  --navbar-font-color: var(--color-secondary);
+  --app-font-color: var(--color-tertiary);
+  --navbar-bkg-color: var(--color-tertiary);
+  --simple-card-border-color:  var(--color-primary);
+
+
+  --simple-card-header-bkg-color: #f0f0f1;
+  --simple-card-background-color:  var(--color-tertiary);
+  --simple-card-font-color:  var(--color-primary);
 
   --app-font-family: 'Open Sans', sans-serif; 
-  --app-background: #ffffff;
-
-  --simple-card-background-color: #f9f8f8;
-	--simple-card-border-color: #ddd;
-	--simple-card-header-bkg-color: #f5f4f4;/*var(--color-tertiary);*/
-  
   /*  --app-font-family:: 'Spectral', serif;
       --app-font-family: 'Mukta', sans-serif; 
      --app-font-color: var(--color-primary); 
      --app-background: radial-gradient(var(--color-secondary), var(--color-primary)); 
     --simple-card-header-color: var(--app-background);
      */
-
+     --color-red: #950202;
 
 
 }

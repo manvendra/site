@@ -12,8 +12,9 @@
     padding: 1.5vh 1.5vw;
     font-weight: bold;
     border-radius: 1px;
-    background: var(--color-tertiary);
+    background: var(--navbar-bkg-color);
     opacity: 50%;
+    color: var(--navbar-font-color);
 }
 
 .tabs input+ label :hover {
@@ -34,7 +35,6 @@
 }
 
 .tabs input[type="radio"]:checked+label {
-    color: var(--app-background);
     opacity: 90%;
 }
 

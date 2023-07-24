@@ -30,12 +30,13 @@ function Post() {
   }, [postId])
 
   return (
-    <div className='post'>
-      <div className='title'>{postTitle}</div>
-
-      <div className="content"
-        dangerouslySetInnerHTML={{ __html: postContent }}>
-      </div>
+    <div className='simple-card post'>
+        <header className='title'>{postTitle}</header>
+        <section>
+          <div className="content"
+            dangerouslySetInnerHTML={{ __html: postContent }}>
+          </div>
+        </section>
     </div>
   );
 }
