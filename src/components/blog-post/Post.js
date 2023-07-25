@@ -32,11 +32,11 @@ function Post() {
   return (
     <div className='simple-card post'>
         <header className='title'>{postTitle}</header>
-        <section>
+
           <div className="content"
             dangerouslySetInnerHTML={{ __html: postContent }}>
           </div>
-        </section>
+ 
     </div>
   );
 }

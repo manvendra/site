@@ -28,29 +28,29 @@
   box-shadow: .25rem .25rem 5px var(--color-secondary);
 }
 
-.post>header{
+.post header{
   font-size: 1.5rem !important;
   font-weight: 600 !important;
   padding: 1.5rem !important;
   height: 5rem !important;
 }
 
-.post>.content * {
+.post .content * {
 /* if I don't re declare font-family here, 
   safari doesn't take the correct font size on post code area, 
  chrome works without  it. taking from parent container*/
-  color: var(--app-font-color) !important;
-  font-size: 1rem !important;
+  /* color: var(--app-font-color) !important; */
   max-width: 100%;
+  font-size: 1rem !important;
 }
 
-.post>.content  h1, h1>span {
-  font-size: 1.6rem !important;
-}
-.post>.content  h2, h2>span {
+.post .content  h1, h1>span {
   font-size: 1.3rem !important;
 }
-.post>.content blockquote {
+.post .content  h2, h2>span {
+  font-size: 1.15rem !important;
+}
+.post .content blockquote {
   box-shadow: 3px 0 0 0 var(--app-font-color) inset !important;
 }
 
@@ -66,14 +66,14 @@ element.style {
   box-sizing: border-box;
 }
 
-.post>.content pre {
+.post .content pre {
     margin: 2rem 30%  1rem 5% !important;
-    background-color: #a1a9b9 !important;
+    background-color: #e2e4ec !important;
     border-radius: 5px;
 }
-.post>.content pre *{
+.post .content pre *{
   font-family: 'Courier New', Courier, monospace !important;
-  font-size: 1.1em !important;
+  font-size: .85em !important;
   color: var(--color-primary) !important;
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -87,14 +87,14 @@ element.style {
   .blog-post>.inner-container>.cards-container {
     padding:  1rem !important;
   }
-  .post>.content pre {
+  .post .content pre {
     margin: 2rem 1rem !important;
   }
 
-  .post>.title {
+  .post .title {
     font-size: 1.4rem;
   }
-  .post>.content * {
+  .post .content * {
       font-size: .95rem !important;
     }
 
@@ -104,7 +104,7 @@ element.style {
   .post {
     width: var(--small-screen-width);
   }
-  .post>.content pre {
+  .post .content pre {
     margin: 1rem !important;
   }
 }
