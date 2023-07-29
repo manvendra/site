@@ -5,6 +5,7 @@
 }
 .word-cloud>header {
 	padding: 1rem !important;
+	font-size: 1.4rem !important;
 }
 
 @media (max-width: 599px) {

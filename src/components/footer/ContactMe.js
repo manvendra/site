@@ -52,13 +52,15 @@ const ContactMe = () => {
 				<textarea name='message'
 					value={message}
 					placeholder='Your feedback or message ... '
-					required rows={3} maxLength={200}
+					required rows={5} 
+					minlength="50"	
+					maxLength="200"
 					onChange={e => setMessage(e.target.value)} />
 		
 				<footer>
-					<div className="content-right">
-						<input className="secondary-color-button round-button" type="submit" value="Send message" />
-					</div>
+						<input className="primary-color-button round-button" 
+						type="submit" 
+						value="Send message" />
 				</footer>
 			</form>)}
 			{(messageSent &&

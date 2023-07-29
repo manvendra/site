@@ -10,7 +10,7 @@
 	color: var(--simple-card-font-color) !important;
 }
 .simple-card:hover {
-	box-shadow: .25rem .25rem 1rem var(--simple-card-border-color);
+	box-shadow: 0 0 2rem var(--simple-card-border-color);
     filter: brightness(99%);
   }
 .simple-card>header {
