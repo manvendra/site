@@ -35,9 +35,9 @@ const ContactMe = () => {
 
 
 	return (
-		<div className="contact-me content-center">
-			{!messageSent && (<form onSubmit={handleSubmit} autoComplete="off">
-				<header>  Contact me  </header>
+		<div className="simple-card contact-me">
+			<header>  Contact me  </header>
+			{!messageSent && (<form onSubmit={handleSubmit} autoComplete="off">				
 				<input type="text"
 					name='name'
 					value={name}
@@ -51,9 +51,10 @@ const ContactMe = () => {
 					onChange={e => setEmail(e.target.value)} />
 				<textarea name='message'
 					value={message}
-					placeholder='Your feedback or message.  (Be Nice !)'
+					placeholder='Your feedback or message ... '
 					required rows={3} maxLength={200}
 					onChange={e => setMessage(e.target.value)} />
+		
 				<footer>
 					<div className="content-right">
 						<input className="tertiary-color-button" type="submit" value="Send message" />

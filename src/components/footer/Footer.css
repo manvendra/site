@@ -6,7 +6,7 @@
     padding-top: 5rem;
     color: var(--footer-color);
     font-size: .8rem;
-
+    
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -24,8 +24,14 @@
 .appFooter .contact-me {
     grid-column: 8/ -2;
     box-shadow: 0px 0px .5rem black;
-    border-radius: .5rem;
+    filter: contrast(95%);
+    background-color: transparent;
 }
+.appFooter .contact-me *{
+    background-color: transparent;
+    color: var(--footer-color);
+}
+
 
 .appFooter .contact-me:hover{
     box-shadow: 0px 0px 1rem black;
@@ -38,7 +44,6 @@ textarea {
 
 .appFooter .contact-me form {
     width: 100%;
-    filter: brightness(85%);
 
     display: flex;
     flex-direction: column;
@@ -46,9 +51,8 @@ textarea {
 }
 
 .contact-me .thanks {
-    font-weight: 600;
+    font-size: 1rem;
     cursor: default;
-    filter: brightness(90%);
 }
 
 /*--.appFooter Copyright----*/

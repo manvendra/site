@@ -37,7 +37,7 @@ input[type="submit"]:hover {
 }
 
 .red-button {
-    background-color: var(--color-dark-red) !important;
+    background-color: var(--color-red) !important;
     color: var(--app-font-color) !important;
     filter: brightness(90%) !important;
 }
