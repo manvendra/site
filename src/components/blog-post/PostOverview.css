@@ -27,6 +27,7 @@
 @media (max-width: 599px) {
   .blog-post .simple-card>section img {
     margin: .75rem;
+    width: 35%;
   }
 }
 @media (max-width: 768px) {

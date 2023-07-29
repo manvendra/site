@@ -22,19 +22,18 @@ function ShortDescription() {
                 </li>
                 <li>
                     Usually, I'm the culprit behind the architectural & design flaws of backend systems.
-                    And often being the contributor to the highest number of defects.
+                    And often code contributor with highest number of defects.
                 </li>
                 <li>
-                    Throughout recent years, I have focused my efforts on both Greenfield and Brownfield projects, 
+                    Throughout recent years, I have focused my efforts on not ruining few Greenfield and Brownfield projects, 
                     leveraging cloud-based technologies like AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, 
                     and other fancy names.
                 </li>
                 <li>
-                    While I don't consider myself a front-end developer or designer, 
+                    While I 'm not a front-end developer or designer professionally.
                     I do possess some UI skills that I apply to this very archaic but highly responsive website. 
-                    I hold the blame for every aspect of the design, guilty of crafting each pixel and writing the UI code 
-                    using reactJS and several supporting libraries.
-                
+                    I hold the blame for every aspect of the design, guilty of choosing each color, font, image ans everything you see here, to the pixel details.
+                    I'm also guilty of writing all UI code using reactJS and a few supporting libraries.    
                 </li>
             </ul>
             <br />
