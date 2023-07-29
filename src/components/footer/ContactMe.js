@@ -57,7 +57,7 @@ const ContactMe = () => {
 		
 				<footer>
 					<div className="content-right">
-						<input className="tertiary-color-button" type="submit" value="Send message" />
+						<input className="secondary-color-button round-button" type="submit" value="Send message" />
 					</div>
 				</footer>
 			</form>)}
