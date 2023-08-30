@@ -36,7 +36,7 @@
     width: 100%;
 }
 .appFooter .contact-me header{
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   padding: .65rem;
   font-size: 1.3rem;
 }

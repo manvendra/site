@@ -15,8 +15,8 @@
 	grid-column: 1 / 5;
 	padding: 1em 1em;
 	height: 5em;
-	border-radius: .5em;
-	box-shadow: .5vh .5vh 2vh .5vh var(--color-secondary)
+	border-radius: 1em;
+	box-shadow: .5vh .5vh 1vh .5vh var(--color-primary);
 }
 
 .container-description a {

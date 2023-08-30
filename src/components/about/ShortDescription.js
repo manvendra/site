@@ -17,22 +17,22 @@ function ShortDescription() {
             <br />
             <ul>
                 <li>
-                    Over the past sixteen years, I have assumed diverse roles in developing enterprise-scale solutions for clients 
+                    Over the past sixteen years, I have assumed diverse roles in developing enterprise-scale solutions for many clients 
                     across  Finance, Automotive, Healthcare, Products, and Travel domains.
                 </li>
                 <li>
                     Usually, I'm the culprit behind the architectural & design flaws of backend systems.
-                    And often code contributor with highest number of defects.
+                    And often the contributor of highest number of code defects.
                 </li>
                 <li>
-                    Throughout recent years, I have focused my efforts on not ruining few Greenfield and Brownfield projects, 
-                    leveraging cloud-based technologies like AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra, 
+                    Throughout recent years, I have focused my efforts on not ruining Greenfield and Brownfield projects, 
+                    leveraging cloud-based technologies like AWS, PCF, K8S, Docker, SpringBoot, Kafka, ELK Stack, Cassandra
                     and other fancy names.
                 </li>
                 <li>
-                    While I 'm not a front-end developer or designer professionally.
-                    I do possess some UI skills that I apply to this very archaic but highly responsive website. 
-                    I hold the blame for every aspect of the design, guilty of choosing each color, font, image ans everything you see here, to the pixel details.
+                    Although I'm not a front-end developer or designer,
+                    I do possess some UI skills that I applied to this very archaic but highly responsive website. 
+                    I hold the blame for every aspect of the design, guilty of choosing each color, font, image and everything you see here, to the pixel details.
                     I'm also guilty of writing all UI code using reactJS and a few supporting libraries.    
                 </li>
             </ul>

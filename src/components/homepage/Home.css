@@ -21,6 +21,7 @@
   filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(85%);
   width: 100px;
   height: 100px;
+  padding: .5rem;
   margin: .25rem 1rem;
 }
 @media (max-width: 599px) {

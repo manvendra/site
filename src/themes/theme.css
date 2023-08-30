@@ -1,25 +1,32 @@
 :root {
-  --color-primary: #0e1730;
+  --color-primary: #0e1936;
   --color-secondary: #1c2f5a;
-  --color-tertiary: #f8f8f8;  
-/**Light 
-  --navbar-font-color: var(--color-tertiary);
-  --app-font-color: var(--color-secondary);
-  --navbar-bkg-color: var(--color-secondary);
-  --simple-card-border-color: #dddddf;
-*/
+  --color-tertiary: #FAFAFA;  
 
-  /**Dark **/
+  /** --------- START Light Theme ----------- **/
+ --app-background: var(--color-tertiary);
+ --app-font-color: var(--color-secondary);
+ --navbar-bkg-color: var(--color-secondary);
+ --navbar-font-color: var(--color-tertiary);   
+  --simple-card-border-color:  var(--color-primary);
+/** --------- END Light Theme ------------- **/
+
+  /** --------- START Dark Theme -------------
   --app-background: var(--color-secondary);
-  --navbar-font-color: var(--color-secondary);
   --app-font-color: var(--color-tertiary);
   --navbar-bkg-color: var(--color-tertiary);
+  --navbar-font-color: var(--color-secondary);
   --simple-card-border-color:  var(--color-primary);
+  /** --------- END Dark Theme ------------- **/
 
 
+   /** --------------------------------------------**/
+   /** simple card defaults for both dark and light themes **/ 
+   /** --------------------------------------------**/
   --simple-card-header-bkg-color: #f0f0f1;
   --simple-card-background-color:  var(--color-tertiary);
   --simple-card-font-color:  var(--color-primary);
+  /*** --- END simple card defaults  -------------**/
 
   --app-font-family: 'Open Sans', sans-serif; 
   /*  --app-font-family:: 'Spectral', serif;
