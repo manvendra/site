@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     align-items: center;
-    opacity: 85%;
+    opacity: 95%;
   }
   
   .home>header>.left {
