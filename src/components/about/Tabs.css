@@ -12,9 +12,10 @@
     padding: 1.5vh 1.5vw;
     font-weight: bold;
     border-radius: 1px;
-    background: var(--navbar-bkg-color);
+    background: var(--simple-card-header-bkg-color);
+    color: var( --simple-card-header-color);
     opacity: 50%;
-    color: var(--navbar-font-color);
+
 }
 
 .tabs input+ label :hover {
@@ -27,8 +28,8 @@
 
     order: 1;
     display: none;
-    /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-shadow); */
-    /* border: 1px solid #8d9cb8; */
+    /* box-shadow: inset .5vh .5vh 3vh .5vh var(--color-shadow); 
+    border: 1px solid #8d9cb8; */
 }
 .tabs input[type='radio']:checked+label+.tab {
     display: block;

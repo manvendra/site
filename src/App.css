@@ -1,4 +1,4 @@
-@import url('./themes/theme.css');
+@import url('./themes/theme_two.css');
 @import url(./common/style/containers.css);
 @import url(./common/style/simple-card.css);
 @import url(./common/style/masonry.css);
@@ -51,13 +51,14 @@ img {
 .content-area {
   /* max-width: 1860px;  */
   margin: auto;
+  width: 95%;
 }
 
 .quote {
   font-size: 0.9em;
   font-style: italic;
   text-align: right;
-  opacity: 65%;
+  opacity: 90%;
 }
 
 .text-left {

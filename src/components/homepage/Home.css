@@ -1,8 +1,5 @@
 @import url('./Header.css');
 
-:root{
-  /* --header-background: radial-gradient(#fdfeff, #e2e8f6); */
-}
 .home {
   display: flex;
   flex-direction: column;
@@ -18,7 +15,6 @@
 }
 
 .home>.content .simple-card section img{
-  filter: drop-shadow( 1px 1.5px 0px  var(--app-font-color)) brightness(85%);
   width: 100px;
   height: 100px;
   padding: .5rem;

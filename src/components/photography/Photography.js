@@ -39,7 +39,7 @@ function Photography() {
             transition={duration.slowest}>
             <div className="container-description">
                 <div>
-                    My iPhone photography, mostly iPhone7 & 14
+                    Photographs. mostly captured by iPhones.
                 </div>
             </div>
             <div className="inner-container">

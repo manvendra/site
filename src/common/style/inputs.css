@@ -40,6 +40,11 @@ input[type="submit"]:hover {
     background: var(--color-tertiary) !important;
     color: var(--color-secondary) !important;
 }
+
+.unique-color-button {
+    background: var(--color-unique) !important;
+    color: var(--color-secondary) !important;
+}
 .red-button {
     background-color: var(--color-red) !important;
     color: var(--app-font-color) !important;
