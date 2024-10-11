@@ -4,17 +4,21 @@
   --color-red: #580202;
   --color-green: #002f06;
 
-  --color-blue-dark: #01374b;
-  --color-blue-light: #004f6c;
-  --color-cream:#e8eaf0;
+  --color-dark-blue: #111821;
+  --color-light-blue: #133d5f;
+  --color-cream:#e4e7ef;
+
+ --color-light-yellow: #ddab20;
+ --color-dark-yellow: #7e5d03;
+
  
    /** Use  these derived colors under this section in the code **/ 
-  --color-primary: var(--color-blue-dark);
-  --color-secondary: var(--color-blue-light);
+  --color-primary: var(--color-dark-blue);
+  --color-secondary: var(--color-light-blue);
   --color-tertiary: var(--color-cream);
+  --color-unique: radial-gradient(var(--color-light-yellow),var(--color-dark-yellow));
 
   --app-font-family: 'Open Sans', sans-serif;
-  
  /*   Fonts  use any one.
     --app-font-family:: 'Spectral', serif;
      --app-font-family: 'Mukta', sans-serif; 
@@ -22,31 +26,36 @@
     */
 
 
-  /** --------- START  Theme -------------**/
-  --app-background: var(--color-tertiary);
+  /** --------- START Dark Theme -------------**/
+  --app-background: var(--color-primary);
   --app-font-color: var(--color-tertiary);
 
   --navbar-bkg-color: var(--color-primary);
   --navbar-font-color: var(--color-tertiary);
-  /** --------- END  Theme ------------- **/
+  /** --------- END Dark Theme ------------- **/
+
+
+  /** --------- START Light Theme ----------- 
+ --app-background: var(--color-tertiary);
+ --app-font-color: var(--color-primary);
+
+ --navbar-bkg-color: var(--color-tertiary);
+ --navbar-font-color: var(--color-primary);   
+/** --------- END Light Theme ------------- **/
 
 
 
   /** --------------------------------------------**/
   /** simple card defaults for both dark and light themes **/
   /** --------------------------------------------**/
-  --simple-card-header-bkg-color: var(--color-primary);
+  --simple-card-header-bkg-color: var(--color-secondary);
   --simple-card-header-color: var(--color-tertiary);
-
-  --simple-card-background-color: var(--color-secondary);  
-  --simple-card-border-color: var(--color-primary);
+  --simple-card-border-color: var(--color-dark-yellow);
 
   /*  
   These are redundant, used in code, but not needed as we are keeping them same as defaults
   --simple-card-background-color: var(---app-background);  
-    
   --simple-card-font-color: var(--app-font-color); */
-  
   /*** --- END simple card defaults  -------------**/
 
   /*

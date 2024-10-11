@@ -24,7 +24,7 @@ const HomeContent = () => {
 							</section>
 							<footer>
 								<Link to={module.link} key={'home_content_section_' + index}>
-									<button className="round-button secondary-color-button  padding-top-5 ">Show more</button>
+									<button className="round-button padding-top-5 ">show more...</button>
 								</Link>
 							</footer>
 						</div>

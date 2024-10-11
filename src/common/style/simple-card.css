@@ -3,18 +3,17 @@
 ***********************************/
 
 .simple-card{
-	background: var(--simple-card-background-color);
 	margin: 1rem;
 	border-radius: 2rem;
 	box-shadow: .01rem .01rem .15rem var(--simple-card-border-color);
 	color: var(--simple-card-font-color) !important;
+	background: var(--simple-card-background-color);
 }
 .simple-card:hover {
 	box-shadow: .15rem .15rem 0.25rem var(--simple-card-border-color);
     filter: brightness(99%);
   }
 .simple-card>header {
-	background: var(--color-unique);
 	margin: 0 0 .5rem 0;
 	border-radius: 2rem 2rem 0 0;
 
@@ -22,6 +21,8 @@
 	font: small-caps 500 1.7em var(--app-font-family);
 	text-shadow: .1rem .1rem .3rem var(--color-shadow);	
 	text-align: center;
+	
+	background-color: var(--simple-card-header-bkg-color);
 	color: var(--simple-card-header-color);
 }
 .simple-card>footer{
@@ -29,6 +30,13 @@
 	justify-content: flex-end;
 	align-items: end;
     margin: 0 1rem 1rem 0 ;
+}
+.simple-card>footer button{
+	background-color: var(--simple-card-header-bkg-color);
+	
+	color: var(--simple-card-header-color);
+    margin: 0 1rem 1rem 0 ;
+	padding: .80rem;
 }
 .simple-card section{
 	display: flex;
@@ -83,6 +91,6 @@
 /** *huge devices*/
 @media (min-width: 1920px) {
 	.simple-card-container {
-		grid-template-columns: repeat(4, 3fr);
+		grid-template-columns: repeat(3, 4fr);
 	}
 }
