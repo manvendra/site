@@ -1,35 +1,18 @@
+@import url('./colors.css');
+
 :root {
-
-  /** Don't directly use these absolute colors under this section in the code **/ 
-  --color-red: #580202;
-  --color-green: #002f06;
-
-  --color-blue-dark: #01374b;
-  --color-blue-light: #004f6c;
-  --color-cream:#e8eaf0;
- 
    /** Use  these derived colors under this section in the code **/ 
-  --color-primary: var(--color-blue-dark);
-  --color-secondary: var(--color-blue-light);
-  --color-tertiary: var(--color-cream);
-
-  --app-font-family: 'Open Sans', sans-serif;
-  
- /*   Fonts  use any one.
-    --app-font-family:: 'Spectral', serif;
-     --app-font-family: 'Mukta', sans-serif; 
-      --app-font-family: 'Open Sans', sans-serif; 
-    */
-
+  --color-primary: var(--color-dark);
+  --color-secondary: var(--color-medium);
+  --color-tertiary: var(--color-light);
 
   /** --------- START  Theme -------------**/
   --app-background: var(--color-tertiary);
-  --app-font-color: var(--color-tertiary);
+  --app-font-color: var(--color-primary);
 
   --navbar-bkg-color: var(--color-primary);
   --navbar-font-color: var(--color-tertiary);
   /** --------- END  Theme ------------- **/
-
 
 
   /** --------------------------------------------**/
@@ -38,20 +21,17 @@
   --simple-card-header-bkg-color: var(--color-primary);
   --simple-card-header-color: var(--color-tertiary);
 
-  --simple-card-background-color: var(--color-secondary);  
+  --simple-card-background-color: linear-gradient(var(--color-secondary),var(--color-tertiary));  
   --simple-card-border-color: var(--color-primary);
 
-  /*  
-  These are redundant, used in code, but not needed as we are keeping them same as defaults
-  --simple-card-background-color: var(---app-background);  
-    
-  --simple-card-font-color: var(--app-font-color); */
-  
   /*** --- END simple card defaults  -------------**/
 
-  /*
-     --app-font-color: var(--color-primary); 
-    --simple-card-header-color: var(--app-background);
-     */
+
+--app-font-family: 'Open Sans', sans-serif;
+     /*   Fonts  use any one.
+        --app-font-family:: 'Spectral', serif;
+         --app-font-family: 'Mukta', sans-serif; 
+          --app-font-family: 'Open Sans', sans-serif; 
+        */
 
 }

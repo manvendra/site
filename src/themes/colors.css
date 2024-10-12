@@ -1,0 +1,14 @@
+:root {
+    /** Don't directly use these absolute colors under this section in the code **/ 
+      --color-red: #580202;
+      --color-green: #002f06;
+    
+      --color-blue-dark: #0d2733;
+      --color-blue-light: #004f6c;
+      --color-cream:#e8eaf0;
+    
+
+      --color-dark:  rgb(10, 40, 73);
+      --color-medium: rgb(94, 115, 142);
+      --color-light: #e8e9eb;
+}
