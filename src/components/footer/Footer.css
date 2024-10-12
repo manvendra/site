@@ -4,7 +4,6 @@
     
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-
 }
 
 .appFooter>div {
@@ -27,11 +26,9 @@
 }
 .appFooter .contact-me *{
     width: 100%;
-    color: var(--app-font-color) !important;
 }
 .appFooter .contact-me header{
-  background: var(--color-unique);
-  padding: .65rem;
+  padding: .75rem;
   font-size: 1.3rem;
 }
 

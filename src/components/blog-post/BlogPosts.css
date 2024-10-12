@@ -56,7 +56,7 @@
 
 
 element.style {
-  background-color: #f2f2f2;
+
   box-sizing: inherit;
   margin-bottom: 0px;
   margin-top: 56px;
@@ -82,18 +82,17 @@ element.style {
 
 
 .post .content pre {
-    margin: 2rem 30%  1rem 5% !important;
+    margin: 2rem 20%  1rem 5% !important;
     border-radius: 5px;
 }
 
 /** Flip the background and font colors for content in preformatted blocks  **/
 .post .content pre *{
-  background-color:var(--color-code-background) !important ;
+  color: var(--app-font-color) !important;
+  background-color:var(--app-background) !important ;
  
-  color: var(--color-primary) !important;
-  font-size: .85em !important;
+  font-size: .90em !important;
   font-family: 'Courier New', Courier, monospace !important;
-
 }
 
 

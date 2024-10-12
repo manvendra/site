@@ -4,19 +4,19 @@
   --color-red: #580202;
   --color-green: #002f06;
 
-  --color-dark-blue: #111821;
-  --color-light-blue: #133d5f;
+  --color-primary-blue: #111821;
+  --color-tertiary-blue: #133d5f;
   --color-cream:#e4e7ef;
 
- --color-light-yellow: #ddab20;
- --color-dark-yellow: #7e5d03;
+ --color-tertiary-yellow: #ddab20;
+ --color-primary-yellow: #7e5d03;
 
  
    /** Use  these derived colors under this section in the code **/ 
-  --color-primary: var(--color-dark-blue);
-  --color-secondary: var(--color-light-blue);
+  --color-primary: var(--color-primary-blue);
+  --color-secondary: var(--color-tertiary-blue);
   --color-tertiary: var(--color-cream);
-  --color-unique: radial-gradient(var(--color-light-yellow),var(--color-dark-yellow));
+  --color-unique: radial-gradient(var(--color-tertiary-yellow),var(--color-primary-yellow));
 
   --app-font-family: 'Open Sans', sans-serif;
  /*   Fonts  use any one.
@@ -50,7 +50,7 @@
   /** --------------------------------------------**/
   --simple-card-header-bkg-color: var(--color-secondary);
   --simple-card-header-color: var(--color-tertiary);
-  --simple-card-border-color: var(--color-dark-yellow);
+  --simple-card-border-color: var(--color-primary-yellow);
 
   /*  
   These are redundant, used in code, but not needed as we are keeping them same as defaults

@@ -1,10 +1,6 @@
 @import url('./colors.css');
 
 :root {
-   /** Use  these derived colors under this section in the code **/ 
-  --color-primary: var(--color-dark);
-  --color-secondary: var(--color-medium);
-  --color-tertiary: var(--color-light);
 
   /** --------- START  Theme -------------**/
   --app-background: var(--color-tertiary);
